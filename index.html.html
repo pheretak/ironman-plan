@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ironman 70.3 Long Beach 2026 — Training Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --swim:#1D9E75;--bike:#BA7517;--run:#A32D2D;--str:#534AB7;--rest:#5F5E5A;--brick:#185FA5;
+  --bg:#ffffff;--bg2:#f5f5f3;--bg-info:#e6f1fb;--bg-warn:#faeeda;--bg-good:#e8f7ef;
+  --txt:#1a1a1a;--txt2:#6b6b68;--txt-info:#185FA5;--txt-warn:#854F0B;--txt-good:#1D6E45;
+  --b:rgba(0,0,0,0.12);--b2:rgba(0,0,0,0.22);
+  --r:8px;--rl:12px;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#1e1e1c;--bg2:#2a2a28;--bg-info:#0c2a3f;--bg-warn:#2a1f0a;--bg-good:#0a2a18;
+  --txt:#f0ede8;--txt2:#9a9893;--txt-info:#85B7EB;--txt-warn:#FAC775;--txt-good:#6DDBA0;
+  --b:rgba(255,255,255,0.1);--b2:rgba(255,255,255,0.2);
+}}
+body{font-family:'Barlow',sans-serif;color:var(--txt);background:var(--bg2);min-height:100vh}
+h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
+.app{max-width:940px;margin:0 auto;padding:1rem 1rem 3rem}
+/* Header */
+.hdr{padding:1.5rem 0 1rem;border-bottom:0.5px solid var(--b);margin-bottom:1.25rem}
+.hdr-top{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+.race-title{font-size:28px;font-weight:700;letter-spacing:1px;line-height:1.1}
+.race-sub{font-size:12px;color:var(--txt2);margin-top:4px}
+.cd-box{background:var(--bg);border-radius:var(--rl);padding:12px 20px;text-align:center;border:0.5px solid var(--b)}
+.cd-num{font-size:36px;font-weight:700;line-height:1}
+.cd-lbl{font-size:10px;color:var(--txt2);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:1.25rem}
+.sc{background:var(--bg);border-radius:var(--r);padding:10px 12px;border:0.5px solid var(--b)}
+.sv{font-size:20px;font-weight:600;line-height:1.1}
+.sl{font-size:11px;color:var(--txt2);margin-top:2px}
+/* Banners */
+.banner{padding:10px 14px;margin-bottom:1.25rem;border-left:3px solid}
+.banner-title{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;margin-bottom:5px}
+.banner-item{font-size:12px;padding:2px 0;display:flex;gap:6px}
+.bdot{width:5px;height:5px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.warn{background:var(--bg-warn);border-color:var(--txt-warn);color:var(--txt-warn)}
+.good{background:var(--bg-good);border-color:var(--txt-good);color:var(--txt-good)}
+/* Tabs */
+.tabs{display:flex;gap:2px;margin-bottom:1rem;background:var(--bg2);padding:3px;border-radius:var(--r);border:0.5px solid var(--b);flex-wrap:wrap}
+.tab{flex:1;padding:6px;text-align:center;font-size:11px;font-weight:500;cursor:pointer;border-radius:6px;color:var(--txt2);transition:all 0.15s;min-width:55px}
+.tab.active{background:var(--bg);color:var(--txt);border:0.5px solid var(--b)}
+.vc{display:none}.vc.active{display:block}
+/* Phase strip */
+.ps{display:flex;gap:4px;margin-bottom:1.25rem;border-radius:var(--r);overflow:hidden}
+.pg{flex:1;padding:7px 5px;text-align:center;cursor:pointer;transition:opacity 0.15s}
+.pg.active{opacity:1;outline:2px solid rgba(0,0,0,0.35)}
+.pg:not(.active){opacity:0.55}
+.pl{font-size:12px;font-weight:600;color:#fff;line-height:1.1}
+.pw{font-size:10px;color:rgba(255,255,255,0.85);margin-top:2px}
+/* Week nav */
+.wn{display:flex;align-items:center;gap:10px;margin-bottom:1rem;flex-wrap:wrap}
+.wn button{background:var(--bg);border:0.5px solid var(--b2);border-radius:var(--r);padding:6px 14px;cursor:pointer;font-family:'Barlow',sans-serif;font-size:13px;color:var(--txt)}
+.wn button:hover{background:var(--bg2)}
+.wt{font-size:19px;font-weight:600;flex:1;min-width:150px}
+.wd{font-size:12px;color:var(--txt2)}
+/* Day grid */
+.dg{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin-bottom:1.25rem}
+.dc{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--r);padding:7px;min-height:110px;cursor:pointer;transition:border-color 0.15s}
+.dc:hover{border-color:var(--b2)}
+.dc.sel{border:2px solid var(--txt-info)}
+.dc.td{background:var(--bg-info)}
+.dc.logged{border-left:3px solid var(--swim)}
+.dl{font-size:9px;font-weight:500;color:var(--txt2);text-transform:uppercase;letter-spacing:0.5px}
+.dd{font-size:14px;font-weight:600;margin:2px 0 4px;display:flex;align-items:center;gap:3px;flex-wrap:wrap}
+.tp{font-size:9px;background:var(--bg-info);color:var(--txt-info);padding:1px 4px;border-radius:8px;border:0.5px solid var(--txt-info)}
+.dt{display:inline-block;font-size:9px;font-weight:500;padding:2px 5px;border-radius:16px;margin-bottom:3px;color:#fff}
+.dp{font-size:9px;color:var(--txt2);line-height:1.4}
+/* Phase note */
+.pn{padding:9px 13px;font-size:12px;color:var(--txt2);border-left:3px solid;margin-bottom:1rem;background:var(--bg2)}
+/* Detail panel */
+.dtp{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--rl);padding:1.2rem;margin-bottom:1.25rem}
+.dth{display:flex;align-items:center;gap:9px;margin-bottom:1rem;padding-bottom:9px;border-bottom:0.5px solid var(--b);flex-wrap:wrap}
+.dtb{font-size:11px;font-weight:500;padding:3px 9px;border-radius:16px;color:#fff}
+.dttl{font-size:17px;font-weight:600}
+.dtd{font-size:11px;color:var(--txt2);margin-left:auto}
+.sl2{list-style:none}
+.si{font-size:13px;padding:5px 0;border-bottom:0.5px solid var(--b);display:flex;justify-content:space-between;line-height:1.4}
+.si:last-child{border-bottom:none}
+.sn{font-size:11px;color:var(--txt2);text-align:right;padding-left:8px}
+.hr-alert{background:var(--bg-warn);border-radius:var(--r);padding:7px 11px;margin-top:9px;font-size:12px;color:var(--txt-warn)}
+.effort-guide{margin-top:9px;font-size:12px;color:var(--txt2);padding-top:9px;border-top:0.5px solid var(--b)}
+/* Overview */
+.op{background:var(--bg2);padding:11px 13px;border-left:4px solid;margin-bottom:8px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.on{font-size:15px;font-weight:600}
+.om{font-size:12px;color:var(--txt2);margin-top:2px}
+.ob{font-size:10px;padding:3px 7px;border-radius:16px;color:#fff;white-space:nowrap;flex-shrink:0}
+/* Log */
+.log-table{width:100%;border-collapse:collapse;font-size:12px}
+.log-table th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--b);font-size:11px;color:var(--txt2);font-weight:500}
+.log-table td{padding:6px 8px;border-bottom:0.5px solid var(--b);vertical-align:top}
+.log-table tr:last-child td{border-bottom:none}
+.log-grade{font-size:10px;padding:2px 6px;border-radius:10px;color:#fff;white-space:nowrap}
+/* Changes */
+.cg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:1.25rem}
+.cc{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--r);padding:11px;border-top:3px solid}
+.cc h4{font-size:13px;font-weight:600;margin-bottom:5px}
+.cc p{font-size:12px;color:var(--txt2);line-height:1.5}
+/* Nutrition & gear */
+.ng{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:1rem}
+.nc{background:var(--bg2);border-radius:var(--r);padding:11px;border:0.5px solid var(--b)}
+.nc h4{font-size:14px;font-weight:600;margin-bottom:7px}
+.ni{font-size:12px;padding:4px 0;border-bottom:0.5px solid var(--b);color:var(--txt2)}
+.ni:last-child{border-bottom:none}
+.gl{list-style:none}
+.gi{font-size:13px;padding:6px 0;border-bottom:0.5px solid var(--b);display:flex;align-items:center;gap:7px}
+.gdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.gp{font-size:10px;padding:2px 6px;border-radius:10px;margin-left:auto;color:#fff;white-space:nowrap}
+.sec-title{font-size:17px;font-weight:600;margin-bottom:11px}
+/* Progress bars */
+.pb-row{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.pb-lbl{font-size:12px;width:55px;flex-shrink:0;color:var(--txt2)}
+.pb-bar{flex:1;height:7px;background:var(--b);border-radius:4px;overflow:hidden}
+.pb-fill{height:100%;border-radius:4px}
+.pb-val{font-size:11px;width:45px;text-align:right;color:var(--txt2)}
+@media(max-width:600px){
+  .stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .dg{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .ng{grid-template-columns:1fr}
+  .cg{grid-template-columns:1fr}
+  .ps{flex-wrap:wrap}
+  .pg{flex:1 0 30%}
+  .dc{min-height:95px}
+  .dtd{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<div class="hdr">
+  <div class="hdr-top">
+    <div>
+      <div class="race-title">Ironman 70.3 Long Beach 2026</div>
+      <div class="race-sub" id="raceSub">Performance-Optimized · 27 Weeks · Starting Mar 21, 2026</div>
+    </div>
+    <div class="cd-box">
+      <div class="cd-num" id="daysLeft">—</div>
+      <div class="cd-lbl">days to race</div>
+    </div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="sc"><div class="sv" style="color:var(--swim)">1.2mi</div><div class="sl">Swim</div></div>
+  <div class="sc"><div class="sv" style="color:var(--bike)">56mi</div><div class="sl">Bike</div></div>
+  <div class="sc"><div class="sv" style="color:var(--run)">13.1mi</div><div class="sl">Run</div></div>
+  <div class="sc"><div class="sv" id="doneCount">27</div><div class="sl">Days logged</div></div>
+  <div class="sc"><div class="sv">~6:15</div><div class="sl">Est. finish</div></div>
+</div>
+
+<!-- Good news banner -->
+<div class="banner good">
+  <div class="banner-title">Week 4 recovery confirmed — data from Apr 24 swim</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-good)"></div>Swim HR dropped from 145 bpm (fatigue peak) to 135 bpm — 10 bpm recovery</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-good)"></div>Avg strokes 28/length vs 42 on Monday — mechanics fully restored</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-good)"></div>Split 16 at 1'58"/23 strokes — fastest pace of entire plan, negative split finish</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-good)"></div>Cadence 148–150 spm holding across 4 consecutive runs — habit entrenched</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-good)"></div>Run pace at Zone 2 HR improved from 12'28" (Mar 29) to 10'49" (Apr 21)</div>
+</div>
+
+<!-- Warning banner -->
+<div class="banner warn">
+  <div class="banner-title">Active plan adjustments — based on 27 days of real data</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>All easy runs: 8–10 min walk warm-up + 150 bpm HR ceiling (run), 148 bpm (long run)</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>Mile 1 on fatigued days: 12'30" minimum regardless of how good legs feel</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>Bike Zone 1: watch Wahoo power display — NP must stay under 110W, VI under 1.08</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>No double sessions on same day — swim after run = mechanical breakdown confirmed</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>Cadence alert: Apple Watch set to buzz below 145 spm every run</div>
+  <div class="banner-item"><div class="bdot" style="background:var(--txt-warn)"></div>Fri alternates swim/run (odd/even weeks) — get back to 25yd pool for accurate data</div>
+</div>
+
+<div class="tabs" id="mainTabs">
+  <div class="tab active" data-tab="weekly">Plan</div>
+  <div class="tab" data-tab="log">Training log</div>
+  <div class="tab" data-tab="overview">Phases</div>
+  <div class="tab" data-tab="changes">Adjustments</div>
+  <div class="tab" data-tab="nutrition">Nutrition</div>
+  <div class="tab" data-tab="gear">Gear</div>
+</div>
+
+<!-- WEEKLY PLAN -->
+<div id="tab-weekly" class="vc active">
+  <div class="ps" id="phaseStrip"></div>
+  <div class="wn">
+    <button id="prevW">← Prev</button>
+    <div><div class="wt" id="weekTitle">Week 1</div><div class="wd" id="weekDates"></div></div>
+    <button id="nextW">Next →</button>
+    <button id="todayBtn" style="margin-left:auto">Today</button>
+  </div>
+  <div class="pn" id="phaseNote"></div>
+  <div class="dg" id="weekGrid"></div>
+  <div class="dtp" id="detailPanel" style="display:none"></div>
+</div>
+
+<!-- TRAINING LOG -->
+<div id="tab-log" class="vc">
+  <div class="sec-title">27-day training log</div>
+  <div style="font-size:12px;color:var(--txt2);margin-bottom:12px">All sessions logged from Apple Watch + Wahoo data.</div>
+
+  <!-- Progress bars -->
+  <div style="margin-bottom:16px">
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:600;margin-bottom:10px">Fitness progression</div>
+    <div class="pb-row"><div class="pb-lbl">Run HR</div><div class="pb-bar"><div class="pb-fill" style="width:75%;background:var(--run)"></div></div><div class="pb-val">162→142</div></div>
+    <div class="pb-row"><div class="pb-lbl">Cadence</div><div class="pb-bar"><div class="pb-fill" style="width:85%;background:var(--run)"></div></div><div class="pb-val">123→150</div></div>
+    <div class="pb-row"><div class="pb-lbl">Swim pace</div><div class="pb-bar"><div class="pb-fill" style="width:70%;background:var(--swim)"></div></div><div class="pb-val">2'35"→2'20"</div></div>
+    <div class="pb-row"><div class="pb-lbl">Swim HR</div><div class="pb-bar"><div class="pb-fill" style="width:60%;background:var(--swim)"></div></div><div class="pb-val">138→132</div></div>
+    <div class="pb-row"><div class="pb-lbl">Bike power</div><div class="pb-bar"><div class="pb-fill" style="width:40%;background:var(--bike)"></div></div><div class="pb-val">97→120W</div></div>
+    <div class="pb-row"><div class="pb-lbl">Bike TSS</div><div class="pb-bar"><div class="pb-fill" style="width:55%;background:var(--bike)"></div></div><div class="pb-val">22→98</div></div>
+  </div>
+
+  <table class="log-table">
+    <thead><tr><th>Day</th><th>Date</th><th>Session</th><th>Key metrics</th><th>HR</th><th>Grade</th></tr></thead>
+    <tbody>
+      <tr><td>2</td><td>Sun Mar 22</td><td>🏃 Long Run</td><td>4.10mi · 44:50 · 10'55"/mi · 153spm</td><td>162</td><td><span class="log-grade" style="background:#A32D2D">HR too high</span></td></tr>
+      <tr><td>3</td><td>Mon Mar 23</td><td>🏊 Swim technique</td><td>1,550yd · 40:44 · 2'35"/100yd · 62 laps</td><td>138</td><td><span class="log-grade" style="background:#1D9E75">Excellent</span></td></tr>
+      <tr><td>4</td><td>Tue Mar 24</td><td>🏃 Easy run</td><td>2.58mi · 27:04 · 10'29"/mi · 151spm</td><td>157</td><td><span class="log-grade" style="background:#A32D2D">HR too high</span></td></tr>
+      <tr><td>5</td><td>Wed Mar 25</td><td>🏊 Recovery swim</td><td>1,050yd · 30:41 · 3'08"/100yd (rest day +)</td><td>133</td><td><span class="log-grade" style="background:#1D9E75">Perfect</span></td></tr>
+      <tr><td>6</td><td>Thu Mar 26</td><td>🚴 Indoor cycle</td><td>12.29mi · 45:24 · 97W · 87rpm (Matrix)</td><td>118</td><td><span class="log-grade" style="background:#1D9E75">Perfect</span></td></tr>
+      <tr><td>8</td><td>Sun Mar 29 AM</td><td>🚴 Outdoor cycle</td><td>17.35mi · 1:13 · 976ft gain</td><td>138</td><td><span class="log-grade" style="background:#BA7517">Terrain too hilly</span></td></tr>
+      <tr><td>8B</td><td>Sun Mar 29 PM</td><td>🏃 Outdoor run</td><td>3.20mi · 39:58 · 12'28"/mi · 134spm</td><td>139</td><td><span class="log-grade" style="background:#1D9E75">First Zone 2 run</span></td></tr>
+      <tr><td>9</td><td>Mon Mar 30</td><td>🏊 Swim technique</td><td>1,225yd · 31:12 · 2'32"/100yd · SWOLF 17</td><td>144</td><td><span class="log-grade" style="background:#1D9E75">Strong</span></td></tr>
+      <tr><td>10</td><td>Tue Mar 31</td><td>🏃 Easy run</td><td>3.83mi · 48:28 · 12'39"/mi · 123spm</td><td>144</td><td><span class="log-grade" style="background:#BA7517">Low cadence</span></td></tr>
+      <tr><td>11</td><td>Thu Apr 2</td><td>🚴 Wahoo cycle</td><td>10.52km · 30:00 · 119W · 83rpm · DTL 22.2</td><td>133</td><td><span class="log-grade" style="background:#1D9E75">Power baseline</span></td></tr>
+      <tr><td>12</td><td>Fri Apr 3</td><td>🏃 Easy run</td><td>2.64mi · 30:10 · 11'25"/mi · 130spm</td><td>145</td><td><span class="log-grade" style="background:#1D9E75">Fastest Zone 2</span></td></tr>
+      <tr><td>13</td><td>Sun Apr 5</td><td>🏃 Long run</td><td>4.38mi · 49:29 · 11'17"/mi · 138spm</td><td>154</td><td><span class="log-grade" style="background:#1D9E75">Cadence breakthrough</span></td></tr>
+      <tr><td>14</td><td>Mon Apr 6</td><td>🏊 Swim technique</td><td>1,300yd · 30:31 · 2'20"/100yd · SWOLF 19</td><td>132</td><td><span class="log-grade" style="background:#1D9E75">Best swim ever</span></td></tr>
+      <tr><td>15</td><td>Tue Apr 7</td><td>🏃 Easy run</td><td>2.62mi · 28:54 · 11'01"/mi · 148spm · 4:55am</td><td>142</td><td><span class="log-grade" style="background:#1D9E75">Best run of plan</span></td></tr>
+      <tr><td>16</td><td>Thu Apr 9</td><td>🚴 Wahoo intervals</td><td>16.01km · 46:03 · 120W · 89rpm · TSS 35.8</td><td>146</td><td><span class="log-grade" style="background:#1D9E75">First intervals</span></td></tr>
+      <tr><td>17</td><td>Sat Apr 11</td><td>🏃 Run (bike swap)</td><td>4.30mi · 48:19 · 11'13"/mi · 150spm</td><td>148</td><td><span class="log-grade" style="background:#1D9E75">Cadence target hit</span></td></tr>
+      <tr><td>18</td><td>Sun Apr 12</td><td>🚴 Wahoo long ride</td><td>23.48km · 1:20 · 88W/90NP · 93rpm · TSS 71 · VI 1.03</td><td>116</td><td><span class="log-grade" style="background:#1D9E75">Longest bike</span></td></tr>
+      <tr><td>19</td><td>Mon Apr 13</td><td>🏊 Swim (fatigued)</td><td>875yd · 22:36 · 2'34"/100yd · SWOLF 17 best set</td><td>142</td><td><span class="log-grade" style="background:#BA7517">Fatigued</span></td></tr>
+      <tr><td>20</td><td>Tue Apr 14</td><td>🏃 Easy run</td><td>2.58mi · 29:24 · 11'22"/mi · 143spm · post-HR 153</td><td>152</td><td><span class="log-grade" style="background:#A32D2D">Fatigue drift</span></td></tr>
+      <tr><td>21</td><td>Thu Apr 16</td><td>🚴 Wahoo recovery</td><td>14.46km · 46:27 · 104NP · 89rpm · TSS 54</td><td>121</td><td><span class="log-grade" style="background:#1D9E75">Recovery confirmed</span></td></tr>
+      <tr><td>22</td><td>Fri Apr 17</td><td>🏊 Swim endurance</td><td>1,055yd · 31:08 · 111yd continuous record (16yd pool)</td><td>142</td><td><span class="log-grade" style="background:#1D9E75">Endurance building</span></td></tr>
+      <tr><td>23</td><td>Sat Apr 18 AM</td><td>🏃 Easy run</td><td>2.90mi · 31:59 · 11'02"/mi · 146spm</td><td>150</td><td><span class="log-grade" style="background:#BA7517">At HR ceiling</span></td></tr>
+      <tr><td>23B</td><td>Sat Apr 18 PM</td><td>🏊 Swim (fatigued)</td><td>577yd · 20:43 · 40–42 strokes — breakdown (17yd pool)</td><td>142</td><td><span class="log-grade" style="background:#A32D2D">Double session</span></td></tr>
+      <tr><td>24</td><td>Mon Apr 20</td><td>🏊 Swim (peak fatigue)</td><td>~1,300yd · 145bpm · 42–48 strokes (17yd pool)</td><td>145</td><td><span class="log-grade" style="background:#A32D2D">Fatigue peak</span></td></tr>
+      <tr><td>25</td><td>Tue Apr 21</td><td>🏃 Easy run</td><td>3.12mi · 33:50 · 10'49"/mi · 148spm · post-HR 156</td><td>148</td><td><span class="log-grade" style="background:#BA7517">Power climbing</span></td></tr>
+      <tr><td>26</td><td>Thu Apr 23</td><td>🚴 Wahoo cycle</td><td>16.53km · 50:07 · 111W/135NP · 92rpm · TSS 98 · VI 1.22</td><td>125</td><td><span class="log-grade" style="background:#BA7517">High VI — surging</span></td></tr>
+      <tr><td>27</td><td>Fri Apr 24</td><td>🏊 Swim endurance</td><td>1,546yd · 40:48 · 2'36" · 28 strokes avg · split 16: 1'58"/23</td><td>135</td><td><span class="log-grade" style="background:#1D9E75">Recovery confirmed</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- PHASE OVERVIEW -->
+<div id="tab-overview" class="vc">
+  <div id="overviewPhases"></div>
+  <div style="margin-top:16px">
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:600;margin-bottom:10px">Updated race time estimate — based on 27 days of data</div>
+    <table class="log-table">
+      <thead><tr><th>Segment</th><th>Conservative</th><th>Realistic</th><th>Optimistic</th></tr></thead>
+      <tbody>
+        <tr><td>🏊 Swim</td><td>52 min</td><td>45–48 min</td><td>40–42 min</td></tr>
+        <tr><td>T1</td><td>6 min</td><td>4–5 min</td><td>3 min</td></tr>
+        <tr><td>🚴 Bike</td><td>3:15</td><td>3:00–3:10</td><td>2:50–3:00</td></tr>
+        <tr><td>T2</td><td>3 min</td><td>2–3 min</td><td>2 min</td></tr>
+        <tr><td>🏃 Run</td><td>2:35</td><td>2:20–2:30</td><td>2:10–2:20</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>6:51</strong></td><td><strong>6:11–6:36</strong></td><td><strong>5:45–6:07</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ADJUSTMENTS -->
+<div id="tab-changes" class="vc">
+  <div class="sec-title" style="margin-bottom:6px">Plan adjustments — data-driven</div>
+  <div style="font-size:12px;color:var(--txt2);margin-bottom:14px">All changes based on Apple Watch + Wahoo data from Days 1–27.</div>
+  <div class="cg">
+    <div class="cc" style="border-top-color:#A32D2D"><h4>1. HR ceiling on easy runs</h4><p>Runs averaged 157–162 bpm in Week 1. Ceiling set at 150 bpm easy, 148 bpm long run. Walk the moment you hit it. Your Zone 2 pace is 11'00"–11'30"/mi — it will feel slow. That's correct.</p></div>
+    <div class="cc" style="border-top-color:#A32D2D"><h4>2. Mandatory walk warm-up</h4><p>Every run starts with 8–10 min brisk walk. HR must be at 120–125 before running. This alone drops avg run HR by 5–8 bpm. Mile 1 pace: 12'00"–12'30" on fatigued days, never faster than 10'30" on fresh days.</p></div>
+    <div class="cc" style="border-top-color:#BA7517"><h4>3. Wahoo Zone 1: watch power</h4><p>HR alone doesn't capture bike intensity. TSS 98 from a "Zone 1" session (VI 1.22) proves it. Watch power display in real time. NP ceiling 110W. VI target under 1.08. No surges above 140W on easy days.</p></div>
+    <div class="cc" style="border-top-color:#BA7517"><h4>4. Long run by HR not distance</h4><p>Sunday long runs capped at 148 bpm average. If that means 3 miles instead of 5 — correct call. Distance follows aerobic base, not ambition. Mile 1 minimum 12'30" regardless of energy.</p></div>
+    <div class="cc" style="border-top-color:#1D9E75"><h4>5. No double sessions</h4><p>Saturday Apr 18 swim after run = stroke count doubled to 40–42, mechanics completely broken. Single sessions only. If you swim and run on the same day, one of them gets moved to another day.</p></div>
+    <div class="cc" style="border-top-color:#1D9E75"><h4>6. Cadence alert active</h4><p>Apple Watch Ultra set to buzz below 145 spm. Cadence improved from 123 to 150 spm in 11 days. Now holding 143–150 spm even under fatigue. Target for race day: 152–158 spm.</p></div>
+    <div class="cc" style="border-top-color:#534AB7"><h4>7. Recovery week structure</h4><p>When 3+ consecutive sessions show HR 5+ bpm above baseline — take 2 consecutive full rest days, not 1. One rest day (Wed) followed by training (Thu) is insufficient when the fatigue is systemic.</p></div>
+    <div class="cc" style="border-top-color:#534AB7"><h4>8. Return to 25yd pool</h4><p>16–17yd pool sessions produce wall-artifact stroke counts of 35–48 vs true 20–28. All pace and stroke data from short-course pools is non-comparable. Standard 25yd pool is the only valid baseline.</p></div>
+  </div>
+  <div style="background:var(--bg2);border-radius:var(--r);padding:11px 13px;border:0.5px solid var(--b);font-size:12px;color:var(--txt2)">
+    What stays the same: swim 3x/week, Wednesday rest + strength, evening/morning schedule, overall phase structure. Your swim is ahead of schedule — 1,546yd in 40 min with negative split on Day 27.
+  </div>
+</div>
+
+<!-- NUTRITION -->
+<div id="tab-nutrition" class="vc">
+  <div class="sec-title">Fueling strategy</div>
+  <div class="ng">
+    <div class="nc"><h4>Daily baseline</h4><div class="ni">High protein (1.6–2g/kg bodyweight)</div><div class="ni">Complex carbs around workouts</div><div class="ni">Hydrate: 3–4L water/day</div><div class="ni">Don't train depleted</div><div class="ni">Target: 175 lbs body comp</div></div>
+    <div class="nc"><h4>Pre-workout (60–90 min before)</h4><div class="ni">30–50g carbs (rice, banana, oats)</div><div class="ni">15–20g protein</div><div class="ni">Minimal fat/fiber</div><div class="ni">16–20 oz water</div></div>
+    <div class="nc"><h4>During long sessions (60+ min)</h4><div class="ni">30–60g carbs/hour</div><div class="ni">500–750ml water/hour</div><div class="ni">Electrolytes if sweating heavily</div><div class="ni">Practice race nutrition from Week 13</div></div>
+    <div class="nc"><h4>Race day plan</h4><div class="ni">Breakfast 3hrs before: 80–100g carbs</div><div class="ni">Bike: 1 gel/bar every 30–40 min</div><div class="ni">Run: gels at miles 2, 5, 9</div><div class="ni">Cola/broth last 3 miles if needed</div></div>
+  </div>
+</div>
+
+<!-- GEAR -->
+<div id="tab-gear" class="vc">
+  <div class="sec-title">Gear checklist</div>
+  <ul class="gl">
+    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Wahoo KICKR trainer — acquired ✓<span class="gp" style="background:#1D9E75">Done</span></li>
+    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Apple Watch Ultra — active ✓<span class="gp" style="background:#1D9E75">Done</span></li>
+    <li class="gi"><div class="gdot" style="background:#A32D2D"></div>Clip-on aero bars for Sirrus X<span class="gp" style="background:#A32D2D">Get now</span></li>
+    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Tri wetsuit (open water, Long Beach specific)<span class="gp" style="background:#BA7517">Week 10</span></li>
+    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Tri suit (one-piece for race)<span class="gp" style="background:#BA7517">Week 12</span></li>
+    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Swim goggles (clear + tinted pair)<span class="gp" style="background:#1D9E75">Done</span></li>
+    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Running shoes (race-specific, broken in early)<span class="gp" style="background:#1D9E75">Week 14</span></li>
+    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Nutrition belt / race vest<span class="gp" style="background:#1D9E75">Week 15</span></li>
+    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Elastic laces for run shoes<span class="gp" style="background:#534AB7">Week 18</span></li>
+    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Transition bag + layout practice<span class="gp" style="background:#534AB7">Week 20</span></li>
+    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Open water swim venue scouted (Long Beach area)<span class="gp" style="background:#534AB7">Week 14</span></li>
+  </ul>
+</div>
+
+</div><!-- end app -->
+
+<script>
+const START = new Date(2026,2,21); // Mar 21 2026
+const RACE  = new Date(2026,8,27); // Sep 27 2026
+const DAYS  = ["Sat","Sun","Mon","Tue","Wed","Thu","Fri"];
+const MONTHS= ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+const PHASES=[
+  {name:"Foundation", weeks:[1,6],  color:"#1D9E75", note:"Build the habit. All runs Zone 2 under 150 bpm with 8–10 min walk warm-up. Swim technique-first. Bike Zone 1 with VI under 1.08. Cadence drill every run — 148–150 spm target achieved Week 3."},
+  {name:"Base Build", weeks:[7,12], color:"#185FA5", note:"Extend endurance. First mini-bricks at Week 9. Swim targets 600–800m continuous. Bike builds to 90 min. Run Zone 2 HR should now hold without walk breaks in Miles 1–2."},
+  {name:"Performance",weeks:[13,18],color:"#BA7517", note:"Race-like efforts. Structured intervals on bike and run. Bikes extend to 2–2.5 hrs. Brick workouts weekly. Nutrition practice begins — train your gut now."},
+  {name:"Race Specific",weeks:[19,24],color:"#A32D2D",note:"Big weekends (2.5–3 hr rides). Open water swims critical for Long Beach — replace one pool swim per week. Full race simulation. Fueling protocol locked in."},
+  {name:"Taper",      weeks:[25,27],color:"#534AB7", note:"Reduce volume 40–50%. Maintain sharpness. Full recovery. Mental prep. Race week protocol. Sleep and nutrition are the workouts now."},
+];
+
+// Logged sessions — days with real data
+const LOGGED_DAYS = new Set([2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]);
+
+function addD(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+function fmt(d){return MONTHS[d.getMonth()]+' '+d.getDate();}
+function fmtF(d){return MONTHS[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear();}
+function isToday(d){const t=new Date();return d.getDate()===t.getDate()&&d.getMonth()===t.getMonth()&&d.getFullYear()===t.getFullYear();}
+function getDate(w,di){return addD(START,(w-1)*7+di);}
+function daysLeft(){const t=new Date();t.setHours(0,0,0,0);const r=new Date(RACE);r.setHours(0,0,0,0);return Math.max(0,Math.round((r-t)/86400000));}
+function curWeek(){const t=new Date();t.setHours(0,0,0,0);const s=new Date(START);s.setHours(0,0,0,0);const d=Math.floor((t-s)/86400000);if(d<0)return 1;return Math.min(27,Math.floor(d/7)+1);}
+function phaseOf(w){return PHASES.findIndex(p=>w>=p.weeks[0]&&w<=p.weeks[1]);}
+function isFriRun(w){return w%2===0;}
+function dayNum(w,di){return (w-1)*7+di+1;}
+
+function getWorkout(week,di){
+  const pi=phaseOf(week);
+  const isTaper=pi===4,isRS=pi===3,isPB=pi===2,isBase=pi===1,isFound=pi===0;
+  const wk=week;
+  const earlyBike=isFound&&wk<=2;
+
+  if(di===0){// Sat — long bike or brick
+    const isBrick=(isBase&&wk>=9)||isPB||isRS;
+    return {type:isBrick?"Brick":"Bike",color:isBrick?"#185FA5":"#BA7517",
+      title:isTaper?"Bike — easy ride":isBrick?"Brick workout":"Long bike",hrAlert:null,
+      sets:isTaper?[{s:"60 min easy ride",n:"Smooth cadence"}]:
+           isRS?[{s:`${Math.min(90+(wk-19)*15,120)} min bike at race effort`,n:"Nutrition every 30 min"},{s:"5 min T2 sim",n:""},{s:`${Math.min(20+(wk-19)*5,40)} min run at race pace`,n:"Legs will feel heavy"}]:
+           isPB?[{s:`${Math.min(75+(wk-13)*10,120)} min bike`,n:"Progressive effort"},{s:"T2 transition practice",n:""},{s:`${15+Math.floor((wk-13)/2)*5} min run`,n:"Race pace off bike"}]:
+           isBase&&wk>=9?[{s:"60 min easy bike",n:""},{s:"Quick transition",n:""},{s:"15 min easy run",n:"Note how legs feel"}]:
+           [{s:`${Math.min(60+wk*5,90)} min easy ride`,n:"Flat route — VI under 1.08"},{s:"NP target under 110W",n:"Watch power display"}]};
+  }
+  if(di===1){// Sun — long run
+    const hc=(isFound||isBase)?"HR cap 148 bpm avg. Mile 1 at 12'30\" minimum.":null;
+    return {type:"Run",color:"#A32D2D",
+      title:isTaper?"Run — short easy":isPB?"Long run — progressive":isRS?"Long run — race pace":"Long run — Zone 2",
+      hrAlert:hc,
+      sets:isTaper?[{s:"40–45 min easy run",n:"Conversational pace only"}]:
+           isRS?[{s:`${Math.min(75+(wk-19)*10,120)} min run`,n:""},{s:`Last ${Math.min(10+(wk-19)*5,30)} min at race pace`,n:"Negative split"},{s:"5 min walk cool-down",n:""}]:
+           isPB?[{s:`${Math.min(55+(wk-13)*5,90)} min easy run`,n:""},{s:"Last 10 min slightly faster",n:"Don't blow up"}]:
+           isBase?[{s:`${Math.min(55+(wk-7)*5,75)} min run/walk`,n:"Walk any time HR hits 150"},{s:"Keep effort aerobic throughout",n:""}]:
+           [{s:"8–10 min brisk walk warm-up",n:"HR to 120–125 before running"},{s:`${Math.min(35+wk*5,55)} min run/walk`,n:"Under 148 bpm · Mile 1 ≥12'30\""},{s:"5 min walk cool-down",n:"~11:00–12:00/mi on rested days"}]};
+  }
+  if(di===2){// Mon — swim technique
+    return {type:"Swim",color:"#1D9E75",
+      title:isTaper?"Swim — easy flush":isRS?"Swim — open water sim":"Swim — technique",hrAlert:null,
+      sets:isTaper?[{s:"200m easy warm-up",n:""},{s:"4×50m drills",n:"Form focus"},{s:"200m cool-down",n:""}]:
+           isRS?[{s:"400m warm-up",n:""},{s:"8×100m (rest 20s)",n:"Race pace effort"},{s:`${Math.min(200+(wk-19)*20,400)}m open water sim`,n:"Sighting practice"},{s:"200m cool-down",n:""}]:
+           isPB?[{s:"300m warm-up",n:""},{s:`${4+Math.floor((wk-13)/2)}×100m (rest 20s)`,n:"Build effort"},{s:"4×50m pull buoy",n:""},{s:"200m cool-down",n:""}]:
+           isBase?[{s:"200m warm-up",n:""},{s:"6×75m (rest 30s)",n:"Steady pace"},{s:"4×50m drills",n:"Catch/entry focus"},{s:"150m cool-down",n:""}]:
+           [{s:"200m broken warm-up",n:"Rest as needed"},{s:"6×50m (rest 30s)",n:"20–22 strokes/length target"},{s:"4×25m drills",n:"Catch-up or side kick drill"},{s:"100m easy",n:""}]};
+  }
+  if(di===3){// Tue — easy run
+    const hc=(isFound||isBase)?"HR ceiling 150 bpm. Walk warm-up mandatory. Cadence alert 145 spm.":null;
+    return {type:"Run",color:"#A32D2D",
+      title:isTaper?"Run — easy 30 min":isPB?"Run — intervals":isRS?"Run — tempo":"Run — Zone 2",
+      hrAlert:hc,
+      sets:isTaper?[{s:"10 min easy warm-up",n:""},{s:"20 min easy run",n:"Conversational pace"},{s:"5 min walk cool-down",n:""}]:
+           isRS?[{s:"15 min warm-up",n:""},{s:`3×${Math.min(8+(wk-19),12)} min at race effort`,n:"2 min jog recovery"},{s:"10 min cool-down",n:""}]:
+           isPB?[{s:"15 min easy warm-up",n:""},{s:`4×${4+Math.floor((wk-13)/3)} min hard effort`,n:"90s walk recovery"},{s:"10 min cool-down",n:""}]:
+           isBase?[{s:"8 min brisk walk warm-up",n:"HR to 120–125"},{s:`${35+Math.min((wk-7)*3,25)} min run`,n:"Walk if HR hits 150"},{s:"5 min walk cool-down",n:""}]:
+           [{s:"8–10 min brisk walk warm-up",n:"Non-negotiable"},{s:`${25+Math.min(wk*2,15)} min easy run`,n:"~11:00–12:00/mi · under 150 bpm"},{s:"5 min walk cool-down",n:"Cadence drill Mile 1"}]};
+  }
+  if(di===4){// Wed — rest + strength
+    return {type:"Rest",color:"#5F5E5A",
+      title:isTaper?"Rest — full recovery":"Rest + Strength",hrAlert:null,
+      sets:isTaper?[{s:"Full rest day",n:""},{s:"10 min foam roll",n:"Hip flexors, quads, calves"},{s:"Light stretching only",n:""}]:
+           [{s:"Full rest — no cardio",n:""},{s:"Squats 3×12 + Single-leg squats 3×10",n:"Bodyweight or loaded"},{s:"Lunges 3×10 + Step-ups 3×12 each leg",n:""},{s:"Lateral band walks 3×20 + Clamshells 3×20",n:"Hip stability"},{s:"Plank 3×60s + Hip bridges 3×20",n:""},{s:"Foam roll: IT band, quads, calves — 10 min",n:""}]};
+  }
+  if(di===5){// Thu — bike
+    return {type:"Bike",color:"#BA7517",
+      title:isTaper?"Bike — easy spin":earlyBike?"Bike — Zone 1 easy":isPB?"Bike — intervals":isRS?"Bike — threshold":"Bike — structured",
+      hrAlert:earlyBike?"Zone 1 only — NP under 95W, VI under 1.05, no surges.":
+               (isFound&&!earlyBike)?"Watch power display. NP target 110–120W. VI under 1.08. No surges above 140W.":null,
+      sets:isTaper?[{s:"45 min easy spin",n:"Cadence 90–93rpm"},{s:"No intervals",n:""}]:
+           earlyBike?[{s:"30–40 min easy flat ride",n:"Zone 1 only — NP under 95W"},{s:"No intervals — smooth spin only",n:"VI target under 1.05"},{s:"Watch power display constantly",n:"No surges above 120W"}]:
+           isRS?[{s:"15 min easy warm-up",n:""},{s:`2×${15+(wk-19)} min at race effort`,n:"5 min easy between"},{s:"15 min cool-down",n:""}]:
+           isPB?[{s:"10 min easy spin",n:""},{s:`5×${4+Math.floor((wk-13)/2)} min hard effort`,n:"2 min easy recovery"},{s:"Cool-down 10 min",n:""}]:
+           isBase?[{s:"10 min easy warm-up",n:""},{s:"4×4 min moderate effort",n:"2 min easy between"},{s:"Remaining easy spin",n:`Total: ${Math.min(45+(wk-7)*5,70)} min`}]:
+           [{s:"10 min easy warm-up at 90–100W",n:"Cadence 90 rpm"},{s:"5×3 min at 140–155W",n:"2 min easy at 90–100W between"},{s:"10 min cool-down",n:`Total: ~${40+wk*2} min · TSS target 40–55`}]};
+  }
+  // Fri — alternates swim/run
+  if(isFriRun(week)&&(isFound||isBase)){
+    return {type:"Run",color:"#A32D2D",
+      title:"Run — Zone 2 (alt Fri)",
+      hrAlert:"HR ceiling 150 bpm. Walk warm-up first. Even weeks = run instead of swim.",
+      sets:[{s:"8–10 min brisk walk warm-up",n:"HR to 120–125"},{s:`${25+Math.min(wk*3,30)} min easy run`,n:"Under 150 bpm · ~11:00–12:00/mi"},{s:"5 min walk cool-down",n:"Cadence 148–152 spm"}]};
+  }
+  return {type:"Swim",color:"#1D9E75",
+    title:isTaper?"Swim — easy":isRS?"Swim — race distance build":"Swim — endurance",hrAlert:null,
+    sets:isTaper?[{s:"400m easy continuous",n:""},{s:"4×50m drills",n:""}]:
+         isRS?[{s:`${800+Math.min((wk-19)*100,600)}m continuous`,n:"Build to race distance"},{s:"200m pull buoy",n:""},{s:"4×100m negative split",n:"Faster each 50m"}]:
+         isPB?[{s:`${400+Math.min((wk-13)*50,400)}m continuous`,n:"Best effort"},{s:"6×50m sprint",n:"Rest 30s"},{s:"200m cool-down",n:""}]:
+         isBase?[{s:`Try ${200+Math.min((wk-7)*25,200)}m continuous`,n:"Rest if needed"},{s:"4×75m (rest 30s)",n:""},{s:"100m easy",n:""}]:
+         [{s:"3×100m",n:"Rest 30s between"},{s:`Go ${Math.min(50+wk*25,150)}m continuously`,n:"Note max continuous distance"},{s:"100m easy cool-down",n:"20–22 strokes target"}]};
+}
+
+let cw=curWeek(),sd=null;
+
+function renderHeader(){
+  document.getElementById('daysLeft').textContent=daysLeft();
+}
+function renderPhaseStrip(){
+  const strip=document.getElementById('phaseStrip');
+  strip.innerHTML=PHASES.map((p,i)=>{
+    const act=phaseOf(cw)===i?'active':'';
+    const s=getDate(p.weeks[0],0),e=getDate(p.weeks[1],6);
+    return `<div class="pg ${act}" style="background:${p.color}" data-pi="${i}"><div class="pl">${p.name}</div><div class="pw">${fmt(s)}–${fmt(e)}</div></div>`;
+  }).join('');
+  strip.querySelectorAll('.pg').forEach(el=>{
+    el.addEventListener('click',()=>{cw=PHASES[+el.dataset.pi].weeks[0];sd=null;document.getElementById('detailPanel').style.display='none';renderAll();});
+  });
+}
+function renderWeekNav(){
+  const pi=phaseOf(cw);
+  document.getElementById('weekTitle').textContent='Week '+cw+' — '+PHASES[pi].name;
+  document.getElementById('weekDates').textContent=fmt(getDate(cw,0))+' – '+fmtF(getDate(cw,6));
+  const note=document.getElementById('phaseNote');
+  note.style.borderLeftColor=PHASES[pi].color;note.textContent=PHASES[pi].note;
+}
+function renderWeekGrid(){
+  const grid=document.getElementById('weekGrid');
+  grid.innerHTML=DAYS.map((d,i)=>{
+    const w=getWorkout(cw,i),date=getDate(cw,i);
+    const dn=dayNum(cw,i);
+    const tc=isToday(date)?'td':'';
+    const sc=sd===i?'sel':'';
+    const lc=LOGGED_DAYS.has(dn)?'logged':'';
+    return `<div class="dc ${tc} ${sc} ${lc}" data-di="${i}">
+      <div class="dl">${d}</div>
+      <div class="dd">${fmt(date)}${isToday(date)?'<span class="tp">today</span>':''}</div>
+      <div class="dt" style="background:${w.color}">${w.type}</div>
+      <div class="dp">${w.sets.slice(0,2).map(s=>s.s).join('<br>')}</div>
+    </div>`;
+  }).join('');
+  grid.querySelectorAll('.dc').forEach(el=>{
+    el.addEventListener('click',()=>{const d=+el.dataset.di;if(sd===d){sd=null;document.getElementById('detailPanel').style.display='none';}else{sd=d;renderDetail();}renderWeekGrid();});
+  });
+}
+function renderDetail(){
+  const panel=document.getElementById('detailPanel');
+  if(sd===null){panel.style.display='none';return;}
+  const w=getWorkout(cw,sd),date=getDate(cw,sd),dn=dayNum(cw,sd);
+  const isLogged=LOGGED_DAYS.has(dn);
+  const hrBlock=w.hrAlert?`<div class="hr-alert">HR target — ${w.hrAlert}</div>`:'';
+  const logBadge=isLogged?`<span style="font-size:10px;background:var(--bg-good);color:var(--txt-good);padding:2px 7px;border-radius:10px;border:0.5px solid var(--txt-good);margin-left:auto">✓ Logged</span>`:'';
+  panel.style.display='block';
+  panel.innerHTML=`<div class="dth"><span class="dtb" style="background:${w.color}">${w.type}</span><span class="dttl">${DAYS[sd]} · ${w.title}</span>${logBadge}<span class="dtd">${fmtF(date)} · Day ${dn}</span></div><ul class="sl2">${w.sets.map(s=>`<li class="si"><span>${s.s}</span><span class="sn">${s.n}</span></li>`).join('')}</ul>${hrBlock}<div class="effort-guide">easy = conversational · moderate = can speak sentences · hard = can't hold a conversation</div>`;
+}
+function renderOverview(){
+  document.getElementById('overviewPhases').innerHTML=PHASES.map(p=>{
+    const s=getDate(p.weeks[0],0),e=getDate(p.weeks[1],6);
+    return `<div class="op" style="border-left-color:${p.color}"><div><div class="on" style="color:${p.color}">${p.name}</div><div class="om">Weeks ${p.weeks[0]}–${p.weeks[1]} · ${fmt(s)} – ${fmtF(e)}</div><div class="om" style="margin-top:4px">${p.note}</div></div><span class="ob" style="background:${p.color}">${fmt(s)}</span></div>`;
+  }).join('');
+}
+function renderAll(){renderHeader();renderPhaseStrip();renderWeekNav();renderWeekGrid();if(sd!==null)renderDetail();}
+
+document.getElementById('prevW').addEventListener('click',()=>{if(cw>1){cw--;sd=null;document.getElementById('detailPanel').style.display='none';renderAll();}});
+document.getElementById('nextW').addEventListener('click',()=>{if(cw<27){cw++;sd=null;document.getElementById('detailPanel').style.display='none';renderAll();}});
+document.getElementById('todayBtn').addEventListener('click',()=>{cw=curWeek();sd=null;document.getElementById('detailPanel').style.display='none';renderAll();});
+document.getElementById('mainTabs').querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.vc').forEach(v=>v.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-'+tab.dataset.tab).classList.add('active');
+  });
+});
+
+renderAll();
+renderOverview();
+</script>
+</body>
+</html>
