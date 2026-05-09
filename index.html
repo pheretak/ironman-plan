@@ -216,7 +216,7 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
 
   <table class="log-table">
     <thead><tr><th>Day</th><th>Date</th><th>Session</th><th>Key metrics</th><th>HR</th><th>Grade</th></tr></thead>
-    <tbody>
+    <tbody id="log-tbody">
     </tbody>
   </table>
 </div>
@@ -474,5 +474,6 @@ document.getElementById('mainTabs').querySelectorAll('.tab').forEach(tab=>{
 renderAll();
 renderOverview();
 </script>
+<script defer src="assets/log.js"></script>
 </body>
 </html>
