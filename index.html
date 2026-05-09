@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ironman 70.3 Long Beach 2026 — Training Plan</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -129,6 +130,15 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
   .dc{min-height:95px}
   .dtd{margin-left:0;width:100%}
 }
+/* Chart cards */
+.charts-block{margin-bottom:1.25rem}
+.charts-title{font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:600;margin-bottom:10px}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chart-card{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--rl);padding:12px}
+.chart-card-wide{grid-column:1 / -1}
+.chart-card-title{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:600;color:var(--txt2);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px}
+.chart-card canvas{width:100% !important;height:200px !important}
+@media(max-width:600px){.chart-grid{grid-template-columns:1fr}.chart-card canvas{height:180px !important}}
 </style>
 </head>
 <body>
@@ -201,7 +211,7 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
 
 <!-- TRAINING LOG -->
 <div id="tab-log" class="vc">
-  <div class="sec-title">27-day training log</div>
+  <div class="sec-title" id="log-title">27-day training log</div>
   <div style="font-size:12px;color:var(--txt2);margin-bottom:12px">All sessions logged from Apple Watch + Wahoo data.</div>
 
   <!-- Progress bars -->
@@ -213,6 +223,25 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
     <div class="pb-row"><div class="pb-lbl">Swim HR</div><div class="pb-bar"><div class="pb-fill" style="width:60%;background:var(--swim)"></div></div><div class="pb-val">138→132</div></div>
     <div class="pb-row"><div class="pb-lbl">Bike power</div><div class="pb-bar"><div class="pb-fill" style="width:40%;background:var(--bike)"></div></div><div class="pb-val">97→120W</div></div>
     <div class="pb-row"><div class="pb-lbl">Bike TSS</div><div class="pb-bar"><div class="pb-fill" style="width:55%;background:var(--bike)"></div></div><div class="pb-val">22→98</div></div>
+  </div>
+
+  <!-- Live trend charts -->
+  <div class="charts-block">
+    <div class="charts-title">Trend charts</div>
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-card-title">Run HR over time</div>
+        <canvas id="chart-run-hr"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Run cadence over time</div>
+        <canvas id="chart-cadence"></canvas>
+      </div>
+      <div class="chart-card chart-card-wide">
+        <div class="chart-card-title">Weekly volume by sport</div>
+        <canvas id="chart-weekly-volume"></canvas>
+      </div>
+    </div>
   </div>
 
   <table class="log-table">
@@ -503,5 +532,6 @@ renderAll();
 renderOverview();
 </script>
 <script defer src="assets/log.js"></script>
+<script defer src="assets/charts.js"></script>
 </body>
 </html>
