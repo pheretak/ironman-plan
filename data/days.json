@@ -1,0 +1,1262 @@
+[
+  {
+    "date": "2026-03-22",
+    "sleep": {
+      "totalMin": 572,
+      "bedtime": "22:40",
+      "wake": "08:16",
+      "deepMin": 57,
+      "remMin": 164,
+      "coreMin": 350,
+      "awakeMin": 4
+    },
+    "heart": {
+      "restingHr": 58,
+      "walkingHr": 123,
+      "avgHr": 85,
+      "maxHr": 175,
+      "hrv": 83.2,
+      "hrRecovery": 39
+    },
+    "activity": {
+      "steps": 13135,
+      "activeCalories": 766,
+      "exerciseMin": 67,
+      "vo2max": 48.5
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-23",
+    "sleep": {
+      "totalMin": 576,
+      "bedtime": "17:35",
+      "wake": "07:03",
+      "deepMin": 85,
+      "remMin": 107,
+      "coreMin": 383,
+      "awakeMin": 8
+    },
+    "heart": {
+      "restingHr": 75,
+      "walkingHr": 102,
+      "avgHr": 88,
+      "maxHr": 165,
+      "hrv": 65.2,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 16089,
+      "activeCalories": 1105,
+      "exerciseMin": 128,
+      "vo2max": 48.5
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-24",
+    "sleep": {
+      "totalMin": 440,
+      "bedtime": "23:22",
+      "wake": "06:46",
+      "deepMin": 65,
+      "remMin": 83,
+      "coreMin": 291,
+      "awakeMin": 3
+    },
+    "heart": {
+      "restingHr": 71,
+      "walkingHr": 101,
+      "avgHr": 87,
+      "maxHr": 166,
+      "hrv": 76.5,
+      "hrRecovery": 36
+    },
+    "activity": {
+      "steps": 16300,
+      "activeCalories": 951,
+      "exerciseMin": 77,
+      "vo2max": 48.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-25",
+    "sleep": {
+      "totalMin": 395,
+      "bedtime": "00:12",
+      "wake": "06:48",
+      "deepMin": 95,
+      "remMin": 97,
+      "coreMin": 202,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 72,
+      "walkingHr": 126,
+      "avgHr": 85,
+      "maxHr": 164,
+      "hrv": 55.3,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 11502,
+      "activeCalories": 746,
+      "exerciseMin": 88,
+      "vo2max": 48.1
+    },
+    "workoutCount": 2
+  },
+  {
+    "date": "2026-03-26",
+    "sleep": {
+      "totalMin": 487,
+      "bedtime": "00:05",
+      "wake": "08:32",
+      "deepMin": 103,
+      "remMin": 109,
+      "coreMin": 274,
+      "awakeMin": 19
+    },
+    "heart": {
+      "restingHr": 81,
+      "walkingHr": 110,
+      "avgHr": 85,
+      "maxHr": 129,
+      "hrv": 59.6,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 12556,
+      "activeCalories": 1023,
+      "exerciseMin": 104,
+      "vo2max": 48.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-27",
+    "sleep": {
+      "totalMin": 441,
+      "bedtime": "23:41",
+      "wake": "07:08",
+      "deepMin": 66,
+      "remMin": 116,
+      "coreMin": 258,
+      "awakeMin": 6
+    },
+    "heart": {
+      "restingHr": 74,
+      "walkingHr": null,
+      "avgHr": 94,
+      "maxHr": 173,
+      "hrv": 56.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 17287,
+      "activeCalories": 1131,
+      "exerciseMin": 129,
+      "vo2max": 48.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-28",
+    "sleep": {
+      "totalMin": 394,
+      "bedtime": "00:12",
+      "wake": "06:51",
+      "deepMin": 40,
+      "remMin": 94,
+      "coreMin": 259,
+      "awakeMin": 5
+    },
+    "heart": {
+      "restingHr": 54,
+      "walkingHr": 100,
+      "avgHr": 68,
+      "maxHr": 129,
+      "hrv": 61.9,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 9630,
+      "activeCalories": 584,
+      "exerciseMin": 47,
+      "vo2max": 48.1
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-03-29",
+    "sleep": {
+      "totalMin": 478,
+      "bedtime": "22:59",
+      "wake": "06:58",
+      "deepMin": 46,
+      "remMin": 138,
+      "coreMin": 293,
+      "awakeMin": 0
+    },
+    "heart": {
+      "restingHr": 63,
+      "walkingHr": null,
+      "avgHr": 93,
+      "maxHr": 164,
+      "hrv": 84.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 11245,
+      "activeCalories": 1583,
+      "exerciseMin": 137,
+      "vo2max": 48.7
+    },
+    "workoutCount": 2
+  },
+  {
+    "date": "2026-03-30",
+    "sleep": {
+      "totalMin": 543,
+      "bedtime": "21:27",
+      "wake": "06:32",
+      "deepMin": 10,
+      "remMin": 144,
+      "coreMin": 388,
+      "awakeMin": 2
+    },
+    "heart": {
+      "restingHr": 84,
+      "walkingHr": 113,
+      "avgHr": 90,
+      "maxHr": 170,
+      "hrv": 71.1,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 12009,
+      "activeCalories": 722,
+      "exerciseMin": 85,
+      "vo2max": 48.7
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-03-31",
+    "sleep": {
+      "totalMin": 406,
+      "bedtime": "00:06",
+      "wake": "06:56",
+      "deepMin": 51,
+      "remMin": 91,
+      "coreMin": 263,
+      "awakeMin": 3
+    },
+    "heart": {
+      "restingHr": 79,
+      "walkingHr": 109,
+      "avgHr": 93,
+      "maxHr": 170,
+      "hrv": 50.6,
+      "hrRecovery": 36
+    },
+    "activity": {
+      "steps": 23987,
+      "activeCalories": 1368,
+      "exerciseMin": 147,
+      "vo2max": 48.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-01",
+    "sleep": {
+      "totalMin": 503,
+      "bedtime": "22:42",
+      "wake": "07:15",
+      "deepMin": 43,
+      "remMin": 104,
+      "coreMin": 356,
+      "awakeMin": 9
+    },
+    "heart": {
+      "restingHr": 64,
+      "walkingHr": 105,
+      "avgHr": 66,
+      "maxHr": 120,
+      "hrv": 65.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 5309,
+      "activeCalories": 310,
+      "exerciseMin": 16,
+      "vo2max": 48.9
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-02",
+    "sleep": {
+      "totalMin": 480,
+      "bedtime": "22:42",
+      "wake": "06:49",
+      "deepMin": 97,
+      "remMin": 121,
+      "coreMin": 261,
+      "awakeMin": 6
+    },
+    "heart": {
+      "restingHr": 73,
+      "walkingHr": null,
+      "avgHr": 78,
+      "maxHr": 144,
+      "hrv": 68.4,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 11389,
+      "activeCalories": 887,
+      "exerciseMin": 100,
+      "vo2max": 48.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-03",
+    "sleep": {
+      "totalMin": 470,
+      "bedtime": "22:51",
+      "wake": "06:53",
+      "deepMin": 76,
+      "remMin": 120,
+      "coreMin": 272,
+      "awakeMin": 12
+    },
+    "heart": {
+      "restingHr": 59,
+      "walkingHr": 110,
+      "avgHr": 72,
+      "maxHr": 160,
+      "hrv": 62.5,
+      "hrRecovery": 36
+    },
+    "activity": {
+      "steps": 12692,
+      "activeCalories": 795,
+      "exerciseMin": 67,
+      "vo2max": 49.9
+    },
+    "workoutCount": 2
+  },
+  {
+    "date": "2026-04-04",
+    "sleep": {
+      "totalMin": 431,
+      "bedtime": "22:47",
+      "wake": "06:08",
+      "deepMin": 91,
+      "remMin": 100,
+      "coreMin": 238,
+      "awakeMin": 10
+    },
+    "heart": {
+      "restingHr": 59,
+      "walkingHr": 113,
+      "avgHr": 65,
+      "maxHr": 126,
+      "hrv": 57.9,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 13536,
+      "activeCalories": 767,
+      "exerciseMin": 44,
+      "vo2max": 49.9
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-05",
+    "sleep": {
+      "totalMin": 630,
+      "bedtime": "18:10",
+      "wake": "07:34",
+      "deepMin": 60,
+      "remMin": 186,
+      "coreMin": 287,
+      "awakeMin": 24
+    },
+    "heart": {
+      "restingHr": 52,
+      "walkingHr": 99,
+      "avgHr": 84,
+      "maxHr": 172,
+      "hrv": 76.7,
+      "hrRecovery": 35
+    },
+    "activity": {
+      "steps": 12709,
+      "activeCalories": 897,
+      "exerciseMin": 83,
+      "vo2max": 49.6
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-06",
+    "sleep": {
+      "totalMin": 354,
+      "bedtime": "00:36",
+      "wake": "06:32",
+      "deepMin": 83,
+      "remMin": 84,
+      "coreMin": 186,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 56,
+      "walkingHr": 119,
+      "avgHr": 78,
+      "maxHr": 162,
+      "hrv": 79,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 6449,
+      "activeCalories": 504,
+      "exerciseMin": 66,
+      "vo2max": 49.6
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-07",
+    "sleep": {
+      "totalMin": 339,
+      "bedtime": "22:44",
+      "wake": "04:27",
+      "deepMin": 44,
+      "remMin": 61,
+      "coreMin": 234,
+      "awakeMin": 3
+    },
+    "heart": {
+      "restingHr": 63,
+      "walkingHr": 100,
+      "avgHr": 86,
+      "maxHr": 159,
+      "hrv": 63.2,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 18383,
+      "activeCalories": 1061,
+      "exerciseMin": 109,
+      "vo2max": 49.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-08",
+    "sleep": {
+      "totalMin": 390,
+      "bedtime": "22:35",
+      "wake": "05:07",
+      "deepMin": 55,
+      "remMin": 91,
+      "coreMin": 243,
+      "awakeMin": 0
+    },
+    "heart": {
+      "restingHr": 64,
+      "walkingHr": 112,
+      "avgHr": 61,
+      "maxHr": 121,
+      "hrv": 61.9,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 6932,
+      "activeCalories": 349,
+      "exerciseMin": 45,
+      "vo2max": 49.9
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-09",
+    "sleep": {
+      "totalMin": 468,
+      "bedtime": "22:08",
+      "wake": "05:56",
+      "deepMin": 46,
+      "remMin": 116,
+      "coreMin": 305,
+      "awakeMin": null
+    },
+    "heart": {
+      "restingHr": 51,
+      "walkingHr": 130,
+      "avgHr": 88,
+      "maxHr": 176,
+      "hrv": 63.4,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 12580,
+      "activeCalories": 1257,
+      "exerciseMin": 134,
+      "vo2max": 49.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-10",
+    "sleep": {
+      "totalMin": 427,
+      "bedtime": "22:14",
+      "wake": "05:23",
+      "deepMin": 58,
+      "remMin": 86,
+      "coreMin": 283,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 52,
+      "walkingHr": 83,
+      "avgHr": 60,
+      "maxHr": 105,
+      "hrv": 59.3,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 3673,
+      "activeCalories": 92,
+      "exerciseMin": 2,
+      "vo2max": 49.9
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-11",
+    "sleep": {
+      "totalMin": 524,
+      "bedtime": "22:30",
+      "wake": "07:15",
+      "deepMin": 68,
+      "remMin": 178,
+      "coreMin": 276,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 68,
+      "walkingHr": 100,
+      "avgHr": 84,
+      "maxHr": 159,
+      "hrv": 61.3,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 10392,
+      "activeCalories": 673,
+      "exerciseMin": 64,
+      "vo2max": 49.6
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-12",
+    "sleep": {
+      "totalMin": 376,
+      "bedtime": "01:03",
+      "wake": "07:20",
+      "deepMin": 37,
+      "remMin": 124,
+      "coreMin": 215,
+      "awakeMin": null
+    },
+    "heart": {
+      "restingHr": 58,
+      "walkingHr": 77,
+      "avgHr": 79,
+      "maxHr": 127,
+      "hrv": 57,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 5133,
+      "activeCalories": 938,
+      "exerciseMin": 108,
+      "vo2max": 49.6
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-13",
+    "sleep": {
+      "totalMin": 495,
+      "bedtime": "22:29",
+      "wake": "06:53",
+      "deepMin": 67,
+      "remMin": 123,
+      "coreMin": 304,
+      "awakeMin": 8
+    },
+    "heart": {
+      "restingHr": 59,
+      "walkingHr": 116,
+      "avgHr": 88,
+      "maxHr": 166,
+      "hrv": 56.8,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 5754,
+      "activeCalories": 473,
+      "exerciseMin": 67,
+      "vo2max": 49.6
+    },
+    "workoutCount": 2
+  },
+  {
+    "date": "2026-04-14",
+    "sleep": {
+      "totalMin": 332,
+      "bedtime": "01:28",
+      "wake": "07:03",
+      "deepMin": 55,
+      "remMin": 75,
+      "coreMin": 202,
+      "awakeMin": 2
+    },
+    "heart": {
+      "restingHr": 60,
+      "walkingHr": null,
+      "avgHr": 87,
+      "maxHr": 170,
+      "hrv": 54.7,
+      "hrRecovery": 35
+    },
+    "activity": {
+      "steps": 15491,
+      "activeCalories": 885,
+      "exerciseMin": 88,
+      "vo2max": 49.4
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-15",
+    "sleep": {
+      "totalMin": 486,
+      "bedtime": "22:36",
+      "wake": "06:53",
+      "deepMin": 66,
+      "remMin": 107,
+      "coreMin": 312,
+      "awakeMin": 10
+    },
+    "heart": {
+      "restingHr": 71,
+      "walkingHr": 118,
+      "avgHr": 68,
+      "maxHr": 122,
+      "hrv": 56.9,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 8706,
+      "activeCalories": 338,
+      "exerciseMin": 41,
+      "vo2max": 49.4
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-16",
+    "sleep": {
+      "totalMin": 382,
+      "bedtime": "23:39",
+      "wake": "06:02",
+      "deepMin": 74,
+      "remMin": 68,
+      "coreMin": 238,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 78,
+      "walkingHr": 108,
+      "avgHr": 85,
+      "maxHr": 137,
+      "hrv": 52.8,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 10376,
+      "activeCalories": 836,
+      "exerciseMin": 78,
+      "vo2max": 49.4
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-17",
+    "sleep": {
+      "totalMin": 440,
+      "bedtime": "22:39",
+      "wake": "06:00",
+      "deepMin": 98,
+      "remMin": 114,
+      "coreMin": 227,
+      "awakeMin": null
+    },
+    "heart": {
+      "restingHr": 79,
+      "walkingHr": 113,
+      "avgHr": 92,
+      "maxHr": 164,
+      "hrv": 69.6,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 17610,
+      "activeCalories": 1253,
+      "exerciseMin": 143,
+      "vo2max": 49.4
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-18",
+    "heart": {
+      "restingHr": 76,
+      "walkingHr": 119,
+      "avgHr": 123,
+      "maxHr": 162,
+      "hrv": null,
+      "hrRecovery": 37
+    },
+    "activity": {
+      "steps": 11784,
+      "activeCalories": 745,
+      "exerciseMin": 87,
+      "vo2max": 49.1
+    },
+    "workoutCount": 2
+  },
+  {
+    "date": "2026-04-19",
+    "heart": {
+      "restingHr": 59,
+      "walkingHr": 113,
+      "avgHr": 75,
+      "maxHr": 131,
+      "hrv": 73.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 7769,
+      "activeCalories": 305,
+      "exerciseMin": 45,
+      "vo2max": 49.1
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-20",
+    "heart": {
+      "restingHr": 65,
+      "walkingHr": 96,
+      "avgHr": 91,
+      "maxHr": 168,
+      "hrv": 71.9,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 9299,
+      "activeCalories": 814,
+      "exerciseMin": 94,
+      "vo2max": 49.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-21",
+    "sleep": {
+      "totalMin": 510,
+      "bedtime": "21:55",
+      "wake": "06:30",
+      "deepMin": 63,
+      "remMin": 117,
+      "coreMin": 329,
+      "awakeMin": 5
+    },
+    "heart": {
+      "restingHr": 72,
+      "walkingHr": 97,
+      "avgHr": 82,
+      "maxHr": 159,
+      "hrv": 63.6,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 16480,
+      "activeCalories": 1041,
+      "exerciseMin": 98,
+      "vo2max": 49.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-22",
+    "sleep": {
+      "totalMin": 450,
+      "bedtime": "22:46",
+      "wake": "06:26",
+      "deepMin": 84,
+      "remMin": 99,
+      "coreMin": 266,
+      "awakeMin": 9
+    },
+    "heart": {
+      "restingHr": 74,
+      "walkingHr": 114,
+      "avgHr": 70,
+      "maxHr": 137,
+      "hrv": 80.8,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 16621,
+      "activeCalories": 900,
+      "exerciseMin": 84,
+      "vo2max": 49.3
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-23",
+    "sleep": {
+      "totalMin": 446,
+      "bedtime": "22:34",
+      "wake": "06:06",
+      "deepMin": 65,
+      "remMin": 102,
+      "coreMin": 278,
+      "awakeMin": 5
+    },
+    "heart": {
+      "restingHr": 58,
+      "walkingHr": null,
+      "avgHr": 79,
+      "maxHr": 157,
+      "hrv": 69.4,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 5998,
+      "activeCalories": 708,
+      "exerciseMin": 82,
+      "vo2max": 49.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-24",
+    "sleep": {
+      "totalMin": 452,
+      "bedtime": "22:10",
+      "wake": "05:58",
+      "deepMin": 61,
+      "remMin": 135,
+      "coreMin": 256,
+      "awakeMin": 15
+    },
+    "heart": {
+      "restingHr": 65,
+      "walkingHr": 109,
+      "avgHr": 78,
+      "maxHr": 157,
+      "hrv": 70.5,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 12020,
+      "activeCalories": 888,
+      "exerciseMin": 106,
+      "vo2max": 49.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-25",
+    "sleep": {
+      "totalMin": 431,
+      "bedtime": "22:43",
+      "wake": "05:54",
+      "deepMin": 75,
+      "remMin": 112,
+      "coreMin": 243,
+      "awakeMin": null
+    },
+    "heart": {
+      "restingHr": 61,
+      "walkingHr": 100,
+      "avgHr": 87,
+      "maxHr": 128,
+      "hrv": 71.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 9227,
+      "activeCalories": 1029,
+      "exerciseMin": 125,
+      "vo2max": 49.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-26",
+    "sleep": {
+      "totalMin": 381,
+      "bedtime": "04:27",
+      "wake": "11:08",
+      "deepMin": 50,
+      "remMin": 88,
+      "coreMin": 243,
+      "awakeMin": 18
+    },
+    "heart": {
+      "restingHr": 60,
+      "walkingHr": 92,
+      "avgHr": 89,
+      "maxHr": 171,
+      "hrv": 77,
+      "hrRecovery": 37
+    },
+    "activity": {
+      "steps": 17770,
+      "activeCalories": 1013,
+      "exerciseMin": 98,
+      "vo2max": 49.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-27",
+    "sleep": {
+      "totalMin": 427,
+      "bedtime": "21:35",
+      "wake": "04:44",
+      "deepMin": 80,
+      "remMin": 93,
+      "coreMin": 252,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 50,
+      "walkingHr": 104,
+      "avgHr": 83,
+      "maxHr": 157,
+      "hrv": 60.6,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 10712,
+      "activeCalories": 918,
+      "exerciseMin": 107,
+      "vo2max": 49.9
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-28",
+    "sleep": {
+      "totalMin": 449,
+      "bedtime": "22:37",
+      "wake": "06:17",
+      "deepMin": 68,
+      "remMin": 102,
+      "coreMin": 278,
+      "awakeMin": 10
+    },
+    "heart": {
+      "restingHr": 60,
+      "walkingHr": 100,
+      "avgHr": 80,
+      "maxHr": 158,
+      "hrv": 91.9,
+      "hrRecovery": 37
+    },
+    "activity": {
+      "steps": 12193,
+      "activeCalories": 744,
+      "exerciseMin": 71,
+      "vo2max": 50.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-04-29",
+    "sleep": {
+      "totalMin": 481,
+      "bedtime": "22:13",
+      "wake": "06:17",
+      "deepMin": 85,
+      "remMin": 126,
+      "coreMin": 269,
+      "awakeMin": 2
+    },
+    "heart": {
+      "restingHr": 73,
+      "walkingHr": 106,
+      "avgHr": 67,
+      "maxHr": 140,
+      "hrv": 69.5,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 5911,
+      "activeCalories": 362,
+      "exerciseMin": 38,
+      "vo2max": 50.1
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-04-30",
+    "sleep": {
+      "totalMin": 383,
+      "bedtime": "00:22",
+      "wake": "06:47",
+      "deepMin": 48,
+      "remMin": 118,
+      "coreMin": 216,
+      "awakeMin": 2
+    },
+    "heart": {
+      "restingHr": 64,
+      "walkingHr": 102,
+      "avgHr": 89,
+      "maxHr": 165,
+      "hrv": 67,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 8613,
+      "activeCalories": 946,
+      "exerciseMin": 94,
+      "vo2max": 50.1
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-01",
+    "sleep": {
+      "totalMin": 416,
+      "bedtime": "23:48",
+      "wake": "06:49",
+      "deepMin": 39,
+      "remMin": 94,
+      "coreMin": 282,
+      "awakeMin": 3
+    },
+    "heart": {
+      "restingHr": 65,
+      "walkingHr": 96,
+      "avgHr": 85,
+      "maxHr": 163,
+      "hrv": 65.2,
+      "hrRecovery": 39
+    },
+    "activity": {
+      "steps": 17663,
+      "activeCalories": 1044,
+      "exerciseMin": 115,
+      "vo2max": 50
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-02",
+    "heart": {
+      "restingHr": 67,
+      "walkingHr": 110,
+      "avgHr": 107,
+      "maxHr": 138,
+      "hrv": 57.5,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 8007,
+      "activeCalories": 1127,
+      "exerciseMin": 136,
+      "vo2max": 50
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-03",
+    "sleep": {
+      "totalMin": 355,
+      "bedtime": "00:27",
+      "wake": "06:28",
+      "deepMin": 61,
+      "remMin": 87,
+      "coreMin": 206,
+      "awakeMin": 5
+    },
+    "heart": {
+      "restingHr": 59,
+      "walkingHr": 99,
+      "avgHr": 83,
+      "maxHr": 160,
+      "hrv": 77,
+      "hrRecovery": 39
+    },
+    "activity": {
+      "steps": 15519,
+      "activeCalories": 1077,
+      "exerciseMin": 115,
+      "vo2max": 50.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-04",
+    "sleep": {
+      "totalMin": 489,
+      "bedtime": "21:48",
+      "wake": "05:58",
+      "deepMin": 55,
+      "remMin": 110,
+      "coreMin": 323,
+      "awakeMin": 0
+    },
+    "heart": {
+      "restingHr": 55,
+      "walkingHr": 104,
+      "avgHr": 76,
+      "maxHr": 150,
+      "hrv": 72.3,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 11220,
+      "activeCalories": 804,
+      "exerciseMin": 92,
+      "vo2max": 50.3
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-05",
+    "sleep": {
+      "totalMin": 529,
+      "bedtime": "21:54",
+      "wake": "06:46",
+      "deepMin": 25,
+      "remMin": 127,
+      "coreMin": 375,
+      "awakeMin": 2
+    },
+    "heart": {
+      "restingHr": 64,
+      "walkingHr": null,
+      "avgHr": 87,
+      "maxHr": 172,
+      "hrv": 81,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 15673,
+      "activeCalories": 834,
+      "exerciseMin": 74,
+      "vo2max": 49.8
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-06",
+    "sleep": {
+      "totalMin": 426,
+      "bedtime": "23:34",
+      "wake": "07:08",
+      "deepMin": 46,
+      "remMin": 125,
+      "coreMin": 255,
+      "awakeMin": 27
+    },
+    "heart": {
+      "restingHr": 67,
+      "walkingHr": 114,
+      "avgHr": 69,
+      "maxHr": 145,
+      "hrv": 78.7,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 8228,
+      "activeCalories": 560,
+      "exerciseMin": 62,
+      "vo2max": 49.8
+    },
+    "workoutCount": 0
+  },
+  {
+    "date": "2026-05-07",
+    "sleep": {
+      "totalMin": 497,
+      "bedtime": "21:55",
+      "wake": "06:14",
+      "deepMin": 79,
+      "remMin": 118,
+      "coreMin": 298,
+      "awakeMin": 1
+    },
+    "heart": {
+      "restingHr": 51,
+      "walkingHr": 110,
+      "avgHr": 86,
+      "maxHr": 165,
+      "hrv": 76.7,
+      "hrRecovery": 36
+    },
+    "activity": {
+      "steps": 8173,
+      "activeCalories": 529,
+      "exerciseMin": 51,
+      "vo2max": 49.8
+    },
+    "workoutCount": 1
+  },
+  {
+    "date": "2026-05-08",
+    "sleep": {
+      "totalMin": 409,
+      "bedtime": "23:14",
+      "wake": "06:10",
+      "deepMin": 54,
+      "remMin": 109,
+      "coreMin": 245,
+      "awakeMin": 7
+    },
+    "heart": {
+      "restingHr": 54,
+      "walkingHr": 114,
+      "avgHr": 81,
+      "maxHr": 153,
+      "hrv": 69,
+      "hrRecovery": null
+    },
+    "activity": {
+      "steps": 10595,
+      "activeCalories": 820,
+      "exerciseMin": 113,
+      "vo2max": 49.8
+    },
+    "workoutCount": 1
+  }
+]

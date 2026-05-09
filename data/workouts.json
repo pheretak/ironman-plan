@@ -1,0 +1,9206 @@
+[
+  {
+    "date": "2026-03-22",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "11:38",
+    "durationMin": 44,
+    "durationRaw": "44m",
+    "distance": {
+      "raw": {
+        "value": 6.61,
+        "unit": "km"
+      },
+      "km": 6.61,
+      "mi": 4.107,
+      "yd": 7229
+    },
+    "pace": "6:47 /km",
+    "calories": 482,
+    "hr": {
+      "avg": 162,
+      "max": 175,
+      "min": 138
+    },
+    "cadence": 154,
+    "power": {
+      "avg": 210,
+      "max": 323
+    },
+    "elevation": 56,
+    "strideLength": 0.96,
+    "groundContact": 306,
+    "verticalOscillation": 10,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "5:54",
+        "pace": "5:54 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "9:56",
+        "pace": "6:10 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:40",
+        "pace": "6:40 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:45",
+        "pace": "6:41 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:39",
+        "pace": "6:39 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "6:39",
+        "pace": "6:39 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:03",
+        "pace": "6:52 /km"
+      },
+      {
+        "num": 8,
+        "distance": "1.00 km",
+        "time": "7:05",
+        "pace": "7:05 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.61 km",
+        "time": "11:27",
+        "pace": "7:07 /km"
+      },
+      {
+        "num": 10,
+        "distance": "999 m",
+        "time": "7:10",
+        "pace": "7:10 /km"
+      },
+      {
+        "num": 11,
+        "distance": "605 m",
+        "time": "4:43",
+        "pace": "7:47 /km"
+      },
+      {
+        "num": 12,
+        "distance": "168 m",
+        "time": "1:40",
+        "pace": "9:54 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "21:02",
+    "durationMin": 40,
+    "durationRaw": "40m",
+    "distance": {
+      "raw": {
+        "value": 1.42,
+        "unit": "km"
+      },
+      "km": 1.42,
+      "mi": 0.882,
+      "yd": 1553
+    },
+    "pace": "2:52 /100m",
+    "calories": 277,
+    "hr": {
+      "avg": 138,
+      "max": 165,
+      "min": 101
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "137 m",
+        "time": "2:35",
+        "pace": "18:52 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:17 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "13:11 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:54 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:37 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:50 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:39 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:53 /km"
+      },
+      {
+        "num": 9,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:30 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:34 /km"
+      },
+      {
+        "num": 11,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:11 /km"
+      },
+      {
+        "num": 12,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:11 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:23 /km"
+      },
+      {
+        "num": 14,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:38 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:36 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:24 /km"
+      },
+      {
+        "num": 17,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:24 /km"
+      },
+      {
+        "num": 18,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 19,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:38 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:28 /km"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:47 /km"
+      },
+      {
+        "num": 22,
+        "distance": "45 m",
+        "time": "0:34",
+        "pace": "12:28 /km"
+      },
+      {
+        "num": 23,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:55 /km"
+      },
+      {
+        "num": 24,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:57 /km"
+      },
+      {
+        "num": 25,
+        "distance": "68 m",
+        "time": "0:47",
+        "pace": "11:27 /km"
+      },
+      {
+        "num": 26,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:05 /km"
+      },
+      {
+        "num": 27,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:31 /km"
+      },
+      {
+        "num": 28,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:33 /km"
+      },
+      {
+        "num": 29,
+        "distance": "68 m",
+        "time": "0:50",
+        "pace": "12:06 /km"
+      },
+      {
+        "num": 30,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:35 /km"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:27 /km"
+      },
+      {
+        "num": 32,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:38 /km"
+      },
+      {
+        "num": 33,
+        "distance": "68 m",
+        "time": "0:54",
+        "pace": "13:11 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:48 /km"
+      },
+      {
+        "num": 35,
+        "distance": "22 m",
+        "time": "0:19",
+        "pace": "13:35 /km"
+      },
+      {
+        "num": 36,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:20 /km"
+      },
+      {
+        "num": 37,
+        "distance": "68 m",
+        "time": "0:56",
+        "pace": "13:35 /km"
+      },
+      {
+        "num": 38,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:26 /km"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:28 /km"
+      },
+      {
+        "num": 40,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:15 /km"
+      },
+      {
+        "num": 41,
+        "distance": "68 m",
+        "time": "0:53",
+        "pace": "12:48 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:19 /km"
+      },
+      {
+        "num": 43,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:18 /km"
+      },
+      {
+        "num": 44,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:49 /km"
+      },
+      {
+        "num": 45,
+        "distance": "68 m",
+        "time": "0:48",
+        "pace": "11:35 /km"
+      },
+      {
+        "num": 46,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:24 /km"
+      },
+      {
+        "num": 47,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 48,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:50 /km"
+      },
+      {
+        "num": 49,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:55 /km"
+      },
+      {
+        "num": 50,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:41 /km"
+      },
+      {
+        "num": 51,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:02 /km"
+      },
+      {
+        "num": 52,
+        "distance": "68 m",
+        "time": "0:48",
+        "pace": "11:44 /km"
+      },
+      {
+        "num": 53,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:02 /km"
+      },
+      {
+        "num": 54,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:23 /km"
+      },
+      {
+        "num": 55,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:37 /km"
+      },
+      {
+        "num": 56,
+        "distance": "68 m",
+        "time": "0:47",
+        "pace": "11:29 /km"
+      },
+      {
+        "num": 57,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:27 /km"
+      },
+      {
+        "num": 58,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:52 /km"
+      },
+      {
+        "num": 59,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:10 /km"
+      },
+      {
+        "num": 60,
+        "distance": "68 m",
+        "time": "0:55",
+        "pace": "13:17 /km"
+      },
+      {
+        "num": 61,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:14 /km"
+      },
+      {
+        "num": 62,
+        "distance": "22 m",
+        "time": "0:21",
+        "pace": "15:19 /km"
+      },
+      {
+        "num": 63,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:09 /km"
+      },
+      {
+        "num": 64,
+        "distance": "68 m",
+        "time": "0:47",
+        "pace": "11:20 /km"
+      },
+      {
+        "num": 65,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:51 /km"
+      },
+      {
+        "num": 66,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:27 /km"
+      },
+      {
+        "num": 67,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 68,
+        "distance": "91 m",
+        "time": "1:04",
+        "pace": "11:37 /km"
+      },
+      {
+        "num": 69,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:45 /km"
+      },
+      {
+        "num": 70,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:08 /km"
+      },
+      {
+        "num": 71,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:45 /km"
+      },
+      {
+        "num": 72,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:31 /km"
+      },
+      {
+        "num": 73,
+        "distance": "91 m",
+        "time": "1:10",
+        "pace": "12:42 /km"
+      },
+      {
+        "num": 74,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:41 /km"
+      },
+      {
+        "num": 75,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:18 /km"
+      },
+      {
+        "num": 76,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:11 /km"
+      },
+      {
+        "num": 77,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:16 /km"
+      },
+      {
+        "num": 78,
+        "distance": "91 m",
+        "time": "1:09",
+        "pace": "12:39 /km"
+      },
+      {
+        "num": 79,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:43 /km"
+      },
+      {
+        "num": 80,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:12 /km"
+      },
+      {
+        "num": 81,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:23 /km"
+      },
+      {
+        "num": 82,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 83,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:31 /km"
+      },
+      {
+        "num": 84,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:31 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "17:24",
+    "durationMin": 27,
+    "durationRaw": "27m",
+    "distance": {
+      "raw": {
+        "value": 4.16,
+        "unit": "km"
+      },
+      "km": 4.16,
+      "mi": 2.585,
+      "yd": 4549
+    },
+    "pace": "6:31 /km",
+    "calories": 331,
+    "hr": {
+      "avg": 156,
+      "max": 166,
+      "min": 106
+    },
+    "cadence": 151,
+    "power": {
+      "avg": 220,
+      "max": 372
+    },
+    "elevation": 27,
+    "strideLength": 1.02,
+    "groundContact": 304,
+    "verticalOscillation": 10.3,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "5:40",
+        "pace": "5:40 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "9:36",
+        "pace": "5:58 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "6:31",
+        "pace": "6:31 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:50",
+        "pace": "6:44 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "6:42",
+        "pace": "6:42 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:00",
+        "pace": "7:00 /km"
+      },
+      {
+        "num": 7,
+        "distance": "938 m",
+        "time": "6:35",
+        "pace": "7:01 /km"
+      },
+      {
+        "num": 8,
+        "distance": "156 m",
+        "time": "1:08",
+        "pace": "7:15 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "19:51",
+    "durationMin": 30,
+    "durationRaw": "30m",
+    "distance": {
+      "raw": {
+        "value": 960,
+        "unit": "m"
+      },
+      "km": 0.96,
+      "mi": 0.597,
+      "yd": 1050
+    },
+    "pace": "3:12 /100m",
+    "calories": 192,
+    "hr": {
+      "avg": 133,
+      "max": 164,
+      "min": 97
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "91 m",
+        "time": "1:37",
+        "pace": "17:37 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:39 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "13:28 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:50 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:13 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:07 /km"
+      },
+      {
+        "num": 7,
+        "distance": "91 m",
+        "time": "1:11",
+        "pace": "12:56 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:44 /km"
+      },
+      {
+        "num": 9,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:20 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:44 /km"
+      },
+      {
+        "num": 11,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 12,
+        "distance": "45 m",
+        "time": "0:30",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:33 /km"
+      },
+      {
+        "num": 14,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:25 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:25 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:55 /km"
+      },
+      {
+        "num": 17,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:26 /km"
+      },
+      {
+        "num": 18,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:06 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:06 /km"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:01 /km"
+      },
+      {
+        "num": 22,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:01 /km"
+      },
+      {
+        "num": 23,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:50 /km"
+      },
+      {
+        "num": 24,
+        "distance": "68 m",
+        "time": "0:57",
+        "pace": "13:58 /km"
+      },
+      {
+        "num": 25,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:41 /km"
+      },
+      {
+        "num": 26,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:23 /km"
+      },
+      {
+        "num": 27,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:12 /km"
+      },
+      {
+        "num": 28,
+        "distance": "45 m",
+        "time": "0:34",
+        "pace": "12:27 /km"
+      },
+      {
+        "num": 29,
+        "distance": "45 m",
+        "time": "0:34",
+        "pace": "12:27 /km"
+      },
+      {
+        "num": 30,
+        "distance": "45 m",
+        "time": "6:15",
+        "pace": "—"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:24 /km"
+      },
+      {
+        "num": 32,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 33,
+        "distance": "91 m",
+        "time": "1:17",
+        "pace": "14:01 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:36 /km"
+      },
+      {
+        "num": 35,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:42 /km"
+      },
+      {
+        "num": 36,
+        "distance": "22 m",
+        "time": "0:22",
+        "pace": "16:02 /km"
+      },
+      {
+        "num": 37,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:58 /km"
+      },
+      {
+        "num": 38,
+        "distance": "45 m",
+        "time": "0:35",
+        "pace": "12:40 /km"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:33 /km"
+      },
+      {
+        "num": 40,
+        "distance": "22 m",
+        "time": "0:23",
+        "pace": "16:56 /km"
+      },
+      {
+        "num": 41,
+        "distance": "22 m",
+        "time": "0:23",
+        "pace": "16:56 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:35 /km"
+      },
+      {
+        "num": 43,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:50 /km"
+      },
+      {
+        "num": 44,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:50 /km"
+      },
+      {
+        "num": 45,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:01 /km"
+      },
+      {
+        "num": 46,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:01 /km"
+      },
+      {
+        "num": 47,
+        "distance": "22 m",
+        "time": "0:23",
+        "pace": "16:54 /km"
+      },
+      {
+        "num": 48,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:03 /km"
+      },
+      {
+        "num": 49,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:15 /km"
+      },
+      {
+        "num": 50,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:53 /km"
+      },
+      {
+        "num": 51,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:44 /km"
+      },
+      {
+        "num": 52,
+        "distance": "68 m",
+        "time": "0:56",
+        "pace": "13:39 /km"
+      },
+      {
+        "num": 53,
+        "distance": "68 m",
+        "time": "1:33",
+        "pace": "22:41 /km"
+      },
+      {
+        "num": 54,
+        "distance": "68 m",
+        "time": "1:37",
+        "pace": "23:40 /km"
+      },
+      {
+        "num": 55,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 56,
+        "distance": "22 m",
+        "time": "0:28",
+        "pace": "20:26 /km"
+      },
+      {
+        "num": 57,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:48 /km"
+      },
+      {
+        "num": 58,
+        "distance": "68 m",
+        "time": "0:55",
+        "pace": "13:20 /km"
+      },
+      {
+        "num": 59,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:16 /km"
+      },
+      {
+        "num": 60,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:59 /km"
+      },
+      {
+        "num": 61,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:12 /km"
+      },
+      {
+        "num": 62,
+        "distance": "68 m",
+        "time": "0:47",
+        "pace": "11:22 /km"
+      },
+      {
+        "num": 63,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:42 /km"
+      },
+      {
+        "num": 64,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:33 /km"
+      },
+      {
+        "num": 65,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:39 /km"
+      },
+      {
+        "num": 66,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:39 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "index": 2,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "20:28",
+    "durationMin": 2,
+    "durationRaw": "2m",
+    "distance": {
+      "raw": {
+        "value": 91,
+        "unit": "m"
+      },
+      "km": 0.091,
+      "mi": 0.057,
+      "yd": 100
+    },
+    "pace": "2:16 /100m",
+    "calories": 15,
+    "hr": {
+      "avg": 115,
+      "max": 126,
+      "min": 107
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "91 m",
+        "time": "1:55",
+        "pace": "20:53 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:48 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:06 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:47 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:37 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "20:16",
+    "durationMin": 45,
+    "durationRaw": "45m",
+    "distance": null,
+    "pace": null,
+    "calories": 417,
+    "hr": {
+      "avg": 119,
+      "max": 125,
+      "min": 95
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-03-27",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "20:17",
+    "durationMin": 83,
+    "durationRaw": "1h 23m",
+    "distance": {
+      "raw": {
+        "value": 640,
+        "unit": "m"
+      },
+      "km": 0.64,
+      "mi": 0.398,
+      "yd": 700
+    },
+    "pace": "13:01 /100m",
+    "calories": 275,
+    "hr": {
+      "avg": 131,
+      "max": 173,
+      "min": 73
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "45 m",
+        "time": "1:37",
+        "pace": "35:19 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:30 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:42",
+        "pace": "30:21 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:42",
+        "pace": "30:21 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:25",
+        "pace": "18:30 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:25",
+        "pace": "18:30 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:32",
+        "pace": "23:24 /km"
+      },
+      {
+        "num": 9,
+        "distance": "68 m",
+        "time": "1:33",
+        "pace": "22:43 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:37",
+        "pace": "26:37 /km"
+      },
+      {
+        "num": 11,
+        "distance": "22 m",
+        "time": "0:25",
+        "pace": "18:08 /km"
+      },
+      {
+        "num": 12,
+        "distance": "22 m",
+        "time": "0:50",
+        "pace": "36:29 /km"
+      },
+      {
+        "num": 13,
+        "distance": "45 m",
+        "time": "1:25",
+        "pace": "31:02 /km"
+      },
+      {
+        "num": 14,
+        "distance": "22 m",
+        "time": "0:35",
+        "pace": "25:35 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:37",
+        "pace": "26:37 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:37",
+        "pace": "26:37 /km"
+      },
+      {
+        "num": 17,
+        "distance": "22 m",
+        "time": "0:31",
+        "pace": "22:51 /km"
+      },
+      {
+        "num": 18,
+        "distance": "45 m",
+        "time": "1:01",
+        "pace": "22:04 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:29",
+        "pace": "21:17 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "2:00",
+        "pace": "—"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "2:00",
+        "pace": "—"
+      },
+      {
+        "num": 22,
+        "distance": "22 m",
+        "time": "0:28",
+        "pace": "20:05 /km"
+      },
+      {
+        "num": 23,
+        "distance": "22 m",
+        "time": "0:28",
+        "pace": "20:05 /km"
+      },
+      {
+        "num": 24,
+        "distance": "22 m",
+        "time": "0:33",
+        "pace": "24:15 /km"
+      },
+      {
+        "num": 25,
+        "distance": "22 m",
+        "time": "0:33",
+        "pace": "24:15 /km"
+      },
+      {
+        "num": 26,
+        "distance": "22 m",
+        "time": "0:34",
+        "pace": "24:47 /km"
+      },
+      {
+        "num": 27,
+        "distance": "22 m",
+        "time": "0:34",
+        "pace": "24:47 /km"
+      },
+      {
+        "num": 28,
+        "distance": "22 m",
+        "time": "5:07",
+        "pace": "—"
+      },
+      {
+        "num": 29,
+        "distance": "22 m",
+        "time": "5:07",
+        "pace": "—"
+      },
+      {
+        "num": 30,
+        "distance": "22 m",
+        "time": "0:43",
+        "pace": "31:01 /km"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:43",
+        "pace": "31:01 /km"
+      },
+      {
+        "num": 32,
+        "distance": "22 m",
+        "time": "0:32",
+        "pace": "23:06 /km"
+      },
+      {
+        "num": 33,
+        "distance": "22 m",
+        "time": "0:32",
+        "pace": "23:06 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "1:24",
+        "pace": "—"
+      },
+      {
+        "num": 35,
+        "distance": "22 m",
+        "time": "1:24",
+        "pace": "—"
+      },
+      {
+        "num": 36,
+        "distance": "22 m",
+        "time": "11:56",
+        "pace": "—"
+      },
+      {
+        "num": 37,
+        "distance": "45 m",
+        "time": "13:50",
+        "pace": "—"
+      },
+      {
+        "num": 38,
+        "distance": "22 m",
+        "time": "1:53",
+        "pace": "—"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:34",
+        "pace": "24:54 /km"
+      },
+      {
+        "num": 40,
+        "distance": "45 m",
+        "time": "1:20",
+        "pace": "29:21 /km"
+      },
+      {
+        "num": 41,
+        "distance": "22 m",
+        "time": "0:38",
+        "pace": "27:51 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:39",
+        "pace": "28:09 /km"
+      },
+      {
+        "num": 43,
+        "distance": "45 m",
+        "time": "1:50",
+        "pace": "40:15 /km"
+      },
+      {
+        "num": 44,
+        "distance": "22 m",
+        "time": "1:04",
+        "pace": "46:53 /km"
+      },
+      {
+        "num": 45,
+        "distance": "22 m",
+        "time": "3:00",
+        "pace": "—"
+      },
+      {
+        "num": 46,
+        "distance": "45 m",
+        "time": "3:21",
+        "pace": "—"
+      },
+      {
+        "num": 47,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:16 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "08:50",
+    "durationMin": 73,
+    "durationRaw": "1h 13m",
+    "distance": {
+      "raw": {
+        "value": 27.94,
+        "unit": "km"
+      },
+      "km": 27.94,
+      "mi": 17.361,
+      "yd": 30556
+    },
+    "pace": null,
+    "calories": 833,
+    "hr": {
+      "avg": 138,
+      "max": 164,
+      "min": 113
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": 298,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "3:06",
+        "pace": "3:06 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "4:36",
+        "pace": "2:52 /km"
+      },
+      {
+        "num": 3,
+        "distance": "8.05 km",
+        "time": "21:45",
+        "pace": "2:42 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.00 km",
+        "time": "2:30",
+        "pace": "2:30 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.61 km",
+        "time": "3:35",
+        "pace": "2:14 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "2:09",
+        "pace": "2:09 /km"
+      },
+      {
+        "num": 7,
+        "distance": "999 m",
+        "time": "2:02",
+        "pace": "2:02 /km"
+      },
+      {
+        "num": 8,
+        "distance": "1.61 km",
+        "time": "4:19",
+        "pace": "2:41 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.00 km",
+        "time": "3:03",
+        "pace": "3:03 /km"
+      },
+      {
+        "num": 10,
+        "distance": "1.61 km",
+        "time": "5:27",
+        "pace": "3:23 /km"
+      },
+      {
+        "num": 11,
+        "distance": "999 m",
+        "time": "3:59",
+        "pace": "3:59 /km"
+      },
+      {
+        "num": 12,
+        "distance": "999 m",
+        "time": "2:28",
+        "pace": "2:28 /km"
+      },
+      {
+        "num": 13,
+        "distance": "1.61 km",
+        "time": "3:47",
+        "pace": "2:21 /km"
+      },
+      {
+        "num": 14,
+        "distance": "1.00 km",
+        "time": "2:20",
+        "pace": "2:20 /km"
+      },
+      {
+        "num": 15,
+        "distance": "999 m",
+        "time": "2:35",
+        "pace": "2:35 /km"
+      },
+      {
+        "num": 16,
+        "distance": "1.61 km",
+        "time": "4:09",
+        "pace": "2:35 /km"
+      },
+      {
+        "num": 17,
+        "distance": "8.05 km",
+        "time": "21:06",
+        "pace": "2:37 /km"
+      },
+      {
+        "num": 18,
+        "distance": "999 m",
+        "time": "2:39",
+        "pace": "2:39 /km"
+      },
+      {
+        "num": 19,
+        "distance": "1.61 km",
+        "time": "4:31",
+        "pace": "2:48 /km"
+      },
+      {
+        "num": 20,
+        "distance": "1.00 km",
+        "time": "2:52",
+        "pace": "2:52 /km"
+      },
+      {
+        "num": 21,
+        "distance": "999 m",
+        "time": "2:30",
+        "pace": "2:30 /km"
+      },
+      {
+        "num": 22,
+        "distance": "1.61 km",
+        "time": "3:35",
+        "pace": "2:14 /km"
+      },
+      {
+        "num": 23,
+        "distance": "1.00 km",
+        "time": "2:03",
+        "pace": "2:03 /km"
+      },
+      {
+        "num": 24,
+        "distance": "1.61 km",
+        "time": "4:18",
+        "pace": "2:41 /km"
+      },
+      {
+        "num": 25,
+        "distance": "999 m",
+        "time": "2:21",
+        "pace": "2:21 /km"
+      },
+      {
+        "num": 26,
+        "distance": "999 m",
+        "time": "2:53",
+        "pace": "2:53 /km"
+      },
+      {
+        "num": 27,
+        "distance": "1.61 km",
+        "time": "4:32",
+        "pace": "2:49 /km"
+      },
+      {
+        "num": 28,
+        "distance": "999 m",
+        "time": "3:04",
+        "pace": "3:04 /km"
+      },
+      {
+        "num": 29,
+        "distance": "1.00 km",
+        "time": "3:31",
+        "pace": "3:31 /km"
+      },
+      {
+        "num": 30,
+        "distance": "1.61 km",
+        "time": "5:13",
+        "pace": "3:14 /km"
+      },
+      {
+        "num": 31,
+        "distance": "8.05 km",
+        "time": "20:51",
+        "pace": "2:35 /km"
+      },
+      {
+        "num": 32,
+        "distance": "999 m",
+        "time": "2:45",
+        "pace": "2:45 /km"
+      },
+      {
+        "num": 33,
+        "distance": "1.61 km",
+        "time": "3:58",
+        "pace": "2:28 /km"
+      },
+      {
+        "num": 34,
+        "distance": "1.00 km",
+        "time": "2:21",
+        "pace": "2:21 /km"
+      },
+      {
+        "num": 35,
+        "distance": "999 m",
+        "time": "2:32",
+        "pace": "2:32 /km"
+      },
+      {
+        "num": 36,
+        "distance": "1.61 km",
+        "time": "3:57",
+        "pace": "2:27 /km"
+      },
+      {
+        "num": 37,
+        "distance": "1.00 km",
+        "time": "2:25",
+        "pace": "2:25 /km"
+      },
+      {
+        "num": 38,
+        "distance": "1.61 km",
+        "time": "3:33",
+        "pace": "2:12 /km"
+      },
+      {
+        "num": 39,
+        "distance": "999 m",
+        "time": "2:14",
+        "pace": "2:14 /km"
+      },
+      {
+        "num": 40,
+        "distance": "999 m",
+        "time": "2:06",
+        "pace": "2:06 /km"
+      },
+      {
+        "num": 41,
+        "distance": "1.61 km",
+        "time": "4:11",
+        "pace": "2:36 /km"
+      },
+      {
+        "num": 42,
+        "distance": "1.00 km",
+        "time": "2:40",
+        "pace": "2:40 /km"
+      },
+      {
+        "num": 43,
+        "distance": "999 m",
+        "time": "2:48",
+        "pace": "2:48 /km"
+      },
+      {
+        "num": 44,
+        "distance": "1.61 km",
+        "time": "4:16",
+        "pace": "2:39 /km"
+      },
+      {
+        "num": 45,
+        "distance": "3.80 km",
+        "time": "10:13",
+        "pace": "2:42 /km"
+      },
+      {
+        "num": 46,
+        "distance": "999 m",
+        "time": "2:51",
+        "pace": "2:51 /km"
+      },
+      {
+        "num": 47,
+        "distance": "1.61 km",
+        "time": "3:55",
+        "pace": "2:26 /km"
+      },
+      {
+        "num": 48,
+        "distance": "1.00 km",
+        "time": "2:12",
+        "pace": "2:12 /km"
+      },
+      {
+        "num": 49,
+        "distance": "935 m",
+        "time": "2:57",
+        "pace": "3:09 /km"
+      },
+      {
+        "num": 50,
+        "distance": "576 m",
+        "time": "2:02",
+        "pace": "3:31 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "index": 2,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "17:51",
+    "durationMin": 39,
+    "durationRaw": "39m",
+    "distance": {
+      "raw": {
+        "value": 5.16,
+        "unit": "km"
+      },
+      "km": 5.16,
+      "mi": 3.206,
+      "yd": 5643
+    },
+    "pace": "7:45 /km",
+    "calories": 378,
+    "hr": {
+      "avg": 139,
+      "max": 160,
+      "min": 91
+    },
+    "cadence": 135,
+    "power": {
+      "avg": 185,
+      "max": 371
+    },
+    "elevation": 61,
+    "strideLength": 1.01,
+    "groundContact": 320,
+    "verticalOscillation": 10.5,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "6:34",
+        "pace": "6:34 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:55",
+        "pace": "6:47 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "7:06",
+        "pace": "7:06 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:40",
+        "pace": "7:15 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "7:14",
+        "pace": "7:14 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:39",
+        "pace": "7:39 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "12:58",
+        "pace": "8:03 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "9:04",
+        "pace": "9:04 /km"
+      },
+      {
+        "num": 9,
+        "distance": "335 m",
+        "time": "4:22",
+        "pace": "13:01 /km"
+      },
+      {
+        "num": 10,
+        "distance": "163 m",
+        "time": "2:18",
+        "pace": "14:02 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "21:02",
+    "durationMin": 31,
+    "durationRaw": "31m",
+    "distance": {
+      "raw": {
+        "value": 1.12,
+        "unit": "km"
+      },
+      "km": 1.12,
+      "mi": 0.696,
+      "yd": 1225
+    },
+    "pace": "2:47 /100m",
+    "calories": 191,
+    "hr": {
+      "avg": 144,
+      "max": 170,
+      "min": 91
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "22 m",
+        "time": "0:30",
+        "pace": "21:59 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:01 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 4,
+        "distance": "45 m",
+        "time": "0:39",
+        "pace": "14:16 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:06 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:18 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:18 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:24 /km"
+      },
+      {
+        "num": 9,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:59 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "13:11 /km"
+      },
+      {
+        "num": 11,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:52 /km"
+      },
+      {
+        "num": 12,
+        "distance": "68 m",
+        "time": "0:56",
+        "pace": "13:41 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:44 /km"
+      },
+      {
+        "num": 14,
+        "distance": "22 m",
+        "time": "0:22",
+        "pace": "15:49 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 17,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:16 /km"
+      },
+      {
+        "num": 18,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:16 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:38 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:38 /km"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:20 /km"
+      },
+      {
+        "num": 22,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:20 /km"
+      },
+      {
+        "num": 23,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:15 /km"
+      },
+      {
+        "num": 24,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:15 /km"
+      },
+      {
+        "num": 25,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:15 /km"
+      },
+      {
+        "num": 26,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:20 /km"
+      },
+      {
+        "num": 27,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:04 /km"
+      },
+      {
+        "num": 28,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:11 /km"
+      },
+      {
+        "num": 29,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:11 /km"
+      },
+      {
+        "num": 30,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:11 /km"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:11 /km"
+      },
+      {
+        "num": 32,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:44 /km"
+      },
+      {
+        "num": 33,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "12:00 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:43 /km"
+      },
+      {
+        "num": 35,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:31 /km"
+      },
+      {
+        "num": 36,
+        "distance": "68 m",
+        "time": "0:51",
+        "pace": "12:26 /km"
+      },
+      {
+        "num": 37,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:30 /km"
+      },
+      {
+        "num": 38,
+        "distance": "22 m",
+        "time": "0:09",
+        "pace": "6:31 /km"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:32 /km"
+      },
+      {
+        "num": 40,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:25 /km"
+      },
+      {
+        "num": 41,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:39 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:35 /km"
+      },
+      {
+        "num": 43,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:19 /km"
+      },
+      {
+        "num": 44,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:33 /km"
+      },
+      {
+        "num": 45,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:40 /km"
+      },
+      {
+        "num": 46,
+        "distance": "45 m",
+        "time": "0:40",
+        "pace": "14:24 /km"
+      },
+      {
+        "num": 47,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:12 /km"
+      },
+      {
+        "num": 48,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "12:51 /km"
+      },
+      {
+        "num": 49,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:52 /km"
+      },
+      {
+        "num": 50,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:24 /km"
+      },
+      {
+        "num": 51,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:35 /km"
+      },
+      {
+        "num": 52,
+        "distance": "45 m",
+        "time": "0:30",
+        "pace": "10:46 /km"
+      },
+      {
+        "num": 53,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:04 /km"
+      },
+      {
+        "num": 54,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:15 /km"
+      },
+      {
+        "num": 55,
+        "distance": "45 m",
+        "time": "0:34",
+        "pace": "12:17 /km"
+      },
+      {
+        "num": 56,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:30 /km"
+      },
+      {
+        "num": 57,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:17 /km"
+      },
+      {
+        "num": 58,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:17 /km"
+      },
+      {
+        "num": 59,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:54 /km"
+      },
+      {
+        "num": 60,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:54 /km"
+      },
+      {
+        "num": 61,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:26 /km"
+      },
+      {
+        "num": 62,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:26 /km"
+      },
+      {
+        "num": 63,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:51 /km"
+      },
+      {
+        "num": 64,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:51 /km"
+      },
+      {
+        "num": 65,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:49 /km"
+      },
+      {
+        "num": 66,
+        "distance": "45 m",
+        "time": "0:35",
+        "pace": "12:51 /km"
+      },
+      {
+        "num": 67,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:10 /km"
+      },
+      {
+        "num": 68,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:39 /km"
+      },
+      {
+        "num": 69,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:39 /km"
+      },
+      {
+        "num": 70,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:58 /km"
+      },
+      {
+        "num": 71,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:53 /km"
+      },
+      {
+        "num": 72,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "13:08 /km"
+      },
+      {
+        "num": 73,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 74,
+        "distance": "45 m",
+        "time": "0:30",
+        "pace": "11:06 /km"
+      },
+      {
+        "num": 75,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "12:58 /km"
+      },
+      {
+        "num": 76,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 77,
+        "distance": "45 m",
+        "time": "0:35",
+        "pace": "12:49 /km"
+      },
+      {
+        "num": 78,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:41 /km"
+      },
+      {
+        "num": 79,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:20 /km"
+      },
+      {
+        "num": 80,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:20 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "19:06",
+    "durationMin": 48,
+    "durationRaw": "48m",
+    "distance": {
+      "raw": {
+        "value": 6.17,
+        "unit": "km"
+      },
+      "km": 6.17,
+      "mi": 3.834,
+      "yd": 6748
+    },
+    "pace": "7:51 /km",
+    "calories": 441,
+    "hr": {
+      "avg": 144,
+      "max": 170,
+      "min": 95
+    },
+    "cadence": 123,
+    "power": {
+      "avg": 180,
+      "max": 348
+    },
+    "elevation": 35,
+    "strideLength": 1.17,
+    "groundContact": 305,
+    "verticalOscillation": 11.1,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "8:37",
+        "pace": "8:37 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "12:27",
+        "pace": "7:44 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:31",
+        "pace": "6:31 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:40",
+        "pace": "7:15 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "7:39",
+        "pace": "7:39 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "7:39",
+        "pace": "7:39 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "12:56",
+        "pace": "8:02 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "8:03",
+        "pace": "8:03 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.34 km",
+        "time": "11:22",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 10,
+        "distance": "999 m",
+        "time": "8:57",
+        "pace": "8:57 /km"
+      },
+      {
+        "num": 11,
+        "distance": "170 m",
+        "time": "1:00",
+        "pace": "5:51 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "19:21",
+    "durationMin": 31,
+    "durationRaw": "31m",
+    "distance": null,
+    "pace": null,
+    "calories": 309,
+    "hr": {
+      "avg": 133,
+      "max": 144,
+      "min": 83
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-03",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "05:32",
+    "durationMin": 47,
+    "durationRaw": "47m",
+    "distance": null,
+    "pace": null,
+    "calories": 51,
+    "hr": {
+      "avg": 50,
+      "max": 68,
+      "min": 43
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": 5,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-03",
+    "index": 2,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "16:44",
+    "durationMin": 30,
+    "durationRaw": "30m",
+    "distance": {
+      "raw": {
+        "value": 4.25,
+        "unit": "km"
+      },
+      "km": 4.25,
+      "mi": 2.641,
+      "yd": 4648
+    },
+    "pace": "7:06 /km",
+    "calories": 313,
+    "hr": {
+      "avg": 145,
+      "max": 160,
+      "min": 122
+    },
+    "cadence": 131,
+    "power": {
+      "avg": 216,
+      "max": 370
+    },
+    "elevation": 36,
+    "strideLength": 1.14,
+    "groundContact": 301,
+    "verticalOscillation": 11,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "6:14",
+        "pace": "6:14 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:21",
+        "pace": "6:26 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "7:12",
+        "pace": "7:12 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:51",
+        "pace": "6:45 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "6:03",
+        "pace": "6:03 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "8:20",
+        "pace": "8:20 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.04 km",
+        "time": "8:54",
+        "pace": "8:33 /km"
+      },
+      {
+        "num": 8,
+        "distance": "260 m",
+        "time": "2:18",
+        "pace": "8:50 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "12:14",
+    "durationMin": 49,
+    "durationRaw": "49m",
+    "distance": {
+      "raw": {
+        "value": 7.06,
+        "unit": "km"
+      },
+      "km": 7.06,
+      "mi": 4.387,
+      "yd": 7721
+    },
+    "pace": "7:01 /km",
+    "calories": 537,
+    "hr": {
+      "avg": 154,
+      "max": 172,
+      "min": 127
+    },
+    "cadence": 138,
+    "power": {
+      "avg": 212,
+      "max": 369
+    },
+    "elevation": 36,
+    "strideLength": 1.08,
+    "groundContact": 294,
+    "verticalOscillation": 10.6,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "5:05",
+        "pace": "5:05 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "9:11",
+        "pace": "5:42 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "6:30",
+        "pace": "6:30 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:44",
+        "pace": "7:18 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "7:20",
+        "pace": "7:20 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "8:09",
+        "pace": "8:09 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:42",
+        "pace": "7:16 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "6:39",
+        "pace": "6:39 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.61 km",
+        "time": "11:30",
+        "pace": "7:09 /km"
+      },
+      {
+        "num": 10,
+        "distance": "1.00 km",
+        "time": "7:13",
+        "pace": "7:13 /km"
+      },
+      {
+        "num": 11,
+        "distance": "999 m",
+        "time": "8:02",
+        "pace": "8:02 /km"
+      },
+      {
+        "num": 12,
+        "distance": "622 m",
+        "time": "5:18",
+        "pace": "8:31 /km"
+      },
+      {
+        "num": 13,
+        "distance": "59 m",
+        "time": "0:28",
+        "pace": "7:56 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "19:36",
+    "durationMin": 30,
+    "durationRaw": "30m",
+    "distance": {
+      "raw": {
+        "value": 1.19,
+        "unit": "km"
+      },
+      "km": 1.19,
+      "mi": 0.739,
+      "yd": 1301
+    },
+    "pace": "2:34 /100m",
+    "calories": 208,
+    "hr": {
+      "avg": 132,
+      "max": 162,
+      "min": 92
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "45 m",
+        "time": "1:05",
+        "pace": "23:38 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:33 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:03 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:31 /km"
+      },
+      {
+        "num": 5,
+        "distance": "68 m",
+        "time": "0:57",
+        "pace": "13:57 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:21 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:45 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:32 /km"
+      },
+      {
+        "num": 9,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "12:04 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:22 /km"
+      },
+      {
+        "num": 11,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:25 /km"
+      },
+      {
+        "num": 12,
+        "distance": "45 m",
+        "time": "0:40",
+        "pace": "14:35 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:29 /km"
+      },
+      {
+        "num": 14,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:25 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:25 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:39 /km"
+      },
+      {
+        "num": 17,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:32 /km"
+      },
+      {
+        "num": 18,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:10 /km"
+      },
+      {
+        "num": 20,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:18 /km"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "12:01 /km"
+      },
+      {
+        "num": 22,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:29 /km"
+      },
+      {
+        "num": 23,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:16 /km"
+      },
+      {
+        "num": 24,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:35 /km"
+      },
+      {
+        "num": 25,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:17 /km"
+      },
+      {
+        "num": 26,
+        "distance": "45 m",
+        "time": "0:30",
+        "pace": "11:01 /km"
+      },
+      {
+        "num": 27,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:06 /km"
+      },
+      {
+        "num": 28,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:54 /km"
+      },
+      {
+        "num": 29,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:46 /km"
+      },
+      {
+        "num": 30,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:52 /km"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:05 /km"
+      },
+      {
+        "num": 32,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:44 /km"
+      },
+      {
+        "num": 33,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:37 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:15 /km"
+      },
+      {
+        "num": 35,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:58 /km"
+      },
+      {
+        "num": 36,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:06 /km"
+      },
+      {
+        "num": 37,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:52 /km"
+      },
+      {
+        "num": 38,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:44 /km"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:50 /km"
+      },
+      {
+        "num": 40,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:03 /km"
+      },
+      {
+        "num": 41,
+        "distance": "45 m",
+        "time": "0:34",
+        "pace": "12:24 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:45 /km"
+      },
+      {
+        "num": 43,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:28 /km"
+      },
+      {
+        "num": 44,
+        "distance": "45 m",
+        "time": "0:33",
+        "pace": "11:53 /km"
+      },
+      {
+        "num": 45,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:55 /km"
+      },
+      {
+        "num": 46,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:25 /km"
+      },
+      {
+        "num": 47,
+        "distance": "45 m",
+        "time": "0:37",
+        "pace": "13:27 /km"
+      },
+      {
+        "num": 48,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:43 /km"
+      },
+      {
+        "num": 49,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:50 /km"
+      },
+      {
+        "num": 50,
+        "distance": "91 m",
+        "time": "1:20",
+        "pace": "14:40 /km"
+      },
+      {
+        "num": 51,
+        "distance": "22 m",
+        "time": "0:18",
+        "pace": "13:08 /km"
+      },
+      {
+        "num": 52,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:20 /km"
+      },
+      {
+        "num": 53,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:18 /km"
+      },
+      {
+        "num": 54,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:11 /km"
+      },
+      {
+        "num": 55,
+        "distance": "91 m",
+        "time": "1:16",
+        "pace": "13:56 /km"
+      },
+      {
+        "num": 56,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:43 /km"
+      },
+      {
+        "num": 57,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:12 /km"
+      },
+      {
+        "num": 58,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:27 /km"
+      },
+      {
+        "num": 59,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:55 /km"
+      },
+      {
+        "num": 60,
+        "distance": "91 m",
+        "time": "1:16",
+        "pace": "13:47 /km"
+      },
+      {
+        "num": 61,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "10:52 /km"
+      },
+      {
+        "num": 62,
+        "distance": "22 m",
+        "time": "0:15",
+        "pace": "11:07 /km"
+      },
+      {
+        "num": 63,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:19 /km"
+      },
+      {
+        "num": 64,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:48 /km"
+      },
+      {
+        "num": 65,
+        "distance": "91 m",
+        "time": "1:09",
+        "pace": "12:32 /km"
+      },
+      {
+        "num": 66,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:08 /km"
+      },
+      {
+        "num": 67,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:03 /km"
+      },
+      {
+        "num": 68,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "9:51 /km"
+      },
+      {
+        "num": 69,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:17 /km"
+      },
+      {
+        "num": 70,
+        "distance": "91 m",
+        "time": "1:22",
+        "pace": "14:52 /km"
+      },
+      {
+        "num": 71,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:30 /km"
+      },
+      {
+        "num": 72,
+        "distance": "22 m",
+        "time": "0:16",
+        "pace": "11:39 /km"
+      },
+      {
+        "num": 73,
+        "distance": "22 m",
+        "time": "0:22",
+        "pace": "15:52 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "04:55",
+    "durationMin": 28,
+    "durationRaw": "28m",
+    "distance": {
+      "raw": {
+        "value": 4.22,
+        "unit": "km"
+      },
+      "km": 4.22,
+      "mi": 2.622,
+      "yd": 4615
+    },
+    "pace": "6:51 /km",
+    "calories": 328,
+    "hr": {
+      "avg": 143,
+      "max": 159,
+      "min": 124
+    },
+    "cadence": 148,
+    "power": {
+      "avg": 211,
+      "max": 325
+    },
+    "elevation": 26,
+    "strideLength": 1.01,
+    "groundContact": 318,
+    "verticalOscillation": 10.3,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "5:57",
+        "pace": "5:57 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:19",
+        "pace": "6:25 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:59",
+        "pace": "6:59 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:42",
+        "pace": "6:39 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:41",
+        "pace": "6:41 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:22",
+        "pace": "7:22 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.00 km",
+        "time": "7:49",
+        "pace": "7:48 /km"
+      },
+      {
+        "num": 8,
+        "distance": "220 m",
+        "time": "1:50",
+        "pace": "8:17 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "17:39",
+    "durationMin": 46,
+    "durationRaw": "46m",
+    "distance": null,
+    "pace": null,
+    "calories": 568,
+    "hr": {
+      "avg": 146,
+      "max": 176,
+      "min": 116
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-11",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "07:37",
+    "durationMin": 48,
+    "durationRaw": "48m",
+    "distance": {
+      "raw": {
+        "value": 6.93,
+        "unit": "km"
+      },
+      "km": 6.93,
+      "mi": 4.306,
+      "yd": 7579
+    },
+    "pace": "6:58 /km",
+    "calories": 500,
+    "hr": {
+      "avg": 148,
+      "max": 159,
+      "min": 93
+    },
+    "cadence": 150,
+    "power": {
+      "avg": 206,
+      "max": 341
+    },
+    "elevation": 63,
+    "strideLength": 0.97,
+    "groundContact": 310,
+    "verticalOscillation": 10.1,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "6:14",
+        "pace": "6:14 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:13",
+        "pace": "6:21 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:33",
+        "pace": "6:33 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:44",
+        "pace": "6:40 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:43",
+        "pace": "6:43 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "6:56",
+        "pace": "6:56 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:22",
+        "pace": "7:04 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "7:05",
+        "pace": "7:05 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.61 km",
+        "time": "12:21",
+        "pace": "7:41 /km"
+      },
+      {
+        "num": 10,
+        "distance": "1.00 km",
+        "time": "7:30",
+        "pace": "7:30 /km"
+      },
+      {
+        "num": 11,
+        "distance": "932 m",
+        "time": "7:19",
+        "pace": "7:51 /km"
+      },
+      {
+        "num": 12,
+        "distance": "494 m",
+        "time": "3:39",
+        "pace": "7:22 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "19:45",
+    "durationMin": 79,
+    "durationRaw": "1h 19m",
+    "distance": null,
+    "pace": null,
+    "calories": 629,
+    "hr": {
+      "avg": 116,
+      "max": 127,
+      "min": 86
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-13",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "20:16",
+    "durationMin": 16,
+    "durationRaw": "16m",
+    "distance": {
+      "raw": {
+        "value": 320,
+        "unit": "m"
+      },
+      "km": 0.32,
+      "mi": 0.199,
+      "yd": 350
+    },
+    "pace": "5:01 /100m",
+    "calories": 60,
+    "hr": {
+      "avg": 119,
+      "max": 155,
+      "min": 90
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "45 m",
+        "time": "0:49",
+        "pace": "17:53 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:00 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:09 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:37 /km"
+      },
+      {
+        "num": 5,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:32 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:17",
+        "pace": "12:21 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:25 /km"
+      },
+      {
+        "num": 8,
+        "distance": "45 m",
+        "time": "0:31",
+        "pace": "11:07 /km"
+      },
+      {
+        "num": 9,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:52 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:09",
+        "pace": "6:42 /km"
+      },
+      {
+        "num": 11,
+        "distance": "45 m",
+        "time": "0:32",
+        "pace": "11:48 /km"
+      },
+      {
+        "num": 12,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:55 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:21 /km"
+      },
+      {
+        "num": 14,
+        "distance": "91 m",
+        "time": "1:09",
+        "pace": "12:37 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:20",
+        "pace": "14:45 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 17,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:52 /km"
+      },
+      {
+        "num": 18,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:17 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:17 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:35 /km"
+      },
+      {
+        "num": 21,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:35 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "index": 2,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "21:01",
+    "durationMin": 22,
+    "durationRaw": "22m",
+    "distance": {
+      "raw": {
+        "value": 800,
+        "unit": "m"
+      },
+      "km": 0.8,
+      "mi": 0.497,
+      "yd": 875
+    },
+    "pace": "2:50 /100m",
+    "calories": 122,
+    "hr": {
+      "avg": 142,
+      "max": 166,
+      "min": 82
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "45 m",
+        "time": "1:34",
+        "pace": "34:22 /km"
+      },
+      {
+        "num": 2,
+        "distance": "22 m",
+        "time": "0:30",
+        "pace": "22:07 /km"
+      },
+      {
+        "num": 3,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:16 /km"
+      },
+      {
+        "num": 4,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:27 /km"
+      },
+      {
+        "num": 5,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:27 /km"
+      },
+      {
+        "num": 6,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:34 /km"
+      },
+      {
+        "num": 7,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:34 /km"
+      },
+      {
+        "num": 8,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:54 /km"
+      },
+      {
+        "num": 9,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:54 /km"
+      },
+      {
+        "num": 10,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:23 /km"
+      },
+      {
+        "num": 11,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:27 /km"
+      },
+      {
+        "num": 12,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:46 /km"
+      },
+      {
+        "num": 13,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:58 /km"
+      },
+      {
+        "num": 14,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:58 /km"
+      },
+      {
+        "num": 15,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:08 /km"
+      },
+      {
+        "num": 16,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:08 /km"
+      },
+      {
+        "num": 17,
+        "distance": "22 m",
+        "time": "0:09",
+        "pace": "6:55 /km"
+      },
+      {
+        "num": 18,
+        "distance": "45 m",
+        "time": "0:28",
+        "pace": "10:01 /km"
+      },
+      {
+        "num": 19,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:10 /km"
+      },
+      {
+        "num": 20,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:21 /km"
+      },
+      {
+        "num": 21,
+        "distance": "45 m",
+        "time": "0:30",
+        "pace": "11:04 /km"
+      },
+      {
+        "num": 22,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:09 /km"
+      },
+      {
+        "num": 23,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:08 /km"
+      },
+      {
+        "num": 24,
+        "distance": "45 m",
+        "time": "0:26",
+        "pace": "9:39 /km"
+      },
+      {
+        "num": 25,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:39 /km"
+      },
+      {
+        "num": 26,
+        "distance": "22 m",
+        "time": "0:09",
+        "pace": "6:44 /km"
+      },
+      {
+        "num": 27,
+        "distance": "45 m",
+        "time": "0:26",
+        "pace": "9:30 /km"
+      },
+      {
+        "num": 28,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:41 /km"
+      },
+      {
+        "num": 29,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 30,
+        "distance": "45 m",
+        "time": "0:29",
+        "pace": "10:45 /km"
+      },
+      {
+        "num": 31,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 32,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:21 /km"
+      },
+      {
+        "num": 33,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:21 /km"
+      },
+      {
+        "num": 34,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:03 /km"
+      },
+      {
+        "num": 35,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:03 /km"
+      },
+      {
+        "num": 36,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:13 /km"
+      },
+      {
+        "num": 37,
+        "distance": "22 m",
+        "time": "0:13",
+        "pace": "9:13 /km"
+      },
+      {
+        "num": 38,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 39,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:28 /km"
+      },
+      {
+        "num": 40,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:02 /km"
+      },
+      {
+        "num": 41,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "9:02 /km"
+      },
+      {
+        "num": 42,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:33 /km"
+      },
+      {
+        "num": 43,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:33 /km"
+      },
+      {
+        "num": 44,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:04 /km"
+      },
+      {
+        "num": 45,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:04 /km"
+      },
+      {
+        "num": 46,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:20 /km"
+      },
+      {
+        "num": 47,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:20 /km"
+      },
+      {
+        "num": 48,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:48 /km"
+      },
+      {
+        "num": 49,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "7:48 /km"
+      },
+      {
+        "num": 50,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:03 /km"
+      },
+      {
+        "num": 51,
+        "distance": "22 m",
+        "time": "0:11",
+        "pace": "8:03 /km"
+      },
+      {
+        "num": 52,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:57 /km"
+      },
+      {
+        "num": 53,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:57 /km"
+      },
+      {
+        "num": 54,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:25 /km"
+      },
+      {
+        "num": 55,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:25 /km"
+      },
+      {
+        "num": 56,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:41 /km"
+      },
+      {
+        "num": 57,
+        "distance": "22 m",
+        "time": "0:12",
+        "pace": "8:41 /km"
+      },
+      {
+        "num": 58,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "6:59 /km"
+      },
+      {
+        "num": 59,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "6:59 /km"
+      },
+      {
+        "num": 60,
+        "distance": "22 m",
+        "time": "0:10",
+        "pace": "7:08 /km"
+      },
+      {
+        "num": 61,
+        "distance": "45 m",
+        "time": "0:28",
+        "pace": "10:05 /km"
+      },
+      {
+        "num": 62,
+        "distance": "22 m",
+        "time": "0:14",
+        "pace": "10:03 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "17:43",
+    "durationMin": 29,
+    "durationRaw": "29m",
+    "distance": {
+      "raw": {
+        "value": 4.16,
+        "unit": "km"
+      },
+      "km": 4.16,
+      "mi": 2.585,
+      "yd": 4549
+    },
+    "pace": "7:04 /km",
+    "calories": 343,
+    "hr": {
+      "avg": 152,
+      "max": 170,
+      "min": 109
+    },
+    "cadence": 143,
+    "power": {
+      "avg": 205,
+      "max": 343
+    },
+    "elevation": 33,
+    "strideLength": 1.02,
+    "groundContact": 309,
+    "verticalOscillation": 10.4,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "5:52",
+        "pace": "5:52 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:17",
+        "pace": "6:23 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "7:06",
+        "pace": "7:06 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:34",
+        "pace": "7:11 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "7:20",
+        "pace": "7:20 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:20",
+        "pace": "7:20 /km"
+      },
+      {
+        "num": 7,
+        "distance": "942 m",
+        "time": "7:29",
+        "pace": "7:56 /km"
+      },
+      {
+        "num": 8,
+        "distance": "161 m",
+        "time": "1:42",
+        "pace": "10:32 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "17:56",
+    "durationMin": 46,
+    "durationRaw": "46m",
+    "distance": null,
+    "pace": null,
+    "calories": 351,
+    "hr": {
+      "avg": 121,
+      "max": 137,
+      "min": 99
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-17",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "18:29",
+    "durationMin": 31,
+    "durationRaw": "31m",
+    "distance": {
+      "raw": {
+        "value": 965,
+        "unit": "m"
+      },
+      "km": 0.965,
+      "mi": 0.6,
+      "yd": 1055
+    },
+    "pace": "3:14 /100m",
+    "calories": 224,
+    "hr": {
+      "avg": 142,
+      "max": 164,
+      "min": 92
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "102 m",
+        "time": "2:10",
+        "pace": "21:07 /km"
+      },
+      {
+        "num": 2,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:07 /km"
+      },
+      {
+        "num": 3,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:59 /km"
+      },
+      {
+        "num": 4,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:48 /km"
+      },
+      {
+        "num": 5,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:17 /km"
+      },
+      {
+        "num": 6,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:34 /km"
+      },
+      {
+        "num": 7,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:27 /km"
+      },
+      {
+        "num": 8,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:13 /km"
+      },
+      {
+        "num": 9,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:51 /km"
+      },
+      {
+        "num": 10,
+        "distance": "43 m",
+        "time": "0:42",
+        "pace": "15:53 /km"
+      },
+      {
+        "num": 11,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:53 /km"
+      },
+      {
+        "num": 12,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:05 /km"
+      },
+      {
+        "num": 13,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:17 /km"
+      },
+      {
+        "num": 14,
+        "distance": "29 m",
+        "time": "0:30",
+        "pace": "16:55 /km"
+      },
+      {
+        "num": 15,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:07 /km"
+      },
+      {
+        "num": 16,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:53 /km"
+      },
+      {
+        "num": 17,
+        "distance": "29 m",
+        "time": "0:28",
+        "pace": "15:59 /km"
+      },
+      {
+        "num": 18,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:49 /km"
+      },
+      {
+        "num": 19,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "9:52 /km"
+      },
+      {
+        "num": 20,
+        "distance": "29 m",
+        "time": "0:27",
+        "pace": "15:14 /km"
+      },
+      {
+        "num": 21,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:01 /km"
+      },
+      {
+        "num": 22,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:12 /km"
+      },
+      {
+        "num": 23,
+        "distance": "29 m",
+        "time": "0:28",
+        "pace": "16:13 /km"
+      },
+      {
+        "num": 24,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "10:58 /km"
+      },
+      {
+        "num": 25,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:05 /km"
+      },
+      {
+        "num": 26,
+        "distance": "29 m",
+        "time": "0:28",
+        "pace": "15:50 /km"
+      },
+      {
+        "num": 27,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:44 /km"
+      },
+      {
+        "num": 28,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:08 /km"
+      },
+      {
+        "num": 29,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:08 /km"
+      },
+      {
+        "num": 30,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:49 /km"
+      },
+      {
+        "num": 31,
+        "distance": "29 m",
+        "time": "0:30",
+        "pace": "16:58 /km"
+      },
+      {
+        "num": 32,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:49 /km"
+      },
+      {
+        "num": 33,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:15 /km"
+      },
+      {
+        "num": 34,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:15 /km"
+      },
+      {
+        "num": 35,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:13 /km"
+      },
+      {
+        "num": 36,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:13 /km"
+      },
+      {
+        "num": 37,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:38 /km"
+      },
+      {
+        "num": 38,
+        "distance": "29 m",
+        "time": "0:30",
+        "pace": "17:09 /km"
+      },
+      {
+        "num": 39,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 40,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:35 /km"
+      },
+      {
+        "num": 41,
+        "distance": "43 m",
+        "time": "0:52",
+        "pace": "19:54 /km"
+      },
+      {
+        "num": 42,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:22 /km"
+      },
+      {
+        "num": 43,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:39 /km"
+      },
+      {
+        "num": 44,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:07 /km"
+      },
+      {
+        "num": 45,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:07 /km"
+      },
+      {
+        "num": 46,
+        "distance": "14 m",
+        "time": "0:15",
+        "pace": "16:39 /km"
+      },
+      {
+        "num": 47,
+        "distance": "43 m",
+        "time": "0:55",
+        "pace": "20:55 /km"
+      },
+      {
+        "num": 48,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:26 /km"
+      },
+      {
+        "num": 49,
+        "distance": "14 m",
+        "time": "0:15",
+        "pace": "16:46 /km"
+      },
+      {
+        "num": 50,
+        "distance": "14 m",
+        "time": "0:08",
+        "pace": "8:51 /km"
+      },
+      {
+        "num": 51,
+        "distance": "29 m",
+        "time": "0:24",
+        "pace": "13:28 /km"
+      },
+      {
+        "num": 52,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "14:01 /km"
+      },
+      {
+        "num": 53,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:24 /km"
+      },
+      {
+        "num": 54,
+        "distance": "29 m",
+        "time": "0:30",
+        "pace": "17:13 /km"
+      },
+      {
+        "num": 55,
+        "distance": "14 m",
+        "time": "0:14",
+        "pace": "15:48 /km"
+      },
+      {
+        "num": 56,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:32 /km"
+      },
+      {
+        "num": 57,
+        "distance": "29 m",
+        "time": "0:31",
+        "pace": "17:33 /km"
+      },
+      {
+        "num": 58,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "14:07 /km"
+      },
+      {
+        "num": 59,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "14:09 /km"
+      },
+      {
+        "num": 60,
+        "distance": "29 m",
+        "time": "0:34",
+        "pace": "19:14 /km"
+      },
+      {
+        "num": 61,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:08 /km"
+      },
+      {
+        "num": 62,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:27 /km"
+      },
+      {
+        "num": 63,
+        "distance": "43 m",
+        "time": "0:48",
+        "pace": "18:08 /km"
+      },
+      {
+        "num": 64,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:39 /km"
+      },
+      {
+        "num": 65,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:57 /km"
+      },
+      {
+        "num": 66,
+        "distance": "14 m",
+        "time": "0:14",
+        "pace": "15:34 /km"
+      },
+      {
+        "num": 67,
+        "distance": "14 m",
+        "time": "0:14",
+        "pace": "15:34 /km"
+      },
+      {
+        "num": 68,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:44 /km"
+      },
+      {
+        "num": 69,
+        "distance": "29 m",
+        "time": "0:34",
+        "pace": "19:32 /km"
+      },
+      {
+        "num": 70,
+        "distance": "14 m",
+        "time": "0:15",
+        "pace": "17:26 /km"
+      },
+      {
+        "num": 71,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:07 /km"
+      },
+      {
+        "num": 72,
+        "distance": "58 m",
+        "time": "1:08",
+        "pace": "19:15 /km"
+      },
+      {
+        "num": 73,
+        "distance": "14 m",
+        "time": "0:16",
+        "pace": "18:22 /km"
+      },
+      {
+        "num": 74,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:38 /km"
+      },
+      {
+        "num": 75,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:39 /km"
+      },
+      {
+        "num": 76,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "13:06 /km"
+      },
+      {
+        "num": 77,
+        "distance": "58 m",
+        "time": "1:06",
+        "pace": "18:51 /km"
+      },
+      {
+        "num": 78,
+        "distance": "14 m",
+        "time": "0:16",
+        "pace": "17:56 /km"
+      },
+      {
+        "num": 79,
+        "distance": "14 m",
+        "time": "0:15",
+        "pace": "16:33 /km"
+      },
+      {
+        "num": 80,
+        "distance": "14 m",
+        "time": "0:16",
+        "pace": "17:51 /km"
+      },
+      {
+        "num": 81,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:20 /km"
+      },
+      {
+        "num": 82,
+        "distance": "58 m",
+        "time": "1:05",
+        "pace": "18:24 /km"
+      },
+      {
+        "num": 83,
+        "distance": "14 m",
+        "time": "0:14",
+        "pace": "15:23 /km"
+      },
+      {
+        "num": 84,
+        "distance": "14 m",
+        "time": "0:16",
+        "pace": "18:10 /km"
+      },
+      {
+        "num": 85,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "12:57 /km"
+      },
+      {
+        "num": 86,
+        "distance": "14 m",
+        "time": "0:09",
+        "pace": "10:41 /km"
+      },
+      {
+        "num": 87,
+        "distance": "29 m",
+        "time": "0:31",
+        "pace": "17:29 /km"
+      },
+      {
+        "num": 88,
+        "distance": "14 m",
+        "time": "0:12",
+        "pace": "13:51 /km"
+      },
+      {
+        "num": 89,
+        "distance": "14 m",
+        "time": "0:13",
+        "pace": "14:17 /km"
+      },
+      {
+        "num": 90,
+        "distance": "58 m",
+        "time": "1:08",
+        "pace": "19:17 /km"
+      },
+      {
+        "num": 91,
+        "distance": "14 m",
+        "time": "0:10",
+        "pace": "11:42 /km"
+      },
+      {
+        "num": 92,
+        "distance": "14 m",
+        "time": "0:14",
+        "pace": "15:53 /km"
+      },
+      {
+        "num": 93,
+        "distance": "14 m",
+        "time": "0:11",
+        "pace": "11:59 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "09:11",
+    "durationMin": 31,
+    "durationRaw": "31m",
+    "distance": {
+      "raw": {
+        "value": 4.67,
+        "unit": "km"
+      },
+      "km": 4.67,
+      "mi": 2.902,
+      "yd": 5107
+    },
+    "pace": "6:51 /km",
+    "calories": 339,
+    "hr": {
+      "avg": 150,
+      "max": 160,
+      "min": 131
+    },
+    "cadence": 146,
+    "power": {
+      "avg": 217,
+      "max": 327
+    },
+    "elevation": 33,
+    "strideLength": 1.01,
+    "groundContact": 299,
+    "verticalOscillation": 10,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "6:13",
+        "pace": "6:13 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:06",
+        "pace": "6:17 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "6:24",
+        "pace": "6:24 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:40",
+        "pace": "6:37 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "6:45",
+        "pace": "6:45 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:20",
+        "pace": "7:20 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.45 km",
+        "time": "11:09",
+        "pace": "7:42 /km"
+      },
+      {
+        "num": 8,
+        "distance": "667 m",
+        "time": "5:14",
+        "pace": "7:50 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "index": 2,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "13:23",
+    "durationMin": 20,
+    "durationRaw": "20m",
+    "distance": {
+      "raw": {
+        "value": 528,
+        "unit": "m"
+      },
+      "km": 0.528,
+      "mi": 0.328,
+      "yd": 577
+    },
+    "pace": "3:55 /100m",
+    "calories": 140,
+    "hr": {
+      "avg": 142,
+      "max": 162,
+      "min": 115
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "62 m",
+        "time": "1:16",
+        "pace": "20:26 /km"
+      },
+      {
+        "num": 2,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:58 /km"
+      },
+      {
+        "num": 3,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:42 /km"
+      },
+      {
+        "num": 4,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:48 /km"
+      },
+      {
+        "num": 5,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:28 /km"
+      },
+      {
+        "num": 6,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:52 /km"
+      },
+      {
+        "num": 7,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:52 /km"
+      },
+      {
+        "num": 8,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:33 /km"
+      },
+      {
+        "num": 9,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:33 /km"
+      },
+      {
+        "num": 10,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:03 /km"
+      },
+      {
+        "num": 11,
+        "distance": "31 m",
+        "time": "0:37",
+        "pace": "19:59 /km"
+      },
+      {
+        "num": 12,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:38 /km"
+      },
+      {
+        "num": 13,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:48 /km"
+      },
+      {
+        "num": 14,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:48 /km"
+      },
+      {
+        "num": 15,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:48 /km"
+      },
+      {
+        "num": 16,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:48 /km"
+      },
+      {
+        "num": 17,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:49 /km"
+      },
+      {
+        "num": 18,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:44 /km"
+      },
+      {
+        "num": 19,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:02 /km"
+      },
+      {
+        "num": 20,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:28 /km"
+      },
+      {
+        "num": 21,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:31 /km"
+      },
+      {
+        "num": 22,
+        "distance": "31 m",
+        "time": "0:41",
+        "pace": "22:11 /km"
+      },
+      {
+        "num": 23,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:26 /km"
+      },
+      {
+        "num": 24,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:35 /km"
+      },
+      {
+        "num": 25,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:35 /km"
+      },
+      {
+        "num": 26,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:10 /km"
+      },
+      {
+        "num": 27,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:10 /km"
+      },
+      {
+        "num": 28,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:10 /km"
+      },
+      {
+        "num": 29,
+        "distance": "31 m",
+        "time": "0:41",
+        "pace": "21:55 /km"
+      },
+      {
+        "num": 30,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:21 /km"
+      },
+      {
+        "num": 31,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:35 /km"
+      },
+      {
+        "num": 32,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:35 /km"
+      },
+      {
+        "num": 33,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:09 /km"
+      },
+      {
+        "num": 34,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:09 /km"
+      },
+      {
+        "num": 35,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:46 /km"
+      },
+      {
+        "num": 36,
+        "distance": "31 m",
+        "time": "0:38",
+        "pace": "20:37 /km"
+      },
+      {
+        "num": 37,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:19 /km"
+      },
+      {
+        "num": 38,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:47 /km"
+      },
+      {
+        "num": 39,
+        "distance": "31 m",
+        "time": "0:32",
+        "pace": "17:24 /km"
+      },
+      {
+        "num": 40,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:00 /km"
+      },
+      {
+        "num": 41,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:31 /km"
+      },
+      {
+        "num": 42,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:31 /km"
+      },
+      {
+        "num": 43,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:19 /km"
+      },
+      {
+        "num": 44,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:19 /km"
+      },
+      {
+        "num": 45,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:07 /km"
+      },
+      {
+        "num": 46,
+        "distance": "31 m",
+        "time": "0:34",
+        "pace": "18:19 /km"
+      },
+      {
+        "num": 47,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:08 /km"
+      },
+      {
+        "num": 48,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:22 /km"
+      },
+      {
+        "num": 49,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:22 /km"
+      },
+      {
+        "num": 50,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:08 /km"
+      },
+      {
+        "num": 51,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:08 /km"
+      },
+      {
+        "num": 52,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:28 /km"
+      },
+      {
+        "num": 53,
+        "distance": "31 m",
+        "time": "0:39",
+        "pace": "21:03 /km"
+      },
+      {
+        "num": 54,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:31 /km"
+      },
+      {
+        "num": 55,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:11 /km"
+      },
+      {
+        "num": 56,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:11 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "18:06",
+    "durationMin": 48,
+    "durationRaw": "48m",
+    "distance": {
+      "raw": {
+        "value": 1.23,
+        "unit": "km"
+      },
+      "km": 1.23,
+      "mi": 0.764,
+      "yd": 1345
+    },
+    "pace": "3:59 /100m",
+    "calories": 359,
+    "hr": {
+      "avg": 146,
+      "max": 168,
+      "min": 100
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "—",
+        "time": "1:31",
+        "pace": "—"
+      },
+      {
+        "num": 2,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:28 /km"
+      },
+      {
+        "num": 3,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:28 /km"
+      },
+      {
+        "num": 4,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:57 /km"
+      },
+      {
+        "num": 5,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:57 /km"
+      },
+      {
+        "num": 6,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:26 /km"
+      },
+      {
+        "num": 7,
+        "distance": "62 m",
+        "time": "1:19",
+        "pace": "21:03 /km"
+      },
+      {
+        "num": 8,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:02 /km"
+      },
+      {
+        "num": 9,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:31 /km"
+      },
+      {
+        "num": 10,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:28 /km"
+      },
+      {
+        "num": 11,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:04 /km"
+      },
+      {
+        "num": 12,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:04 /km"
+      },
+      {
+        "num": 13,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:24 /km"
+      },
+      {
+        "num": 14,
+        "distance": "31 m",
+        "time": "0:36",
+        "pace": "19:15 /km"
+      },
+      {
+        "num": 15,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:17 /km"
+      },
+      {
+        "num": 16,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:21 /km"
+      },
+      {
+        "num": 17,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:21 /km"
+      },
+      {
+        "num": 18,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:53 /km"
+      },
+      {
+        "num": 19,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:53 /km"
+      },
+      {
+        "num": 20,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:47 /km"
+      },
+      {
+        "num": 21,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:47 /km"
+      },
+      {
+        "num": 22,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:37 /km"
+      },
+      {
+        "num": 23,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:54 /km"
+      },
+      {
+        "num": 24,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "18:55 /km"
+      },
+      {
+        "num": 25,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:17 /km"
+      },
+      {
+        "num": 26,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:25 /km"
+      },
+      {
+        "num": 27,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:51 /km"
+      },
+      {
+        "num": 28,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:26 /km"
+      },
+      {
+        "num": 29,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:27 /km"
+      },
+      {
+        "num": 30,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 31,
+        "distance": "46 m",
+        "time": "0:51",
+        "pace": "18:17 /km"
+      },
+      {
+        "num": 32,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:36 /km"
+      },
+      {
+        "num": 33,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:58 /km"
+      },
+      {
+        "num": 34,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:29 /km"
+      },
+      {
+        "num": 35,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:29 /km"
+      },
+      {
+        "num": 36,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 37,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 38,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:52 /km"
+      },
+      {
+        "num": 39,
+        "distance": "46 m",
+        "time": "0:57",
+        "pace": "20:31 /km"
+      },
+      {
+        "num": 40,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:41 /km"
+      },
+      {
+        "num": 41,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:26 /km"
+      },
+      {
+        "num": 42,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:03 /km"
+      },
+      {
+        "num": 43,
+        "distance": "46 m",
+        "time": "1:04",
+        "pace": "23:00 /km"
+      },
+      {
+        "num": 44,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:23 /km"
+      },
+      {
+        "num": 45,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:19 /km"
+      },
+      {
+        "num": 46,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:01 /km"
+      },
+      {
+        "num": 47,
+        "distance": "62 m",
+        "time": "1:25",
+        "pace": "22:52 /km"
+      },
+      {
+        "num": 48,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:03 /km"
+      },
+      {
+        "num": 49,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:49 /km"
+      },
+      {
+        "num": 50,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:13 /km"
+      },
+      {
+        "num": 51,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:32 /km"
+      },
+      {
+        "num": 52,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:32 /km"
+      },
+      {
+        "num": 53,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:32 /km"
+      },
+      {
+        "num": 54,
+        "distance": "31 m",
+        "time": "0:36",
+        "pace": "19:32 /km"
+      },
+      {
+        "num": 55,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:05 /km"
+      },
+      {
+        "num": 56,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:59 /km"
+      },
+      {
+        "num": 57,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:33 /km"
+      },
+      {
+        "num": 58,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:06 /km"
+      },
+      {
+        "num": 59,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:24 /km"
+      },
+      {
+        "num": 60,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:34 /km"
+      },
+      {
+        "num": 61,
+        "distance": "46 m",
+        "time": "1:01",
+        "pace": "21:44 /km"
+      },
+      {
+        "num": 62,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:21 /km"
+      },
+      {
+        "num": 63,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:10 /km"
+      },
+      {
+        "num": 64,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:19 /km"
+      },
+      {
+        "num": 65,
+        "distance": "46 m",
+        "time": "0:55",
+        "pace": "19:30 /km"
+      },
+      {
+        "num": 66,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:09 /km"
+      },
+      {
+        "num": 67,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:10 /km"
+      },
+      {
+        "num": 68,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:04 /km"
+      },
+      {
+        "num": 69,
+        "distance": "46 m",
+        "time": "1:06",
+        "pace": "23:31 /km"
+      },
+      {
+        "num": 70,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:52 /km"
+      },
+      {
+        "num": 71,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:19 /km"
+      },
+      {
+        "num": 72,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:59 /km"
+      },
+      {
+        "num": 73,
+        "distance": "46 m",
+        "time": "1:00",
+        "pace": "21:36 /km"
+      },
+      {
+        "num": 74,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:13 /km"
+      },
+      {
+        "num": 75,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:32 /km"
+      },
+      {
+        "num": 76,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:06 /km"
+      },
+      {
+        "num": 77,
+        "distance": "62 m",
+        "time": "1:25",
+        "pace": "22:43 /km"
+      },
+      {
+        "num": 78,
+        "distance": "15 m",
+        "time": "0:25",
+        "pace": "26:32 /km"
+      },
+      {
+        "num": 79,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:28 /km"
+      },
+      {
+        "num": 80,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:37 /km"
+      },
+      {
+        "num": 81,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:06 /km"
+      },
+      {
+        "num": 82,
+        "distance": "46 m",
+        "time": "1:23",
+        "pace": "29:34 /km"
+      },
+      {
+        "num": 83,
+        "distance": "15 m",
+        "time": "0:41",
+        "pace": "43:44 /km"
+      },
+      {
+        "num": 84,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:17 /km"
+      },
+      {
+        "num": 85,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:01 /km"
+      },
+      {
+        "num": 86,
+        "distance": "46 m",
+        "time": "0:57",
+        "pace": "20:22 /km"
+      },
+      {
+        "num": 87,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:55 /km"
+      },
+      {
+        "num": 88,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:07 /km"
+      },
+      {
+        "num": 89,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:27 /km"
+      },
+      {
+        "num": 90,
+        "distance": "46 m",
+        "time": "1:05",
+        "pace": "23:09 /km"
+      },
+      {
+        "num": 91,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:41 /km"
+      },
+      {
+        "num": 92,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "18:47 /km"
+      },
+      {
+        "num": 93,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:44 /km"
+      },
+      {
+        "num": 94,
+        "distance": "46 m",
+        "time": "0:59",
+        "pace": "21:10 /km"
+      },
+      {
+        "num": 95,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:28 /km"
+      },
+      {
+        "num": 96,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:58 /km"
+      },
+      {
+        "num": 97,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:31 /km"
+      },
+      {
+        "num": 98,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:31 /km"
+      },
+      {
+        "num": 99,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:49 /km"
+      },
+      {
+        "num": 100,
+        "distance": "46 m",
+        "time": "1:00",
+        "pace": "21:28 /km"
+      },
+      {
+        "num": 101,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:10 /km"
+      },
+      {
+        "num": 102,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:30 /km"
+      },
+      {
+        "num": 103,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:01 /km"
+      },
+      {
+        "num": 104,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:52 /km"
+      },
+      {
+        "num": 105,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:09 /km"
+      },
+      {
+        "num": 106,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:49 /km"
+      },
+      {
+        "num": 107,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:17 /km"
+      },
+      {
+        "num": 108,
+        "distance": "46 m",
+        "time": "0:58",
+        "pace": "20:44 /km"
+      },
+      {
+        "num": 109,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:38 /km"
+      },
+      {
+        "num": 110,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:43 /km"
+      },
+      {
+        "num": 111,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:15 /km"
+      },
+      {
+        "num": 112,
+        "distance": "31 m",
+        "time": "0:40",
+        "pace": "21:41 /km"
+      },
+      {
+        "num": 113,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:07 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "20:39",
+    "durationMin": 33,
+    "durationRaw": "33m",
+    "distance": {
+      "raw": {
+        "value": 5.04,
+        "unit": "km"
+      },
+      "km": 5.04,
+      "mi": 3.132,
+      "yd": 5512
+    },
+    "pace": "6:43 /km",
+    "calories": 366,
+    "hr": {
+      "avg": 147,
+      "max": 159,
+      "min": 105
+    },
+    "cadence": 148,
+    "power": {
+      "avg": 215,
+      "max": 399
+    },
+    "elevation": 39,
+    "strideLength": 1.02,
+    "groundContact": 310,
+    "verticalOscillation": 10.3,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "6:18",
+        "pace": "6:18 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:22",
+        "pace": "6:26 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "6:38",
+        "pace": "6:38 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:01",
+        "pace": "6:51 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "7:02",
+        "pace": "7:02 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "6:39",
+        "pace": "6:39 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:03",
+        "pace": "6:52 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "6:52",
+        "pace": "6:52 /km"
+      },
+      {
+        "num": 9,
+        "distance": "207 m",
+        "time": "1:21",
+        "pace": "6:32 /km"
+      },
+      {
+        "num": 10,
+        "distance": "35 m",
+        "time": "0:18",
+        "pace": "8:38 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "17:57",
+    "durationMin": 50,
+    "durationRaw": "50m",
+    "distance": null,
+    "pace": null,
+    "calories": 405,
+    "hr": {
+      "avg": 124,
+      "max": 157,
+      "min": 93
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-24",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "17:36",
+    "durationMin": 40,
+    "durationRaw": "40m",
+    "distance": {
+      "raw": {
+        "value": 1.41,
+        "unit": "km"
+      },
+      "km": 1.41,
+      "mi": 0.876,
+      "yd": 1542
+    },
+    "pace": "2:53 /100m",
+    "calories": 294,
+    "hr": {
+      "avg": 135,
+      "max": 155,
+      "min": 107
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "31 m",
+        "time": "1:11",
+        "pace": "38:09 /km"
+      },
+      {
+        "num": 2,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:33 /km"
+      },
+      {
+        "num": 3,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:03 /km"
+      },
+      {
+        "num": 4,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:39 /km"
+      },
+      {
+        "num": 5,
+        "distance": "77 m",
+        "time": "1:24",
+        "pace": "18:05 /km"
+      },
+      {
+        "num": 6,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:32 /km"
+      },
+      {
+        "num": 7,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:49 /km"
+      },
+      {
+        "num": 8,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:17 /km"
+      },
+      {
+        "num": 9,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:52 /km"
+      },
+      {
+        "num": 10,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:19 /km"
+      },
+      {
+        "num": 11,
+        "distance": "31 m",
+        "time": "0:26",
+        "pace": "13:54 /km"
+      },
+      {
+        "num": 12,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:28 /km"
+      },
+      {
+        "num": 13,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:44 /km"
+      },
+      {
+        "num": 14,
+        "distance": "62 m",
+        "time": "1:08",
+        "pace": "18:16 /km"
+      },
+      {
+        "num": 15,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:59 /km"
+      },
+      {
+        "num": 16,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:15 /km"
+      },
+      {
+        "num": 17,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:45 /km"
+      },
+      {
+        "num": 18,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:06 /km"
+      },
+      {
+        "num": 19,
+        "distance": "31 m",
+        "time": "0:28",
+        "pace": "14:56 /km"
+      },
+      {
+        "num": 20,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:11 /km"
+      },
+      {
+        "num": 21,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "9:34 /km"
+      },
+      {
+        "num": 22,
+        "distance": "62 m",
+        "time": "1:00",
+        "pace": "16:03 /km"
+      },
+      {
+        "num": 23,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:15 /km"
+      },
+      {
+        "num": 24,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:11 /km"
+      },
+      {
+        "num": 25,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:21 /km"
+      },
+      {
+        "num": 26,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:08 /km"
+      },
+      {
+        "num": 27,
+        "distance": "31 m",
+        "time": "0:30",
+        "pace": "16:13 /km"
+      },
+      {
+        "num": 28,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:02 /km"
+      },
+      {
+        "num": 29,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:52 /km"
+      },
+      {
+        "num": 30,
+        "distance": "31 m",
+        "time": "0:26",
+        "pace": "14:01 /km"
+      },
+      {
+        "num": 31,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:46 /km"
+      },
+      {
+        "num": 32,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:37 /km"
+      },
+      {
+        "num": 33,
+        "distance": "31 m",
+        "time": "0:31",
+        "pace": "16:47 /km"
+      },
+      {
+        "num": 34,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:31 /km"
+      },
+      {
+        "num": 35,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:42 /km"
+      },
+      {
+        "num": 36,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 37,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:10 /km"
+      },
+      {
+        "num": 38,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:06 /km"
+      },
+      {
+        "num": 39,
+        "distance": "31 m",
+        "time": "0:28",
+        "pace": "14:56 /km"
+      },
+      {
+        "num": 40,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:42 /km"
+      },
+      {
+        "num": 41,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:44 /km"
+      },
+      {
+        "num": 42,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:29 /km"
+      },
+      {
+        "num": 43,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:13 /km"
+      },
+      {
+        "num": 44,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:29 /km"
+      },
+      {
+        "num": 45,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 46,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:28 /km"
+      },
+      {
+        "num": 47,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:13 /km"
+      },
+      {
+        "num": 48,
+        "distance": "124 m",
+        "time": "2:32",
+        "pace": "20:20 /km"
+      },
+      {
+        "num": 49,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:13 /km"
+      },
+      {
+        "num": 50,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:35 /km"
+      },
+      {
+        "num": 51,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:38 /km"
+      },
+      {
+        "num": 52,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:09 /km"
+      },
+      {
+        "num": 53,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:47 /km"
+      },
+      {
+        "num": 54,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:28 /km"
+      },
+      {
+        "num": 55,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:46 /km"
+      },
+      {
+        "num": 56,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:33 /km"
+      },
+      {
+        "num": 57,
+        "distance": "46 m",
+        "time": "0:50",
+        "pace": "17:58 /km"
+      },
+      {
+        "num": 58,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:59 /km"
+      },
+      {
+        "num": 59,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "11:08 /km"
+      },
+      {
+        "num": 60,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:29 /km"
+      },
+      {
+        "num": 61,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:29 /km"
+      },
+      {
+        "num": 62,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:21 /km"
+      },
+      {
+        "num": 63,
+        "distance": "31 m",
+        "time": "0:34",
+        "pace": "18:08 /km"
+      },
+      {
+        "num": 64,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:40 /km"
+      },
+      {
+        "num": 65,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:06 /km"
+      },
+      {
+        "num": 66,
+        "distance": "62 m",
+        "time": "1:07",
+        "pace": "17:58 /km"
+      },
+      {
+        "num": 67,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 68,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:19 /km"
+      },
+      {
+        "num": 69,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:32 /km"
+      },
+      {
+        "num": 70,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:48 /km"
+      },
+      {
+        "num": 71,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:48 /km"
+      },
+      {
+        "num": 72,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:29 /km"
+      },
+      {
+        "num": 73,
+        "distance": "31 m",
+        "time": "0:31",
+        "pace": "16:38 /km"
+      },
+      {
+        "num": 74,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:11 /km"
+      },
+      {
+        "num": 75,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:10 /km"
+      },
+      {
+        "num": 76,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:10 /km"
+      },
+      {
+        "num": 77,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:29 /km"
+      },
+      {
+        "num": 78,
+        "distance": "46 m",
+        "time": "0:45",
+        "pace": "16:12 /km"
+      },
+      {
+        "num": 79,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:07 /km"
+      },
+      {
+        "num": 80,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:19 /km"
+      },
+      {
+        "num": 81,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:43 /km"
+      },
+      {
+        "num": 82,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:43 /km"
+      },
+      {
+        "num": 83,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "10:10 /km"
+      },
+      {
+        "num": 84,
+        "distance": "62 m",
+        "time": "1:05",
+        "pace": "17:18 /km"
+      },
+      {
+        "num": 85,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:04 /km"
+      },
+      {
+        "num": 86,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 87,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:26 /km"
+      },
+      {
+        "num": 88,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:18 /km"
+      },
+      {
+        "num": 89,
+        "distance": "62 m",
+        "time": "1:15",
+        "pace": "19:00 /km"
+      },
+      {
+        "num": 90,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:00 /km"
+      },
+      {
+        "num": 91,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:45 /km"
+      },
+      {
+        "num": 92,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:21 /km"
+      },
+      {
+        "num": 93,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:01 /km"
+      },
+      {
+        "num": 94,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:45 /km"
+      },
+      {
+        "num": 95,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:54 /km"
+      },
+      {
+        "num": 96,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:21 /km"
+      },
+      {
+        "num": 97,
+        "distance": "31 m",
+        "time": "0:28",
+        "pace": "15:05 /km"
+      },
+      {
+        "num": 98,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "10:10 /km"
+      },
+      {
+        "num": 99,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:21 /km"
+      },
+      {
+        "num": 100,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:18 /km"
+      },
+      {
+        "num": 101,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:17 /km"
+      },
+      {
+        "num": 102,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:45 /km"
+      },
+      {
+        "num": 103,
+        "distance": "31 m",
+        "time": "0:30",
+        "pace": "15:49 /km"
+      },
+      {
+        "num": 104,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:00 /km"
+      },
+      {
+        "num": 105,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:19 /km"
+      },
+      {
+        "num": 106,
+        "distance": "31 m",
+        "time": "0:27",
+        "pace": "14:35 /km"
+      },
+      {
+        "num": 107,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:57 /km"
+      },
+      {
+        "num": 108,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:37 /km"
+      },
+      {
+        "num": 109,
+        "distance": "31 m",
+        "time": "0:33",
+        "pace": "17:29 /km"
+      },
+      {
+        "num": 110,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:00 /km"
+      },
+      {
+        "num": 111,
+        "distance": "15 m",
+        "time": "0:08",
+        "pace": "8:13 /km"
+      },
+      {
+        "num": 112,
+        "distance": "31 m",
+        "time": "0:23",
+        "pace": "12:15 /km"
+      },
+      {
+        "num": 113,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "13:33 /km"
+      },
+      {
+        "num": 114,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "10:10 /km"
+      },
+      {
+        "num": 115,
+        "distance": "31 m",
+        "time": "0:28",
+        "pace": "15:02 /km"
+      },
+      {
+        "num": 116,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:22 /km"
+      },
+      {
+        "num": 117,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "11:01 /km"
+      },
+      {
+        "num": 118,
+        "distance": "31 m",
+        "time": "0:28",
+        "pace": "14:50 /km"
+      },
+      {
+        "num": 119,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:22 /km"
+      },
+      {
+        "num": 120,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:19 /km"
+      },
+      {
+        "num": 121,
+        "distance": "31 m",
+        "time": "0:29",
+        "pace": "15:43 /km"
+      },
+      {
+        "num": 122,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:55 /km"
+      },
+      {
+        "num": 123,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "12:50 /km"
+      },
+      {
+        "num": 124,
+        "distance": "62 m",
+        "time": "0:59",
+        "pace": "15:46 /km"
+      },
+      {
+        "num": 125,
+        "distance": "15 m",
+        "time": "0:10",
+        "pace": "10:13 /km"
+      },
+      {
+        "num": 126,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "9:50 /km"
+      },
+      {
+        "num": 127,
+        "distance": "15 m",
+        "time": "0:09",
+        "pace": "9:00 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "17:25",
+    "durationMin": 90,
+    "durationRaw": "1h 30m",
+    "distance": null,
+    "pace": null,
+    "calories": 709,
+    "hr": {
+      "avg": 115,
+      "max": 128,
+      "min": 77
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-04-26",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "12:03",
+    "durationMin": 52,
+    "durationRaw": "52m",
+    "distance": {
+      "raw": {
+        "value": 7.64,
+        "unit": "km"
+      },
+      "km": 7.64,
+      "mi": 4.747,
+      "yd": 8355
+    },
+    "pace": "6:49 /km",
+    "calories": 561,
+    "hr": {
+      "avg": 154,
+      "max": 171,
+      "min": 114
+    },
+    "cadence": 144,
+    "power": {
+      "avg": 217,
+      "max": 328
+    },
+    "elevation": 69,
+    "strideLength": 1.04,
+    "groundContact": 299,
+    "verticalOscillation": 10.1,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "7:18",
+        "pace": "7:18 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "12:20",
+        "pace": "7:40 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "7:32",
+        "pace": "7:32 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:28",
+        "pace": "6:30 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:05",
+        "pace": "6:05 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "6:59",
+        "pace": "6:59 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "10:41",
+        "pace": "6:38 /km"
+      },
+      {
+        "num": 8,
+        "distance": "1.00 km",
+        "time": "6:35",
+        "pace": "6:35 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.61 km",
+        "time": "13:27",
+        "pace": "8:21 /km"
+      },
+      {
+        "num": 10,
+        "distance": "1.00 km",
+        "time": "9:35",
+        "pace": "9:35 /km"
+      },
+      {
+        "num": 11,
+        "distance": "999 m",
+        "time": "6:41",
+        "pace": "6:41 /km"
+      },
+      {
+        "num": 12,
+        "distance": "1.20 km",
+        "time": "7:54",
+        "pace": "6:34 /km"
+      },
+      {
+        "num": 13,
+        "distance": "638 m",
+        "time": "4:02",
+        "pace": "6:20 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "19:23",
+    "durationMin": 38,
+    "durationRaw": "38m",
+    "distance": {
+      "raw": {
+        "value": 1.01,
+        "unit": "km"
+      },
+      "km": 1.01,
+      "mi": 0.628,
+      "yd": 1105
+    },
+    "pace": "3:45 /100m",
+    "calories": 292,
+    "hr": {
+      "avg": 130,
+      "max": 157,
+      "min": 74
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "164 m",
+        "time": "5:12",
+        "pace": "31:37 /km"
+      },
+      {
+        "num": 2,
+        "distance": "13 m",
+        "time": "0:12",
+        "pace": "14:49 /km"
+      },
+      {
+        "num": 3,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "22:03 /km"
+      },
+      {
+        "num": 4,
+        "distance": "13 m",
+        "time": "0:22",
+        "pace": "26:18 /km"
+      },
+      {
+        "num": 5,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "23:38 /km"
+      },
+      {
+        "num": 6,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "21:15 /km"
+      },
+      {
+        "num": 7,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:54 /km"
+      },
+      {
+        "num": 8,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:56 /km"
+      },
+      {
+        "num": 9,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:21 /km"
+      },
+      {
+        "num": 10,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:42 /km"
+      },
+      {
+        "num": 11,
+        "distance": "13 m",
+        "time": "0:22",
+        "pace": "27:15 /km"
+      },
+      {
+        "num": 12,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:28 /km"
+      },
+      {
+        "num": 13,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:28 /km"
+      },
+      {
+        "num": 14,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:10 /km"
+      },
+      {
+        "num": 15,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:10 /km"
+      },
+      {
+        "num": 16,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:09 /km"
+      },
+      {
+        "num": 17,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:09 /km"
+      },
+      {
+        "num": 18,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:04 /km"
+      },
+      {
+        "num": 19,
+        "distance": "27 m",
+        "time": "0:35",
+        "pace": "21:14 /km"
+      },
+      {
+        "num": 20,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:38 /km"
+      },
+      {
+        "num": 21,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:46 /km"
+      },
+      {
+        "num": 22,
+        "distance": "41 m",
+        "time": "0:59",
+        "pace": "24:00 /km"
+      },
+      {
+        "num": 23,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:52 /km"
+      },
+      {
+        "num": 24,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:49 /km"
+      },
+      {
+        "num": 25,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "21:05 /km"
+      },
+      {
+        "num": 26,
+        "distance": "27 m",
+        "time": "0:42",
+        "pace": "25:40 /km"
+      },
+      {
+        "num": 27,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "21:02 /km"
+      },
+      {
+        "num": 28,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:28 /km"
+      },
+      {
+        "num": 29,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:28 /km"
+      },
+      {
+        "num": 30,
+        "distance": "13 m",
+        "time": "0:12",
+        "pace": "14:33 /km"
+      },
+      {
+        "num": 31,
+        "distance": "54 m",
+        "time": "1:25",
+        "pace": "25:48 /km"
+      },
+      {
+        "num": 32,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:20 /km"
+      },
+      {
+        "num": 33,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:45 /km"
+      },
+      {
+        "num": 34,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "23:03 /km"
+      },
+      {
+        "num": 35,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:45 /km"
+      },
+      {
+        "num": 36,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:45 /km"
+      },
+      {
+        "num": 37,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:15 /km"
+      },
+      {
+        "num": 38,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:15 /km"
+      },
+      {
+        "num": 39,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "16:47 /km"
+      },
+      {
+        "num": 40,
+        "distance": "54 m",
+        "time": "1:20",
+        "pace": "24:17 /km"
+      },
+      {
+        "num": 41,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:44 /km"
+      },
+      {
+        "num": 42,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:22 /km"
+      },
+      {
+        "num": 43,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:53 /km"
+      },
+      {
+        "num": 44,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:39 /km"
+      },
+      {
+        "num": 45,
+        "distance": "27 m",
+        "time": "0:37",
+        "pace": "22:29 /km"
+      },
+      {
+        "num": 46,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:27 /km"
+      },
+      {
+        "num": 47,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:22 /km"
+      },
+      {
+        "num": 48,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:22 /km"
+      },
+      {
+        "num": 49,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:50 /km"
+      },
+      {
+        "num": 50,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:50 /km"
+      },
+      {
+        "num": 51,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:39 /km"
+      },
+      {
+        "num": 52,
+        "distance": "27 m",
+        "time": "0:36",
+        "pace": "21:35 /km"
+      },
+      {
+        "num": 53,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:08 /km"
+      },
+      {
+        "num": 54,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:08 /km"
+      },
+      {
+        "num": 55,
+        "distance": "27 m",
+        "time": "0:39",
+        "pace": "23:54 /km"
+      },
+      {
+        "num": 56,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:55 /km"
+      },
+      {
+        "num": 57,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:36 /km"
+      },
+      {
+        "num": 58,
+        "distance": "54 m",
+        "time": "1:26",
+        "pace": "26:06 /km"
+      },
+      {
+        "num": 59,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "22:29 /km"
+      },
+      {
+        "num": 60,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:12 /km"
+      },
+      {
+        "num": 61,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:17 /km"
+      },
+      {
+        "num": 62,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:39 /km"
+      },
+      {
+        "num": 63,
+        "distance": "27 m",
+        "time": "0:38",
+        "pace": "22:50 /km"
+      },
+      {
+        "num": 64,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "23:35 /km"
+      },
+      {
+        "num": 65,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:48 /km"
+      },
+      {
+        "num": 66,
+        "distance": "68 m",
+        "time": "1:56",
+        "pace": "28:09 /km"
+      },
+      {
+        "num": 67,
+        "distance": "13 m",
+        "time": "0:20",
+        "pace": "23:49 /km"
+      },
+      {
+        "num": 68,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:55 /km"
+      },
+      {
+        "num": 69,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "23:25 /km"
+      },
+      {
+        "num": 70,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "22:03 /km"
+      },
+      {
+        "num": 71,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:07 /km"
+      },
+      {
+        "num": 72,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:07 /km"
+      },
+      {
+        "num": 73,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:57 /km"
+      },
+      {
+        "num": 74,
+        "distance": "27 m",
+        "time": "0:37",
+        "pace": "22:13 /km"
+      },
+      {
+        "num": 75,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:31 /km"
+      },
+      {
+        "num": 76,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:31 /km"
+      },
+      {
+        "num": 77,
+        "distance": "41 m",
+        "time": "1:01",
+        "pace": "24:50 /km"
+      },
+      {
+        "num": 78,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:44 /km"
+      },
+      {
+        "num": 79,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:30 /km"
+      },
+      {
+        "num": 80,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:55 /km"
+      },
+      {
+        "num": 81,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:55 /km"
+      },
+      {
+        "num": 82,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:41 /km"
+      },
+      {
+        "num": 83,
+        "distance": "27 m",
+        "time": "0:40",
+        "pace": "24:02 /km"
+      },
+      {
+        "num": 84,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:53 /km"
+      },
+      {
+        "num": 85,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:55 /km"
+      },
+      {
+        "num": 86,
+        "distance": "27 m",
+        "time": "0:38",
+        "pace": "23:23 /km"
+      },
+      {
+        "num": 87,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:17 /km"
+      },
+      {
+        "num": 88,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:17 /km"
+      },
+      {
+        "num": 89,
+        "distance": "54 m",
+        "time": "1:27",
+        "pace": "26:17 /km"
+      },
+      {
+        "num": 90,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:12 /km"
+      },
+      {
+        "num": 91,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:32 /km"
+      },
+      {
+        "num": 92,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:49 /km"
+      },
+      {
+        "num": 93,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:53 /km"
+      },
+      {
+        "num": 94,
+        "distance": "96 m",
+        "time": "2:35",
+        "pace": "26:52 /km"
+      },
+      {
+        "num": 95,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:55 /km"
+      },
+      {
+        "num": 96,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "22:55 /km"
+      },
+      {
+        "num": 97,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:17 /km"
+      },
+      {
+        "num": 98,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:17 /km"
+      },
+      {
+        "num": 99,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:22 /km"
+      },
+      {
+        "num": 100,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:01 /km"
+      },
+      {
+        "num": 101,
+        "distance": "13 m",
+        "time": "0:22",
+        "pace": "27:05 /km"
+      },
+      {
+        "num": 102,
+        "distance": "13 m",
+        "time": "0:22",
+        "pace": "27:05 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "18:39",
+    "durationMin": 32,
+    "durationRaw": "32m",
+    "distance": {
+      "raw": {
+        "value": 4.66,
+        "unit": "km"
+      },
+      "km": 4.66,
+      "mi": 2.896,
+      "yd": 5096
+    },
+    "pace": "6:58 /km",
+    "calories": 343,
+    "hr": {
+      "avg": 144,
+      "max": 158,
+      "min": 117
+    },
+    "cadence": 140,
+    "power": {
+      "avg": 208,
+      "max": 339
+    },
+    "elevation": 35,
+    "strideLength": 1.05,
+    "groundContact": 297,
+    "verticalOscillation": 10.7,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "6:14",
+        "pace": "6:14 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "11:01",
+        "pace": "6:51 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "7:16",
+        "pace": "7:16 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:37",
+        "pace": "6:36 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:40",
+        "pace": "6:40 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "7:08",
+        "pace": "7:08 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.44 km",
+        "time": "10:51",
+        "pace": "7:31 /km"
+      },
+      {
+        "num": 8,
+        "distance": "661 m",
+        "time": "5:12",
+        "pace": "7:52 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "19:23",
+    "durationMin": 43,
+    "durationRaw": "43m",
+    "distance": null,
+    "pace": null,
+    "calories": 491,
+    "hr": {
+      "avg": 137,
+      "max": 165,
+      "min": 104
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-05-01",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "18:19",
+    "durationMin": 40,
+    "durationRaw": "40m",
+    "distance": {
+      "raw": {
+        "value": 5.81,
+        "unit": "km"
+      },
+      "km": 5.81,
+      "mi": 3.61,
+      "yd": 6354
+    },
+    "pace": "6:54 /km",
+    "calories": 417,
+    "hr": {
+      "avg": 151,
+      "max": 163,
+      "min": 133
+    },
+    "cadence": 141,
+    "power": {
+      "avg": 209,
+      "max": 278
+    },
+    "elevation": 49,
+    "strideLength": 1.05,
+    "groundContact": 304,
+    "verticalOscillation": 10.5,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "6:46",
+        "pace": "6:46 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:36",
+        "pace": "6:35 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:47",
+        "pace": "6:47 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:17",
+        "pace": "7:00 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:55",
+        "pace": "6:55 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "7:16",
+        "pace": "7:16 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:43",
+        "pace": "7:17 /km"
+      },
+      {
+        "num": 8,
+        "distance": "1.00 km",
+        "time": "6:59",
+        "pace": "6:59 /km"
+      },
+      {
+        "num": 9,
+        "distance": "977 m",
+        "time": "6:25",
+        "pace": "6:34 /km"
+      },
+      {
+        "num": 10,
+        "distance": "805 m",
+        "time": "5:19",
+        "pace": "6:36 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "index": 1,
+    "rawType": "Cycling",
+    "sport": "bike",
+    "startTime": "16:33",
+    "durationMin": 90,
+    "durationRaw": "1h 30m",
+    "distance": null,
+    "pace": null,
+    "calories": 734,
+    "hr": {
+      "avg": 117,
+      "max": 130,
+      "min": 86
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": []
+  },
+  {
+    "date": "2026-05-03",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "11:17",
+    "durationMin": 45,
+    "durationRaw": "45m",
+    "distance": {
+      "raw": {
+        "value": 6.63,
+        "unit": "km"
+      },
+      "km": 6.63,
+      "mi": 4.12,
+      "yd": 7251
+    },
+    "pace": "6:50 /km",
+    "calories": 478,
+    "hr": {
+      "avg": 149,
+      "max": 160,
+      "min": 127
+    },
+    "cadence": 141,
+    "power": {
+      "avg": 211,
+      "max": 434
+    },
+    "elevation": 70,
+    "strideLength": 1.08,
+    "groundContact": 295,
+    "verticalOscillation": 10.4,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "999 m",
+        "time": "6:38",
+        "pace": "6:38 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:21",
+        "pace": "6:26 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "6:02",
+        "pace": "6:02 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:04",
+        "pace": "6:15 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "6:02",
+        "pace": "6:02 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "6:34",
+        "pace": "6:34 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:00",
+        "pace": "6:50 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "7:15",
+        "pace": "7:15 /km"
+      },
+      {
+        "num": 9,
+        "distance": "1.61 km",
+        "time": "12:31",
+        "pace": "7:47 /km"
+      },
+      {
+        "num": 10,
+        "distance": "999 m",
+        "time": "8:11",
+        "pace": "8:11 /km"
+      },
+      {
+        "num": 11,
+        "distance": "628 m",
+        "time": "4:30",
+        "pace": "7:09 /km"
+      },
+      {
+        "num": 12,
+        "distance": "191 m",
+        "time": "1:16",
+        "pace": "6:35 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "18:58",
+    "durationMin": 17,
+    "durationRaw": "17m",
+    "distance": {
+      "raw": {
+        "value": 493,
+        "unit": "m"
+      },
+      "km": 0.493,
+      "mi": 0.306,
+      "yd": 539
+    },
+    "pace": "3:32 /100m",
+    "calories": 146,
+    "hr": {
+      "avg": 131,
+      "max": 150,
+      "min": 70
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "96 m",
+        "time": "2:27",
+        "pace": "25:35 /km"
+      },
+      {
+        "num": 2,
+        "distance": "13 m",
+        "time": "0:12",
+        "pace": "14:28 /km"
+      },
+      {
+        "num": 3,
+        "distance": "13 m",
+        "time": "0:12",
+        "pace": "14:51 /km"
+      },
+      {
+        "num": 4,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:55 /km"
+      },
+      {
+        "num": 5,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:36 /km"
+      },
+      {
+        "num": 6,
+        "distance": "13 m",
+        "time": "0:21",
+        "pace": "25:18 /km"
+      },
+      {
+        "num": 7,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "22:16 /km"
+      },
+      {
+        "num": 8,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:55 /km"
+      },
+      {
+        "num": 9,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:42 /km"
+      },
+      {
+        "num": 10,
+        "distance": "96 m",
+        "time": "2:27",
+        "pace": "25:31 /km"
+      },
+      {
+        "num": 11,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:36 /km"
+      },
+      {
+        "num": 12,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:20 /km"
+      },
+      {
+        "num": 13,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:24 /km"
+      },
+      {
+        "num": 14,
+        "distance": "13 m",
+        "time": "0:18",
+        "pace": "21:38 /km"
+      },
+      {
+        "num": 15,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:03 /km"
+      },
+      {
+        "num": 16,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:17 /km"
+      },
+      {
+        "num": 17,
+        "distance": "13 m",
+        "time": "0:11",
+        "pace": "13:50 /km"
+      },
+      {
+        "num": 18,
+        "distance": "54 m",
+        "time": "1:12",
+        "pace": "21:49 /km"
+      },
+      {
+        "num": 19,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "20:01 /km"
+      },
+      {
+        "num": 20,
+        "distance": "13 m",
+        "time": "0:12",
+        "pace": "14:33 /km"
+      },
+      {
+        "num": 21,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:44 /km"
+      },
+      {
+        "num": 22,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:25 /km"
+      },
+      {
+        "num": 23,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:25 /km"
+      },
+      {
+        "num": 24,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:22 /km"
+      },
+      {
+        "num": 25,
+        "distance": "27 m",
+        "time": "0:37",
+        "pace": "22:24 /km"
+      },
+      {
+        "num": 26,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:34 /km"
+      },
+      {
+        "num": 27,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:31 /km"
+      },
+      {
+        "num": 28,
+        "distance": "13 m",
+        "time": "0:14",
+        "pace": "17:31 /km"
+      },
+      {
+        "num": 29,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "17:47 /km"
+      },
+      {
+        "num": 30,
+        "distance": "27 m",
+        "time": "0:36",
+        "pace": "22:02 /km"
+      },
+      {
+        "num": 31,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:12 /km"
+      },
+      {
+        "num": 32,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:18 /km"
+      },
+      {
+        "num": 33,
+        "distance": "41 m",
+        "time": "0:57",
+        "pace": "23:01 /km"
+      },
+      {
+        "num": 34,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "23:33 /km"
+      },
+      {
+        "num": 35,
+        "distance": "13 m",
+        "time": "0:13",
+        "pace": "15:26 /km"
+      },
+      {
+        "num": 36,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:50 /km"
+      },
+      {
+        "num": 37,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:50 /km"
+      },
+      {
+        "num": 38,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:20 /km"
+      },
+      {
+        "num": 39,
+        "distance": "41 m",
+        "time": "0:57",
+        "pace": "23:04 /km"
+      },
+      {
+        "num": 40,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:46 /km"
+      },
+      {
+        "num": 41,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "18:51 /km"
+      },
+      {
+        "num": 42,
+        "distance": "13 m",
+        "time": "0:16",
+        "pace": "19:01 /km"
+      },
+      {
+        "num": 43,
+        "distance": "27 m",
+        "time": "0:39",
+        "pace": "23:38 /km"
+      },
+      {
+        "num": 44,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:55 /km"
+      },
+      {
+        "num": 45,
+        "distance": "13 m",
+        "time": "0:17",
+        "pace": "20:08 /km"
+      },
+      {
+        "num": 46,
+        "distance": "27 m",
+        "time": "0:37",
+        "pace": "22:14 /km"
+      },
+      {
+        "num": 47,
+        "distance": "13 m",
+        "time": "0:15",
+        "pace": "18:36 /km"
+      },
+      {
+        "num": 48,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "22:53 /km"
+      },
+      {
+        "num": 49,
+        "distance": "13 m",
+        "time": "0:19",
+        "pace": "22:53 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "20:52",
+    "durationMin": 35,
+    "durationRaw": "35m",
+    "distance": {
+      "raw": {
+        "value": 5.05,
+        "unit": "km"
+      },
+      "km": 5.05,
+      "mi": 3.138,
+      "yd": 5523
+    },
+    "pace": "6:58 /km",
+    "calories": 399,
+    "hr": {
+      "avg": 152,
+      "max": 172,
+      "min": 99
+    },
+    "cadence": 140,
+    "power": {
+      "avg": 208,
+      "max": 361
+    },
+    "elevation": 39,
+    "strideLength": 1.04,
+    "groundContact": 313,
+    "verticalOscillation": 10.5,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "6:42",
+        "pace": "6:41 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "11:04",
+        "pace": "6:51 /km"
+      },
+      {
+        "num": 3,
+        "distance": "999 m",
+        "time": "7:19",
+        "pace": "7:19 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "11:54",
+        "pace": "7:23 /km"
+      },
+      {
+        "num": 5,
+        "distance": "1.00 km",
+        "time": "7:24",
+        "pace": "7:24 /km"
+      },
+      {
+        "num": 6,
+        "distance": "999 m",
+        "time": "6:56",
+        "pace": "6:56 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:58",
+        "pace": "7:26 /km"
+      },
+      {
+        "num": 8,
+        "distance": "1.00 km",
+        "time": "7:39",
+        "pace": "7:39 /km"
+      },
+      {
+        "num": 9,
+        "distance": "223 m",
+        "time": "1:24",
+        "pace": "6:15 /km"
+      },
+      {
+        "num": 10,
+        "distance": "51 m",
+        "time": "0:19",
+        "pace": "6:18 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "index": 1,
+    "rawType": "Running",
+    "sport": "run",
+    "startTime": "20:31",
+    "durationMin": 35,
+    "durationRaw": "35m",
+    "distance": {
+      "raw": {
+        "value": 5.34,
+        "unit": "km"
+      },
+      "km": 5.34,
+      "mi": 3.318,
+      "yd": 5840
+    },
+    "pace": "6:38 /km",
+    "calories": 388,
+    "hr": {
+      "avg": 151,
+      "max": 165,
+      "min": 137
+    },
+    "cadence": 143,
+    "power": {
+      "avg": 220,
+      "max": 302
+    },
+    "elevation": 40,
+    "strideLength": 1.08,
+    "groundContact": 304,
+    "verticalOscillation": 10.6,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "1.00 km",
+        "time": "6:01",
+        "pace": "6:01 /km"
+      },
+      {
+        "num": 2,
+        "distance": "1.61 km",
+        "time": "10:00",
+        "pace": "6:13 /km"
+      },
+      {
+        "num": 3,
+        "distance": "1.00 km",
+        "time": "6:25",
+        "pace": "6:25 /km"
+      },
+      {
+        "num": 4,
+        "distance": "1.61 km",
+        "time": "10:09",
+        "pace": "6:18 /km"
+      },
+      {
+        "num": 5,
+        "distance": "999 m",
+        "time": "6:17",
+        "pace": "6:17 /km"
+      },
+      {
+        "num": 6,
+        "distance": "1.00 km",
+        "time": "6:37",
+        "pace": "6:37 /km"
+      },
+      {
+        "num": 7,
+        "distance": "1.61 km",
+        "time": "11:05",
+        "pace": "6:53 /km"
+      },
+      {
+        "num": 8,
+        "distance": "999 m",
+        "time": "7:23",
+        "pace": "7:23 /km"
+      },
+      {
+        "num": 9,
+        "distance": "516 m",
+        "time": "4:07",
+        "pace": "7:59 /km"
+      },
+      {
+        "num": 10,
+        "distance": "344 m",
+        "time": "2:38",
+        "pace": "7:38 /km"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "index": 1,
+    "rawType": "Swimming",
+    "sport": "swim",
+    "startTime": "17:37",
+    "durationMin": 35,
+    "durationRaw": "35m",
+    "distance": {
+      "raw": {
+        "value": 1.09,
+        "unit": "km"
+      },
+      "km": 1.09,
+      "mi": 0.677,
+      "yd": 1192
+    },
+    "pace": "3:14 /100m",
+    "calories": 291,
+    "hr": {
+      "avg": 134,
+      "max": 148,
+      "min": 111
+    },
+    "cadence": null,
+    "power": {
+      "avg": null,
+      "max": null
+    },
+    "elevation": null,
+    "strideLength": null,
+    "groundContact": null,
+    "verticalOscillation": null,
+    "laps": [
+      {
+        "num": 1,
+        "distance": "186 m",
+        "time": "4:42",
+        "pace": "25:09 /km"
+      },
+      {
+        "num": 2,
+        "distance": "15 m",
+        "time": "0:12",
+        "pace": "13:02 /km"
+      },
+      {
+        "num": 3,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:19 /km"
+      },
+      {
+        "num": 4,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:51 /km"
+      },
+      {
+        "num": 5,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:33 /km"
+      },
+      {
+        "num": 6,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:50 /km"
+      },
+      {
+        "num": 7,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:52 /km"
+      },
+      {
+        "num": 8,
+        "distance": "15 m",
+        "time": "0:13",
+        "pace": "14:27 /km"
+      },
+      {
+        "num": 9,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:43 /km"
+      },
+      {
+        "num": 10,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:01 /km"
+      },
+      {
+        "num": 11,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:10 /km"
+      },
+      {
+        "num": 12,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:44 /km"
+      },
+      {
+        "num": 13,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:35 /km"
+      },
+      {
+        "num": 14,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:24 /km"
+      },
+      {
+        "num": 15,
+        "distance": "62 m",
+        "time": "1:32",
+        "pace": "24:37 /km"
+      },
+      {
+        "num": 16,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:43 /km"
+      },
+      {
+        "num": 17,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:21 /km"
+      },
+      {
+        "num": 18,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:10 /km"
+      },
+      {
+        "num": 19,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:30 /km"
+      },
+      {
+        "num": 20,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:30 /km"
+      },
+      {
+        "num": 21,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:04 /km"
+      },
+      {
+        "num": 22,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:04 /km"
+      },
+      {
+        "num": 23,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:49 /km"
+      },
+      {
+        "num": 24,
+        "distance": "46 m",
+        "time": "1:00",
+        "pace": "21:23 /km"
+      },
+      {
+        "num": 25,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:53 /km"
+      },
+      {
+        "num": 26,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:12 /km"
+      },
+      {
+        "num": 27,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:43 /km"
+      },
+      {
+        "num": 28,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:43 /km"
+      },
+      {
+        "num": 29,
+        "distance": "15 m",
+        "time": "0:23",
+        "pace": "24:57 /km"
+      },
+      {
+        "num": 30,
+        "distance": "15 m",
+        "time": "0:23",
+        "pace": "24:57 /km"
+      },
+      {
+        "num": 31,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "16:06 /km"
+      },
+      {
+        "num": 32,
+        "distance": "77 m",
+        "time": "1:45",
+        "pace": "22:35 /km"
+      },
+      {
+        "num": 33,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:15 /km"
+      },
+      {
+        "num": 34,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:20 /km"
+      },
+      {
+        "num": 35,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:42 /km"
+      },
+      {
+        "num": 36,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:11 /km"
+      },
+      {
+        "num": 37,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:10 /km"
+      },
+      {
+        "num": 38,
+        "distance": "46 m",
+        "time": "1:05",
+        "pace": "23:12 /km"
+      },
+      {
+        "num": 39,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:32 /km"
+      },
+      {
+        "num": 40,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:36 /km"
+      },
+      {
+        "num": 41,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:37 /km"
+      },
+      {
+        "num": 42,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "14:37 /km"
+      },
+      {
+        "num": 43,
+        "distance": "15 m",
+        "time": "0:14",
+        "pace": "15:24 /km"
+      },
+      {
+        "num": 44,
+        "distance": "77 m",
+        "time": "1:51",
+        "pace": "23:51 /km"
+      },
+      {
+        "num": 45,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:12 /km"
+      },
+      {
+        "num": 46,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:10 /km"
+      },
+      {
+        "num": 47,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:44 /km"
+      },
+      {
+        "num": 48,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:30 /km"
+      },
+      {
+        "num": 49,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:51 /km"
+      },
+      {
+        "num": 50,
+        "distance": "77 m",
+        "time": "1:48",
+        "pace": "23:15 /km"
+      },
+      {
+        "num": 51,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:02 /km"
+      },
+      {
+        "num": 52,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:17 /km"
+      },
+      {
+        "num": 53,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "20:52 /km"
+      },
+      {
+        "num": 54,
+        "distance": "15 m",
+        "time": "0:22",
+        "pace": "23:57 /km"
+      },
+      {
+        "num": 55,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:26 /km"
+      },
+      {
+        "num": 56,
+        "distance": "77 m",
+        "time": "1:59",
+        "pace": "25:26 /km"
+      },
+      {
+        "num": 57,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:21 /km"
+      },
+      {
+        "num": 58,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:09 /km"
+      },
+      {
+        "num": 59,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:21 /km"
+      },
+      {
+        "num": 60,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:33 /km"
+      },
+      {
+        "num": 61,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:28 /km"
+      },
+      {
+        "num": 62,
+        "distance": "77 m",
+        "time": "1:51",
+        "pace": "23:44 /km"
+      },
+      {
+        "num": 63,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:06 /km"
+      },
+      {
+        "num": 64,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:55 /km"
+      },
+      {
+        "num": 65,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:19 /km"
+      },
+      {
+        "num": 66,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:41 /km"
+      },
+      {
+        "num": 67,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:11 /km"
+      },
+      {
+        "num": 68,
+        "distance": "77 m",
+        "time": "1:52",
+        "pace": "24:03 /km"
+      },
+      {
+        "num": 69,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "18:55 /km"
+      },
+      {
+        "num": 70,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:06 /km"
+      },
+      {
+        "num": 71,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "17:48 /km"
+      },
+      {
+        "num": 72,
+        "distance": "15 m",
+        "time": "0:21",
+        "pace": "22:54 /km"
+      },
+      {
+        "num": 73,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "19:01 /km"
+      },
+      {
+        "num": 74,
+        "distance": "62 m",
+        "time": "1:22",
+        "pace": "22:00 /km"
+      },
+      {
+        "num": 75,
+        "distance": "15 m",
+        "time": "0:19",
+        "pace": "19:55 /km"
+      },
+      {
+        "num": 76,
+        "distance": "15 m",
+        "time": "0:22",
+        "pace": "23:53 /km"
+      },
+      {
+        "num": 77,
+        "distance": "15 m",
+        "time": "0:22",
+        "pace": "23:20 /km"
+      },
+      {
+        "num": 78,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:32 /km"
+      },
+      {
+        "num": 79,
+        "distance": "15 m",
+        "time": "0:17",
+        "pace": "18:32 /km"
+      },
+      {
+        "num": 80,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:32 /km"
+      },
+      {
+        "num": 81,
+        "distance": "15 m",
+        "time": "0:20",
+        "pace": "21:32 /km"
+      },
+      {
+        "num": 82,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:09 /km"
+      },
+      {
+        "num": 83,
+        "distance": "31 m",
+        "time": "0:37",
+        "pace": "19:49 /km"
+      },
+      {
+        "num": 84,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "17:24 /km"
+      },
+      {
+        "num": 85,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:00 /km"
+      },
+      {
+        "num": 86,
+        "distance": "15 m",
+        "time": "0:15",
+        "pace": "15:00 /km"
+      },
+      {
+        "num": 87,
+        "distance": "15 m",
+        "time": "0:18",
+        "pace": "18:55 /km"
+      },
+      {
+        "num": 88,
+        "distance": "46 m",
+        "time": "1:02",
+        "pace": "22:07 /km"
+      },
+      {
+        "num": 89,
+        "distance": "15 m",
+        "time": "0:16",
+        "pace": "16:59 /km"
+      },
+      {
+        "num": 90,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "11:16 /km"
+      },
+      {
+        "num": 91,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:18 /km"
+      },
+      {
+        "num": 92,
+        "distance": "15 m",
+        "time": "0:11",
+        "pace": "12:18 /km"
+      }
+    ]
+  }
+]

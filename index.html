@@ -217,7 +217,7 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
 
   <table class="log-table">
     <thead><tr><th>Day</th><th>Date</th><th>Session</th><th>Key metrics</th><th>HR</th><th>Grade</th></tr></thead>
-    <tbody>
+    <tbody id="log-tbody">
       <tr><td>2</td><td>Sun Mar 22</td><td>🏃 Long Run</td><td>4.10mi · 44:50 · 10'55"/mi · 153spm</td><td>162</td><td><span class="log-grade" style="background:#A32D2D">HR too high</span></td></tr>
       <tr><td>3</td><td>Mon Mar 23</td><td>🏊 Swim technique</td><td>1,550yd · 40:44 · 2'35"/100yd · 62 laps</td><td>138</td><td><span class="log-grade" style="background:#1D9E75">Excellent</span></td></tr>
       <tr><td>4</td><td>Tue Mar 24</td><td>🏃 Easy run</td><td>2.58mi · 27:04 · 10'29"/mi · 151spm</td><td>157</td><td><span class="log-grade" style="background:#A32D2D">HR too high</span></td></tr>
@@ -502,5 +502,6 @@ document.getElementById('mainTabs').querySelectorAll('.tab').forEach(tab=>{
 renderAll();
 renderOverview();
 </script>
+<script defer src="assets/log.js"></script>
 </body>
 </html>
