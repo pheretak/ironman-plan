@@ -35,6 +35,13 @@
   // Update "Days logged" stat card if present.
   const doneCount = document.getElementById('doneCount');
   if (doneCount) doneCount.textContent = String(workouts.length);
+
+  // Update training-log section title with the real day count.
+  const logTitle = document.getElementById('log-title');
+  if (logTitle) {
+    const uniqueDays = new Set(workouts.map((w) => w.date)).size;
+    logTitle.textContent = `${uniqueDays}-day training log`;
+  }
 })();
 
 // ---------- Row rendering ---------------------------------------------------
