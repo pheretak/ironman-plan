@@ -27,7 +27,7 @@ import { fileURLToPath } from 'node:url';
 const CONFIG = {
   // Folder where Health.md drops daily files (YYYY-MM-DD.md).
   // NOTE the typo "Obsedian" matches the actual folder name on your machine.
-  obsidianFolder: 'C:\\Users\\Peter\\iCloudDrive\\iCloud~md~obsidian\\Main Obsedian',
+  obsidianFolder: 'C:\\Users\\Peter\\iCloudDrive\\iCloud~md~obsidian\\Main Obsedian\\Health',
 
   // Where to write the JSON output (relative to this script).
   outputFolder: 'data',
