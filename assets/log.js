@@ -1,11 +1,15 @@
 /**
  * assets/log.js
  *
- * Reads data/workouts.json and replaces the training log <tbody> with
- * dynamically rendered rows that match the existing site's visual style.
+ * Renders the training log <tbody> from the decrypted workouts payload.
  *
- * Falls back gracefully: if the JSON can't be loaded, the hardcoded rows
- * already in the HTML stay visible — your site never goes blank.
+ * This used to fetch data/workouts.json and, on failure, leave hardcoded rows
+ * in the HTML visible. Both halves of that are now wrong: the plaintext file
+ * is no longer published, and those fallback rows were themselves pace and
+ * heart-rate data sitting in the page source, readable by anyone who viewed
+ * source without ever entering the passphrase. The rows are gone and the data
+ * arrives already decrypted, so an empty table on failure is the correct
+ * outcome rather than a silent stale one.
  */
 (async function renderTrainingLog() {
   const tbody = document.getElementById('log-tbody');
@@ -13,11 +17,9 @@
 
   let workouts;
   try {
-    const res = await fetch('data/workouts.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    workouts = await res.json();
+    ({ workouts } = await window.IronmanData.ready);
   } catch (err) {
-    console.warn('[training-log] Could not load workouts.json — keeping fallback rows.', err);
+    console.warn('[training-log] Data never unlocked — log stays empty.', err);
     return;
   }
 

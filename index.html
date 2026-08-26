@@ -523,8 +523,10 @@ document.getElementById('mainTabs').querySelectorAll('.tab').forEach(tab=>{
 renderAll();
 renderOverview();
 </script>
-<script defer src="assets/log.js"></script>
+<!-- crypto-gate must run first: it defines window.IronmanData, which both of
+     the deferred scripts below await instead of fetching anything themselves. -->
 <script src="assets/crypto-gate.js"></script>
+<script defer src="assets/log.js"></script>
 <script defer src="assets/charts.js"></script>
 </body>
 </html>
