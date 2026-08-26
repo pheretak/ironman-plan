@@ -1,19 +1,27 @@
 /**
  * assets/charts.js
  *
- * Renders five live charts from data/workouts.json + data/days.json using Chart.js.
+ * Renders nine live charts from the decrypted workouts + days payload using Chart.js.
  *
  *   1. Run pace at HR        (scatter — date × pace, colored by HR bucket)
  *   2. Run cadence            (line + reference line at cadence target)
  *   3. Swim pace per 100yd    (line)
  *   4. Recovery               (resting HR + HRV on dual axes)
  *   5. Weekly volume by sport (stacked bar — swim/bike/run minutes per week)
+ *   6. Zone-2 ceiling compliance (bar — % of runs under the HR ceiling, weekly)
+ *   7. Readiness           (Body Battery low→high range + Garmin sleep score)
+ *   8. Training load       (acute vs chronic load + acute:chronic ratio)
+ *   9. Aerobic efficiency  (metres per heartbeat across runs)
+ *
+ * Data does NOT come from fetch: crypto-gate.js decrypts data/*.enc after the
+ * visitor supplies the passphrase and hands it over via window.IronmanData.
  *
  * Chart.js is loaded via CDN <script> tag in index.html.
  */
 
 const TRAINING_START = '2026-03-22';   // Day 1 of the plan
 const CADENCE_TARGET = 145;            // Min cadence target
+const HR_CEILING     = 150;            // Easy-run HR ceiling from the plan
 
 // HR buckets for the run pace-at-HR scatter — one color per intensity zone.
 const HR_BUCKETS = [
@@ -36,17 +44,14 @@ const COLOR = {
     return;
   }
 
+  // Data arrives decrypted from crypto-gate.js rather than by fetch — the
+  // published files are ciphertext and there is nothing here to fetch in the
+  // clear. This resolves only after the visitor's passphrase succeeds.
   let workouts, days;
   try {
-    const [wRes, dRes] = await Promise.all([
-      fetch('data/workouts.json', { cache: 'no-store' }),
-      fetch('data/days.json',     { cache: 'no-store' }),
-    ]);
-    if (!wRes.ok) throw new Error(`workouts HTTP ${wRes.status}`);
-    workouts = await wRes.json();
-    days     = dRes.ok ? await dRes.json() : [];
+    ({ workouts, days } = await window.IronmanData.ready);
   } catch (err) {
-    console.warn('[charts] Could not load data files — skipping charts.', err);
+    console.warn('[charts] Data never unlocked — skipping charts.', err);
     return;
   }
 
@@ -58,7 +63,34 @@ const COLOR = {
   renderSwimPaceChart(workouts);
   renderRecoveryChart(days);
   renderWeeklyVolumeChart(workouts);
+  renderZone2ComplianceChart(workouts);
+  renderReadinessChart(days);
+  renderTrainingLoadChart(days);
+  renderEfficiencyChart(workouts);
 })();
+
+// ---------- Gap handling ----------------------------------------------------
+//
+// Garmin holds nothing between 2026-05-09 and 2026-07-21, so plotting only the
+// days that HAVE data puts 05-08 and 07-22 side by side and draws a confident
+// straight line across ten missing weeks. Every day-series chart is built on a
+// continuous calendar spine instead, with missing days as nulls and spanGaps
+// off, so the hole reads as a hole.
+
+function calendarSpine(days) {
+  const withDate = days.filter((d) => d && d.date).sort((a, b) => a.date.localeCompare(b.date));
+  if (withDate.length === 0) return [];
+  const byDate = new Map(withDate.map((d) => [d.date, d]));
+  const out = [];
+  const cur = new Date(withDate[0].date + 'T00:00:00Z');
+  const end = new Date(withDate[withDate.length - 1].date + 'T00:00:00Z');
+  while (cur <= end) {
+    const iso = cur.toISOString().slice(0, 10);
+    out.push({ date: iso, day: byDate.get(iso) || null });
+    cur.setUTCDate(cur.getUTCDate() + 1);
+  }
+  return out;
+}
 
 // ---------- Theme ----------------------------------------------------------
 
@@ -241,14 +273,17 @@ function renderRecoveryChart(days) {
   const canvas = document.getElementById('chart-recovery');
   if (!canvas || !Array.isArray(days)) return;
 
-  const points = days
-    .filter((d) => d.heart && (d.heart.restingHr != null || d.heart.hrv != null))
-    .sort((a, b) => a.date.localeCompare(b.date));
-
-  if (points.length === 0) return;
+  // Continuous calendar, not just the days with readings — see calendarSpine.
+  const spine = calendarSpine(days);
+  if (spine.length === 0) return;
+  const points = spine.map((s) => ({
+    date: s.date,
+    heart: (s.day && s.day.heart) || {},
+  }));
 
   const hasRestingHr = points.some((d) => d.heart.restingHr != null);
   const hasHrv       = points.some((d) => d.heart.hrv != null);
+  if (!hasRestingHr && !hasHrv) return;
 
   const datasets = [];
   if (hasRestingHr) {
@@ -261,7 +296,7 @@ function renderRecoveryChart(days) {
       pointRadius: 2,
       pointHoverRadius: 4,
       yAxisID: 'y',
-      spanGaps: true,
+      spanGaps: false,
     });
   }
   if (hasHrv) {
@@ -274,7 +309,7 @@ function renderRecoveryChart(days) {
       pointRadius: 2,
       pointHoverRadius: 4,
       yAxisID: 'y1',
-      spanGaps: true,
+      spanGaps: false,
     });
   }
 
@@ -380,6 +415,288 @@ function renderWeeklyVolumeChart(workouts) {
           beginAtZero: true,
           title: { display: true, text: 'Minutes' },
         },
+      },
+    },
+  });
+}
+
+// ---------- 6. Zone-2 ceiling compliance (bar) ------------------------------
+//
+// The plan says every easy run sits under 150 bpm. It has not, since April.
+// A scatter of individual runs lets a bad week hide among good ones; the
+// weekly percentage does not, which is the entire point of this chart.
+
+function renderZone2ComplianceChart(workouts) {
+  const canvas = document.getElementById('chart-z2');
+  if (!canvas) return;
+
+  const runs = workouts.filter((w) => w.sport === 'run' && w.hr && w.hr.avg != null);
+  if (runs.length === 0) return;
+
+  const weeks = new Map();
+  for (const w of runs) {
+    const wk = weekIndex(w.date, TRAINING_START);
+    if (!weeks.has(wk)) weeks.set(wk, []);
+    weeks.get(wk).push(w.hr.avg);
+  }
+
+  const keys = [...weeks.keys()].sort((a, b) => a - b);
+  const pct = keys.map((k) => {
+    const hrs = weeks.get(k);
+    return Math.round((hrs.filter((h) => h <= HR_CEILING).length / hrs.length) * 100);
+  });
+  const avgHr = keys.map((k) => {
+    const hrs = weeks.get(k);
+    return Math.round(hrs.reduce((a, b) => a + b, 0) / hrs.length);
+  });
+
+  new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: keys.map((k) => `W${k + 1}`),
+      datasets: [
+        {
+          label: `% of runs ≤ ${HR_CEILING} bpm`,
+          data: pct,
+          backgroundColor: pct.map((p) =>
+            p === 100 ? '#1D9E75' : p >= 50 ? '#BA7517' : '#A32D2D'
+          ),
+          borderRadius: 3,
+          yAxisID: 'y',
+        },
+        {
+          label: 'Avg run HR',
+          data: avgHr,
+          type: 'line',
+          borderColor: COLOR.hrv,
+          backgroundColor: hexToRgba(COLOR.hrv, 0.1),
+          tension: 0.25,
+          pointRadius: 2,
+          yAxisID: 'y1',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) =>
+              ctx.dataset.yAxisID === 'y'
+                ? `${ctx.parsed.y}% of runs under the ceiling`
+                : `Avg run HR ${ctx.parsed.y} bpm`,
+          },
+        },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { min: 0, max: 100, title: { display: true, text: '% compliant' } },
+        y1: {
+          position: 'right',
+          min: 120,
+          max: 175,
+          grid: { drawOnChartArea: false },
+          title: { display: true, text: 'Avg HR' },
+        },
+      },
+    },
+  });
+}
+
+// ---------- 7. Readiness (Body Battery range + sleep score) -----------------
+
+function renderReadinessChart(days) {
+  const canvas = document.getElementById('chart-readiness');
+  if (!canvas) return;
+
+  const spine = calendarSpine(days);
+  if (spine.length === 0) return;
+
+  // Only the Garmin era has these at all, so trim the empty Apple-era runway
+  // rather than rendering two months of blank axis.
+  const firstIdx = spine.findIndex((s) => s.day && (s.day.bodyBattery || s.day.sleep?.score != null));
+  if (firstIdx < 0) return;
+  const view = spine.slice(firstIdx);
+
+  const bb = view.map((s) => {
+    const b = s.day && s.day.bodyBattery;
+    return b && b.lowest != null && b.highest != null ? [b.lowest, b.highest] : null;
+  });
+  const score = view.map((s) => (s.day && s.day.sleep && s.day.sleep.score != null ? s.day.sleep.score : null));
+
+  new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: view.map((s) => formatShortDate(s.date)),
+      datasets: [
+        {
+          label: 'Body Battery (low→high)',
+          data: bb,
+          backgroundColor: hexToRgba('#1D9E75', 0.45),
+          borderColor: '#1D9E75',
+          borderWidth: 1,
+          borderSkipped: false,
+        },
+        {
+          label: 'Sleep score',
+          data: score,
+          type: 'line',
+          borderColor: COLOR.hrv,
+          backgroundColor: hexToRgba(COLOR.hrv, 0.1),
+          tension: 0.25,
+          pointRadius: 2,
+          spanGaps: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) =>
+              Array.isArray(ctx.raw)
+                ? `Body Battery ${ctx.raw[0]}–${ctx.raw[1]}`
+                : `Sleep score ${ctx.parsed.y}`,
+          },
+        },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } },
+        y: { min: 0, max: 100, title: { display: true, text: '0–100' } },
+      },
+    },
+  });
+}
+
+// ---------- 8. Training load + ACWR ----------------------------------------
+//
+// Load ratio is the injury-predictive number here. The shaded band is the
+// conventional 0.8–1.3 "sweet spot"; above it is where ramp-rate injuries live.
+
+function renderTrainingLoadChart(days) {
+  const canvas = document.getElementById('chart-load');
+  if (!canvas) return;
+
+  const spine = calendarSpine(days);
+  const firstIdx = spine.findIndex((s) => s.day && s.day.load && s.day.load.acute != null);
+  if (firstIdx < 0) return;
+  const view = spine.slice(firstIdx);
+
+  const acute = view.map((s) => (s.day && s.day.load ? s.day.load.acute ?? null : null));
+  const chronic = view.map((s) => (s.day && s.day.load ? s.day.load.chronic ?? null : null));
+  const ratio = view.map((s) => (s.day && s.day.load ? s.day.load.ratio ?? null : null));
+
+  new Chart(canvas, {
+    type: 'line',
+    data: {
+      labels: view.map((s) => formatShortDate(s.date)),
+      datasets: [
+        {
+          label: 'Acute load (7d)',
+          data: acute,
+          borderColor: COLOR.run,
+          backgroundColor: hexToRgba(COLOR.run, 0.12),
+          tension: 0.25,
+          pointRadius: 0,
+          spanGaps: false,
+          yAxisID: 'y',
+        },
+        {
+          label: 'Chronic load (28d)',
+          data: chronic,
+          borderColor: COLOR.bike,
+          backgroundColor: hexToRgba(COLOR.bike, 0.12),
+          tension: 0.25,
+          pointRadius: 0,
+          borderDash: [4, 3],
+          spanGaps: false,
+          yAxisID: 'y',
+        },
+        {
+          label: 'Acute:chronic ratio',
+          data: ratio,
+          borderColor: COLOR.hrv,
+          backgroundColor: hexToRgba(COLOR.hrv, 0.12),
+          tension: 0.25,
+          pointRadius: 2,
+          spanGaps: false,
+          yAxisID: 'y1',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } },
+        y: { title: { display: true, text: 'Load' } },
+        y1: {
+          position: 'right',
+          min: 0,
+          max: 2,
+          grid: { drawOnChartArea: false },
+          title: { display: true, text: 'ACWR' },
+        },
+      },
+    },
+  });
+}
+
+// ---------- 9. Aerobic efficiency ------------------------------------------
+//
+// Speed per heartbeat. Pace alone flatters a run done hard and punishes one
+// done in heat; dividing by HR is the closest thing here to an honest read on
+// whether aerobic fitness is actually moving.
+
+function renderEfficiencyChart(workouts) {
+  const canvas = document.getElementById('chart-efficiency');
+  if (!canvas) return;
+
+  const runs = workouts
+    .filter((w) => w.sport === 'run' && w.hr && w.hr.avg > 0 && w.durationMin > 0 && w.distance && w.distance.km > 0)
+    .map((w) => ({
+      date: w.date,
+      // metres per minute, per beat per minute -> metres per beat
+      ef: (w.distance.km * 1000) / w.durationMin / w.hr.avg,
+    }))
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  if (runs.length < 2) return;
+
+  new Chart(canvas, {
+    type: 'line',
+    data: {
+      labels: runs.map((r) => formatShortDate(r.date)),
+      datasets: [
+        {
+          label: 'Metres per beat',
+          data: runs.map((r) => +r.ef.toFixed(3)),
+          borderColor: COLOR.run,
+          backgroundColor: hexToRgba(COLOR.run, 0.12),
+          tension: 0.25,
+          pointRadius: 3,
+          fill: true,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
+        tooltip: { callbacks: { label: (ctx) => `${ctx.parsed.y} m/beat — higher is fitter` } },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } },
+        y: { title: { display: true, text: 'm / beat' } },
       },
     },
   });

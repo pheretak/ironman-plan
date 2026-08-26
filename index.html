@@ -102,16 +102,12 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
 .cc{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--r);padding:11px;border-top:3px solid}
 .cc h4{font-size:13px;font-weight:600;margin-bottom:5px}
 .cc p{font-size:12px;color:var(--txt2);line-height:1.5}
-/* Nutrition & gear */
+/* Nutrition */
 .ng{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:1rem}
 .nc{background:var(--bg2);border-radius:var(--r);padding:11px;border:0.5px solid var(--b)}
 .nc h4{font-size:14px;font-weight:600;margin-bottom:7px}
 .ni{font-size:12px;padding:4px 0;border-bottom:0.5px solid var(--b);color:var(--txt2)}
 .ni:last-child{border-bottom:none}
-.gl{list-style:none}
-.gi{font-size:13px;padding:6px 0;border-bottom:0.5px solid var(--b);display:flex;align-items:center;gap:7px}
-.gdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.gp{font-size:10px;padding:2px 6px;border-radius:10px;margin-left:auto;color:#fff;white-space:nowrap}
 .sec-title{font-size:17px;font-weight:600;margin-bottom:11px}
 /* Progress bars */
 .pb-row{display:flex;align-items:center;gap:8px;margin-bottom:7px}
@@ -130,6 +126,18 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
   .dtd{margin-left:0;width:100%}
 }
 /* Chart cards */
+/* Passphrase gate — covers the app until crypto-gate.js decrypts the data */
+#gate{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:var(--bg);padding:20px}
+.gate-card{width:100%;max-width:330px;text-align:center}
+.gate-title{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:600;margin-bottom:4px}
+.gate-sub{font-size:12px;color:var(--txt2);margin-bottom:18px}
+#gate-form{display:flex;gap:7px}
+#gate-input{flex:1;min-width:0;padding:9px 11px;font-family:'Barlow',sans-serif;font-size:14px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--txt)}
+#gate-input:focus{outline:none;border-color:var(--txt2)}
+#gate-go{padding:9px 15px;font-family:'Barlow',sans-serif;font-size:13px;font-weight:600;border:none;border-radius:var(--r);background:#185FA5;color:#fff;cursor:pointer}
+#gate-go:disabled{opacity:0.55;cursor:default}
+.gate-msg{font-size:12px;color:var(--txt2);margin-top:10px;min-height:16px}
+.gate-err{color:#A32D2D}
 .charts-block{margin-bottom:1.25rem}
 .charts-title{font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:600;margin-bottom:10px}
 .chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -137,11 +145,12 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
 .chart-card-wide{grid-column:1 / -1}
 .chart-card-title{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:600;color:var(--txt2);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px}
 .chart-card canvas{width:100% !important;height:200px !important}
+.chart-note{font-size:11px;color:var(--txt2);line-height:1.5;margin-top:9px}
 @media(max-width:600px){.chart-grid{grid-template-columns:1fr}.chart-card canvas{height:180px !important}}
 </style>
 </head>
 <body>
-<div class="app">
+<div class="app" id="app">
 
 <div class="hdr">
   <div class="hdr-top">
@@ -191,7 +200,6 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
   <div class="tab" data-tab="overview">Phases</div>
   <div class="tab" data-tab="changes">Adjustments</div>
   <div class="tab" data-tab="nutrition">Nutrition</div>
-  <div class="tab" data-tab="gear">Gear</div>
 </div>
 
 <!-- WEEKLY PLAN -->
@@ -248,6 +256,27 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
         <div class="chart-card-title">Weekly volume by sport</div>
         <canvas id="chart-weekly-volume"></canvas>
       </div>
+      <div class="chart-card chart-card-wide">
+        <div class="chart-card-title">Zone-2 discipline &mdash; % of runs under 150 bpm, by week</div>
+        <canvas id="chart-z2"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Aerobic efficiency (m / heartbeat)</div>
+        <canvas id="chart-efficiency"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Readiness: Body Battery &amp; sleep score</div>
+        <canvas id="chart-readiness"></canvas>
+      </div>
+      <div class="chart-card chart-card-wide">
+        <div class="chart-card-title">Training load &amp; acute:chronic ratio</div>
+        <canvas id="chart-load"></canvas>
+      </div>
+    </div>
+    <div class="chart-note">
+      Garmin holds no data between May&nbsp;9 and Jul&nbsp;21 &mdash; that gap is drawn as a
+      break, not bridged. Readiness and training load start Jul&nbsp;22, when the Garmin
+      record begins.
     </div>
   </div>
 
@@ -307,23 +336,6 @@ h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif}
   </div>
 </div>
 
-<!-- GEAR -->
-<div id="tab-gear" class="vc">
-  <div class="sec-title">Gear checklist</div>
-  <ul class="gl">
-    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Wahoo KICKR trainer — acquired ✓<span class="gp" style="background:#1D9E75">Done</span></li>
-    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Apple Watch Ultra — active ✓<span class="gp" style="background:#1D9E75">Done</span></li>
-    <li class="gi"><div class="gdot" style="background:#A32D2D"></div>Clip-on aero bars for Sirrus X<span class="gp" style="background:#A32D2D">Get now</span></li>
-    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Tri wetsuit (open water, Long Beach specific)<span class="gp" style="background:#BA7517">Week 10</span></li>
-    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Tri suit (one-piece for race)<span class="gp" style="background:#BA7517">Week 12</span></li>
-    <li class="gi"><div class="gdot" style="background:#BA7517"></div>Swim goggles (clear + tinted pair)<span class="gp" style="background:#1D9E75">Done</span></li>
-    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Running shoes (race-specific, broken in early)<span class="gp" style="background:#1D9E75">Week 14</span></li>
-    <li class="gi"><div class="gdot" style="background:#1D9E75"></div>Nutrition belt / race vest<span class="gp" style="background:#1D9E75">Week 15</span></li>
-    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Elastic laces for run shoes<span class="gp" style="background:#534AB7">Week 18</span></li>
-    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Transition bag + layout practice<span class="gp" style="background:#534AB7">Week 20</span></li>
-    <li class="gi"><div class="gdot" style="background:#534AB7"></div>Open water swim venue scouted (Long Beach area)<span class="gp" style="background:#534AB7">Week 14</span></li>
-  </ul>
-</div>
 
 </div><!-- end app -->
 
@@ -512,6 +524,7 @@ renderAll();
 renderOverview();
 </script>
 <script defer src="assets/log.js"></script>
+<script src="assets/crypto-gate.js"></script>
 <script defer src="assets/charts.js"></script>
 </body>
 </html>

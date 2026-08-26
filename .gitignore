@@ -1,0 +1,4 @@
+
+# Plaintext health data. Only the encrypted .enc files are published;
+# see encrypt-data.mjs. Never commit these.
+data/*.json

@@ -25,9 +25,11 @@ import { fileURLToPath } from 'node:url';
 // Edit these if your setup changes.
 
 const CONFIG = {
-  // Folder where Health.md drops daily files (YYYY-MM-DD.md).
-  // NOTE the typo "Obsedian" matches the actual folder name on your machine.
-  obsidianFolder: 'C:\\Users\\Peter\\iCloudDrive\\iCloud~md~obsidian\\Main Obsedian\\Health',
+  // Folder where the Garmin sync routine writes daily files (YYYY-MM-DD.md).
+  // Moved off the iCloud Obsidian vault 2026-08-18 - Apple is retired and that
+  // folder is now a dead backup. See research/ironman/architecture.md in the
+  // Second Brain vault for the sync design and the field-format contract.
+  obsidianFolder: 'C:/Users/Peter/health-data',
 
   // Where to write the JSON output (relative to this script).
   outputFolder: 'data',
@@ -202,6 +204,7 @@ const parseSingleWorkout = (rawType, body, index) => {
     strideLength: parseValueUnit(fields['Avg Stride Length']).value,
     groundContact: parseValueUnit(fields['Avg Ground Contact']).value,
     verticalOscillation: parseValueUnit(fields['Avg Vertical Oscillation']).value,
+    trainingEffect: parseValueUnit(fields['Training Effect']).value,
     laps,
   };
 };
@@ -230,6 +233,11 @@ const parseDailyContext = (text) => {
       remMin: parseDurationToMin(sleep['REM']),
       coreMin: parseDurationToMin(sleep['Core']),
       awakeMin: parseDurationToMin(sleep['Awake']),
+      // Garmin-era only. Apple never produced these, so days before
+      // 2026-07-22 carry nulls and every consumer must tolerate that.
+      score: parseValueUnit(sleep['Sleep Score']).value,
+      avgStress: parseValueUnit(sleep['Avg Sleep Stress']).value,
+      avgHr: parseValueUnit(sleep['Avg Sleep HR']).value,
     };
   }
 
@@ -241,6 +249,8 @@ const parseDailyContext = (text) => {
       avgHr: parseValueUnit(heart['Average HR']).value,
       maxHr: parseValueUnit(heart['Max HR']).value,
       hrv: parseValueUnit(heart['HRV']).value,
+      hrv7day: parseValueUnit(heart['HRV 7-Day Avg']).value,
+      hrvStatus: heart['HRV Status'] || null,
       hrRecovery: parseValueUnit(heart['Heart Rate Recovery']).value,
     };
   }
@@ -252,6 +262,37 @@ const parseDailyContext = (text) => {
       activeCalories: parseValueUnit(activity['Active Calories']).value,
       exerciseMin: parseValueUnit(activity['Exercise']).value,
       vo2max: parseValueUnit(activity['Cardio Fitness (VO2 Max)']).value,
+    };
+  }
+
+  const stress = sectionFields('Stress');
+  if (stress) {
+    ctx.stress = {
+      avg: parseValueUnit(stress['Avg Stress']).value,
+      max: parseValueUnit(stress['Max Stress']).value,
+    };
+  }
+
+  const bb = sectionFields('Body Battery');
+  if (bb) {
+    ctx.bodyBattery = {
+      highest: parseValueUnit(bb['Highest']).value,
+      lowest: parseValueUnit(bb['Lowest']).value,
+      charged: parseValueUnit(bb['Charged']).value,
+      drained: parseValueUnit(bb['Drained']).value,
+    };
+  }
+
+  // Acute:chronic workload ratio - the only number here that predicts an
+  // injury rather than describing yesterday.
+  const load = sectionFields('Training Load');
+  if (load) {
+    ctx.load = {
+      acute: parseValueUnit(load['Acute Load']).value,
+      chronic: parseValueUnit(load['Chronic Load']).value,
+      ratio: parseValueUnit(load['Load Ratio']).value,
+      acwrStatus: load['ACWR Status'] || null,
+      trainingStatus: load['Training Status'] || null,
     };
   }
 
