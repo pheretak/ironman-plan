@@ -2,3 +2,7 @@
 # Plaintext health data. Only the encrypted .enc files are published;
 # see encrypt-data.mjs. Never commit these.
 data/*.json
+
+# Local publish marker - tracks the last plaintext actually pushed, so a
+# re-encryption with a fresh salt is not mistaken for changed data.
+data/.published-hash
