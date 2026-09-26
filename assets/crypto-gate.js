@@ -82,7 +82,7 @@
     el.id = 'gate';
     el.innerHTML = [
       '<div class="gate-card">',
-      '  <div class="gate-title">Ironman 70.3 Long Beach</div>',
+      '  <div class="gate-title">Ironman Lake Placid 2027</div>',
       '  <div class="gate-sub">Training log &mdash; enter passphrase</div>',
       '  <form id="gate-form" autocomplete="off">',
       '    <input id="gate-input" type="password" inputmode="numeric" autocomplete="current-password"',

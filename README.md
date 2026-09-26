@@ -1,8 +1,8 @@
-# Ironman 70.3 Long Beach 2026 — Training Plan
+# Ironman Lake Placid 2027 — Training Plan
 
-Personal single-page site tracking a 27-week build to Ironman 70.3 Long Beach on **Sep 27, 2026**. Renders the plan by week, a data-driven training log with charts, and reference cards (phases, adjustments, nutrition, gear).
+Personal single-page site tracking a 30-week build to the full-distance IRONMAN Lake Placid on **Sun Jul 25, 2027**. Renders the plan by week, a data-driven training log with charts, and reference cards (phases, adjustments, nutrition, gear).
 
-**Plan window:** Mar 21, 2026 → Sep 27, 2026 · 27 weeks across 5 phases: Foundation → Base Build → Performance → Race Specific → Taper.
+**Plan window:** Jan 2, 2027 → Jul 25, 2027 · 30 weeks across 5 phases: Base → Build → Mountain → Peak → Taper. The 70.3 build (Mar–Sep 2026) is history now; its logged data stays on the site.
 
 ## Structure
 
